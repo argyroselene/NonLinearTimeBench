@@ -1,0 +1,326 @@
+{
+  "folder": "lihan",
+  "total_loc": 27327,
+  "code_loc": 1835,
+  "file_count": 53,
+  "files": [
+    {
+      "path": "web\\src\\data\\predictions\\story_05_counterfactual.json",
+      "loc": 2641,
+      "total_lines": 2641,
+      "is_code": false
+    },
+    {
+      "path": "web\\package-lock.json",
+      "loc": 1953,
+      "total_lines": 1953,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_06.json",
+      "loc": 1447,
+      "total_lines": 1447,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_01.json",
+      "loc": 1239,
+      "total_lines": 1239,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_03.json",
+      "loc": 1179,
+      "total_lines": 1179,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_01_matched_baseline.json",
+      "loc": 1093,
+      "total_lines": 1093,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_02_crc.json",
+      "loc": 1021,
+      "total_lines": 1021,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_07\\original.json",
+      "loc": 974,
+      "total_lines": 974,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_03_groq_baseline.json",
+      "loc": 959,
+      "total_lines": 959,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_02_counterfactual.json",
+      "loc": 932,
+      "total_lines": 932,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_03_counterfactual.json",
+      "loc": 900,
+      "total_lines": 900,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_05_direct.json",
+      "loc": 872,
+      "total_lines": 872,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_03_crc.json",
+      "loc": 847,
+      "total_lines": 847,
+      "is_code": false
+    },
+    {
+      "path": "data\\authoring\\story_06.json",
+      "loc": 818,
+      "total_lines": 818,
+      "is_code": false
+    },
+    {
+      "path": "data\\authoring\\story_04.json",
+      "loc": 753,
+      "total_lines": 753,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_06\\original.json",
+      "loc": 739,
+      "total_lines": 739,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_05\\counterfactual.json",
+      "loc": 699,
+      "total_lines": 699,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_05\\original.json",
+      "loc": 699,
+      "total_lines": 699,
+      "is_code": false
+    },
+    {
+      "path": "data\\authoring\\story_01.json",
+      "loc": 686,
+      "total_lines": 686,
+      "is_code": false
+    },
+    {
+      "path": "kaggle_backup\\nonlineartime_pipeline.zip",
+      "loc": 622,
+      "total_lines": 627,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_04\\counterfactual.json",
+      "loc": 606,
+      "total_lines": 606,
+      "is_code": false
+    },
+    {
+      "path": "data\\authoring\\story_02.json",
+      "loc": 605,
+      "total_lines": 605,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_01\\counterfactual.json",
+      "loc": 553,
+      "total_lines": 553,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_01\\original.json",
+      "loc": 553,
+      "total_lines": 553,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_03\\linear.json",
+      "loc": 529,
+      "total_lines": 529,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_02\\original.json",
+      "loc": 497,
+      "total_lines": 497,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_03\\original.json",
+      "loc": 491,
+      "total_lines": 491,
+      "is_code": false
+    },
+    {
+      "path": "metrics\\awt_f1.py",
+      "loc": 352,
+      "total_lines": 419,
+      "is_code": true
+    },
+    {
+      "path": "tests\\test_awt_f1.py",
+      "loc": 261,
+      "total_lines": 333,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\App.css",
+      "loc": 220,
+      "total_lines": 262,
+      "is_code": false
+    },
+    {
+      "path": "data\\authoring\\story_06.spec.py",
+      "loc": 193,
+      "total_lines": 203,
+      "is_code": true
+    },
+    {
+      "path": "data\\authoring\\story_07.spec.py",
+      "loc": 177,
+      "total_lines": 188,
+      "is_code": true
+    },
+    {
+      "path": "pipeline\\graph_repair.py",
+      "loc": 131,
+      "total_lines": 149,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\check_thread_leakage.py",
+      "loc": 129,
+      "total_lines": 165,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\_apply_leakage_fix.py",
+      "loc": 112,
+      "total_lines": 133,
+      "is_code": true
+    },
+    {
+      "path": "docs\\related_work.md",
+      "loc": 111,
+      "total_lines": 135,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\assets\\hero.png",
+      "loc": 97,
+      "total_lines": 98,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\components\\ExamplePicker.jsx",
+      "loc": 87,
+      "total_lines": 91,
+      "is_code": true
+    },
+    {
+      "path": "docs\\metric.md",
+      "loc": 86,
+      "total_lines": 106,
+      "is_code": false
+    },
+    {
+      "path": "scripts\\generate_counterfactual_predictions.py",
+      "loc": 78,
+      "total_lines": 101,
+      "is_code": true
+    },
+    {
+      "path": "metrics\\significance.py",
+      "loc": 68,
+      "total_lines": 84,
+      "is_code": true
+    },
+    {
+      "path": "tests\\test_split_stories.py",
+      "loc": 61,
+      "total_lines": 77,
+      "is_code": true
+    },
+    {
+      "path": "tests\\test_allen_relations.py",
+      "loc": 55,
+      "total_lines": 75,
+      "is_code": true
+    },
+    {
+      "path": "tests\\test_significance.py",
+      "loc": 42,
+      "total_lines": 61,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\components\\GraphNode.jsx",
+      "loc": 37,
+      "total_lines": 42,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\components\\PassagePanel.jsx",
+      "loc": 34,
+      "total_lines": 36,
+      "is_code": true
+    },
+    {
+      "path": "web\\package.json",
+      "loc": 26,
+      "total_lines": 26,
+      "is_code": false
+    },
+    {
+      "path": "web\\public\\icons.svg",
+      "loc": 24,
+      "total_lines": 24,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\index.js",
+      "loc": 18,
+      "total_lines": 20,
+      "is_code": true
+    },
+    {
+      "path": "web\\index.html",
+      "loc": 13,
+      "total_lines": 13,
+      "is_code": false
+    },
+    {
+      "path": ".env.local.example",
+      "loc": 4,
+      "total_lines": 5,
+      "is_code": false
+    },
+    {
+      "path": "requirements.txt",
+      "loc": 3,
+      "total_lines": 3,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\assets\\react.svg",
+      "loc": 1,
+      "total_lines": 1,
+      "is_code": false
+    }
+  ]
+}
