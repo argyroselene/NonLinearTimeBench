@@ -1,0 +1,24 @@
+# secrets
+.env.local
+.env
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node
+node_modules/
+web/dist/
+web/dev.log
+web/dev_check.log
+
+# editor/tool local config
+.claude/
+.vscode/
+.idea/
+
+# internal-only planning docs, not part of the public repo
+Nonlinear Temporal Reasoning.sty
+paper_draft.md
+perplexity.md

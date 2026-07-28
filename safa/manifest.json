@@ -1,0 +1,326 @@
+{
+  "folder": "safa",
+  "total_loc": 27325,
+  "code_loc": 1728,
+  "file_count": 53,
+  "files": [
+    {
+      "path": "web\\src\\data\\predictions\\story_04.json",
+      "loc": 3800,
+      "total_lines": 3800,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_07.json",
+      "loc": 1791,
+      "total_lines": 1791,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_04_counterfactual.json",
+      "loc": 1372,
+      "total_lines": 1372,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_01_matched_crc.json",
+      "loc": 1212,
+      "total_lines": 1212,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_03_matched_crc.json",
+      "loc": 1108,
+      "total_lines": 1108,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_01_crc.json",
+      "loc": 1042,
+      "total_lines": 1042,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_07\\counterfactual.json",
+      "loc": 974,
+      "total_lines": 974,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_07\\original.json",
+      "loc": 974,
+      "total_lines": 974,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_02_matched_crc.json",
+      "loc": 939,
+      "total_lines": 939,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_02_matched_baseline.json",
+      "loc": 909,
+      "total_lines": 909,
+      "is_code": false
+    },
+    {
+      "path": "data\\authoring\\story_05.json",
+      "loc": 870,
+      "total_lines": 870,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_01_counterfactual.json",
+      "loc": 854,
+      "total_lines": 854,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_06_direct.json",
+      "loc": 827,
+      "total_lines": 827,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_05\\linear.json",
+      "loc": 755,
+      "total_lines": 755,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_06\\counterfactual.json",
+      "loc": 739,
+      "total_lines": 739,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_06\\counterfactual.json",
+      "loc": 739,
+      "total_lines": 739,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_05\\counterfactual.json",
+      "loc": 699,
+      "total_lines": 699,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_07\\linear.json",
+      "loc": 691,
+      "total_lines": 691,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_04\\linear.json",
+      "loc": 653,
+      "total_lines": 653,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_04\\original.json",
+      "loc": 606,
+      "total_lines": 606,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_04\\counterfactual.json",
+      "loc": 606,
+      "total_lines": 606,
+      "is_code": false
+    },
+    {
+      "path": "data\\authoring\\story_03.json",
+      "loc": 591,
+      "total_lines": 591,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_01\\original.json",
+      "loc": 553,
+      "total_lines": 553,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_02\\linear.json",
+      "loc": 535,
+      "total_lines": 535,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_02\\counterfactual.json",
+      "loc": 497,
+      "total_lines": 497,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_03\\counterfactual.json",
+      "loc": 491,
+      "total_lines": 491,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_03\\counterfactual.json",
+      "loc": 491,
+      "total_lines": 491,
+      "is_code": false
+    },
+    {
+      "path": "docs\\hypothesis_expansion_and_leakage_remediation_plan.md",
+      "loc": 234,
+      "total_lines": 282,
+      "is_code": false
+    },
+    {
+      "path": "pipeline\\graph_pipeline.py",
+      "loc": 216,
+      "total_lines": 260,
+      "is_code": true
+    },
+    {
+      "path": "pipeline\\convergence_verification.py",
+      "loc": 187,
+      "total_lines": 216,
+      "is_code": true
+    },
+    {
+      "path": "pipeline\\llm_client.py",
+      "loc": 148,
+      "total_lines": 178,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\generate_direct_baseline_predictions.py",
+      "loc": 139,
+      "total_lines": 168,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\check_coverage.py",
+      "loc": 124,
+      "total_lines": 160,
+      "is_code": true
+    },
+    {
+      "path": "metrics\\allen_relations.py",
+      "loc": 123,
+      "total_lines": 151,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\lib\\graphOrder.js",
+      "loc": 104,
+      "total_lines": 119,
+      "is_code": true
+    },
+    {
+      "path": "tests\\test_convergence_verification.py",
+      "loc": 97,
+      "total_lines": 125,
+      "is_code": true
+    },
+    {
+      "path": "metrics\\allen_composition.py",
+      "loc": 93,
+      "total_lines": 108,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\generate_real_predictions.py",
+      "loc": 81,
+      "total_lines": 104,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\generate_crc_predictions.py",
+      "loc": 78,
+      "total_lines": 101,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\_trim_story_05.py",
+      "loc": 67,
+      "total_lines": 86,
+      "is_code": true
+    },
+    {
+      "path": "tests\\test_check_thread_leakage.py",
+      "loc": 64,
+      "total_lines": 90,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\lib\\layout.js",
+      "loc": 49,
+      "total_lines": 56,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\_apply_leakage_fix_to_sources.py",
+      "loc": 48,
+      "total_lines": 60,
+      "is_code": true
+    },
+    {
+      "path": "tests\\test_allen_composition.py",
+      "loc": 36,
+      "total_lines": 56,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\lib\\pooledConvergence.js",
+      "loc": 32,
+      "total_lines": 35,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\components\\ConvergenceLink.jsx",
+      "loc": 28,
+      "total_lines": 29,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\data\\manifest.json",
+      "loc": 24,
+      "total_lines": 24,
+      "is_code": false
+    },
+    {
+      "path": ".gitignore",
+      "loc": 20,
+      "total_lines": 24,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\main.jsx",
+      "loc": 8,
+      "total_lines": 9,
+      "is_code": true
+    },
+    {
+      "path": "web\\vite.config.js",
+      "loc": 6,
+      "total_lines": 7,
+      "is_code": true
+    },
+    {
+      "path": "web\\public\\favicon.svg",
+      "loc": 1,
+      "total_lines": 1,
+      "is_code": false
+    },
+    {
+      "path": "scripts\\__init__.py",
+      "loc": 0,
+      "total_lines": 0,
+      "is_code": true
+    },
+    {
+      "path": "pipeline\\__init__.py",
+      "loc": 0,
+      "total_lines": 0,
+      "is_code": true
+    }
+  ]
+}
