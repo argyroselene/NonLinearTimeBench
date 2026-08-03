@@ -1,0 +1,753 @@
+{
+  "story_id": "story_04_ten_minutes_past_ten",
+  "cf_story_id": "story_04_ten_minutes_past_ten_cf",
+  "title": "Ten Minutes Past Ten (overlapping stakeout durations)",
+  "cf_title": "Ten Minutes Past Ten (counterfactual: renamed entities, shifted clock +2h)",
+  "source": "Hand-authored, explicit interval durations designed to exercise overlaps/overlapped-by/during/contains, expanded to 5 threads / 45 events / 6 cross-thread links",
+  "cf_source": "Perturbed twin of story_04_ten_minutes_past_ten -- same gold graph, renamed characters, time offset +2h",
+  "threads": [
+    {
+      "id": "G",
+      "label": "Priya, getaway van",
+      "cf_label": "Nadira, getaway van",
+      "granularity": "minutes"
+    },
+    {
+      "id": "H",
+      "label": "the crew, inside the bank",
+      "cf_label": "the crew, inside the bank",
+      "granularity": "minutes"
+    },
+    {
+      "id": "L",
+      "label": "Sana, rooftop lookout",
+      "cf_label": "Bex, rooftop lookout",
+      "granularity": "minutes"
+    },
+    {
+      "id": "T",
+      "label": "Farah, teller taken hostage",
+      "cf_label": "Lior, teller taken hostage",
+      "granularity": "minutes"
+    },
+    {
+      "id": "K",
+      "label": "Denny, street lookout in the café",
+      "cf_label": "Costa, street lookout in the café",
+      "granularity": "minutes"
+    }
+  ],
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "G",
+      "time_expr": "9:58-10:22",
+      "cf_time_expr": "11:58-12:22",
+      "text": "Priya parks the van at 9:58 and keeps the engine running until 10:22.",
+      "cf_text": "Nadira parks the van at 11:58 and keeps the engine running until 12:22."
+    },
+    {
+      "id": "s2",
+      "thread_id": "H",
+      "time_expr": "10:00-10:15",
+      "cf_time_expr": "12:00-12:15",
+      "text": "At exactly 10:00, the crew slips through the service door and doesn't emerge again until 10:15.",
+      "cf_text": "At exactly 12:00, the crew slips through the service door and doesn't emerge again until 12:15."
+    },
+    {
+      "id": "s3",
+      "thread_id": "L",
+      "time_expr": "9:55-10:10",
+      "cf_time_expr": "11:55-12:10",
+      "text": "Sana takes her position on the roof at 9:55, before Priya even arrives, and climbs down at 10:10.",
+      "cf_text": "Bex takes her position on the roof at 11:55, before Nadira even arrives, and climbs down at 12:10."
+    },
+    {
+      "id": "s4",
+      "thread_id": "H",
+      "time_expr": "10:05 (instant)",
+      "cf_time_expr": "12:05 (instant)",
+      "text": "The vault door swings open at 10:05, just as the crew finishes cutting the last wire.",
+      "cf_text": "The vault door swings open at 12:05, just as the crew finishes cutting the last wire."
+    },
+    {
+      "id": "s5",
+      "thread_id": "G",
+      "time_expr": "10:12-10:25",
+      "cf_time_expr": "12:12-12:25",
+      "text": "She edges the van forward from 10:12 to 10:25, the last stretch of the wait.",
+      "cf_text": "She edges the van forward from 10:12 to 10:25, the last stretch of the wait."
+    },
+    {
+      "id": "s6",
+      "thread_id": "L",
+      "time_expr": "10:15 (instant)",
+      "cf_time_expr": "12:15 (instant)",
+      "text": "Sana radios the all-clear at 10:15, the exact second the crew re-emerges.",
+      "cf_text": "Bex radios the all-clear at 12:15, the exact second the crew re-emerges."
+    },
+    {
+      "id": "s7",
+      "thread_id": "H",
+      "time_expr": "10:16 (instant)",
+      "cf_time_expr": "12:16 (instant)",
+      "text": "The crew splits the cash at 10:16, moments after climbing back out.",
+      "cf_text": "The crew splits the cash at 12:16, moments after climbing back out."
+    },
+    {
+      "id": "s8",
+      "thread_id": "G",
+      "time_expr": "10:25 (instant)",
+      "cf_time_expr": "12:25 (instant)",
+      "text": "Priya finally pulls away at 10:25, the instant her last stretch of idling ends.",
+      "cf_text": "Nadira finally pulls away at 12:25, the instant her last stretch of idling ends."
+    },
+    {
+      "id": "s9",
+      "thread_id": "L",
+      "time_expr": "10:20 (instant)",
+      "cf_time_expr": "12:20 (instant)",
+      "text": "Sana leaves the roof entirely by 10:20, five minutes after the all-clear.",
+      "cf_text": "Bex leaves the roof entirely by 12:20, five minutes after the all-clear."
+    },
+    {
+      "id": "s10",
+      "thread_id": "G",
+      "time_expr": "9:58-10:05",
+      "cf_time_expr": "11:58-12:05",
+      "text": "She double-checks the side mirror in the first few minutes, from 9:58 to 10:05.",
+      "cf_text": "She double-checks the side mirror in the first few minutes, from 9:58 to 10:05."
+    },
+    {
+      "id": "s11",
+      "thread_id": "G",
+      "time_expr": "10:03-10:22",
+      "cf_time_expr": "12:03-12:22",
+      "text": "From 10:03 she keeps her foot hovering over the clutch, all the way until the engine cuts out at 10:22.",
+      "cf_text": "From 10:03 she keeps her foot hovering over the clutch, all the way until the engine cuts out at 10:22."
+    },
+    {
+      "id": "s12",
+      "thread_id": "G",
+      "time_expr": "10:10-10:18",
+      "cf_time_expr": "12:10-12:18",
+      "text": "She cracks the window to listen at 10:10, sealing it again by 10:18.",
+      "cf_text": "She cracks the window to listen at 10:10, sealing it again by 10:18."
+    },
+    {
+      "id": "s13",
+      "thread_id": "G",
+      "time_expr": "10:13-10:20",
+      "cf_time_expr": "12:13-12:20",
+      "text": "Her hand rests on the gearshift from 10:13 to 10:20, deep in the second stretch of waiting.",
+      "cf_text": "Her hand rests on the gearshift from 10:13 to 10:20, deep in the second stretch of waiting."
+    },
+    {
+      "id": "s14",
+      "thread_id": "G",
+      "time_expr": "10:22-10:25",
+      "cf_time_expr": "12:22-12:25",
+      "text": "The headlights flick on at 10:22 and stay lit until the instant Priya pulls away.",
+      "cf_text": "The headlights flick on at 12:22 and stay lit until the instant Nadira pulls away."
+    },
+    {
+      "id": "s15",
+      "thread_id": "G",
+      "time_expr": "10:26-10:30",
+      "cf_time_expr": "12:26-12:30",
+      "text": "Priya checks her phone once she's clear of the block, from 10:26 to 10:30.",
+      "cf_text": "Nadira checks her phone once she's clear of the block, from 12:26 to 12:30."
+    },
+    {
+      "id": "s16",
+      "thread_id": "H",
+      "time_expr": "10:00-10:04",
+      "cf_time_expr": "12:00-12:04",
+      "text": "The crew jimmies the first lock at 10:00, done by 10:04.",
+      "cf_text": "The crew jimmies the first lock at 12:00, done by 12:04."
+    },
+    {
+      "id": "s17",
+      "thread_id": "H",
+      "time_expr": "10:04-10:15",
+      "cf_time_expr": "12:04-12:15",
+      "text": "From 10:04 the crew works the vault combination, finishing at 10:15 exactly when they slip back out.",
+      "cf_text": "From 12:04 the crew works the vault combination, finishing at 12:15 exactly when they slip back out."
+    },
+    {
+      "id": "s18",
+      "thread_id": "H",
+      "time_expr": "10:05-10:09",
+      "cf_time_expr": "12:05-12:09",
+      "text": "Between 10:05 and 10:09 the crew stuffs the first bag, right as the vault door swings open.",
+      "cf_text": "Between 12:05 and 12:09 the crew stuffs the first bag, right as the vault door swings open."
+    },
+    {
+      "id": "s19",
+      "thread_id": "H",
+      "time_expr": "10:15-10:16",
+      "cf_time_expr": "12:15-12:16",
+      "text": "The crew shoulders the bags at 10:15, hauling them to the door by 10:16.",
+      "cf_text": "The crew shoulders the bags at 12:15, hauling them to the door by 12:16."
+    },
+    {
+      "id": "s20",
+      "thread_id": "H",
+      "time_expr": "10:17-10:20",
+      "cf_time_expr": "12:17-12:20",
+      "text": "By 10:17 the crew is stripping off gloves, finished by 10:20.",
+      "cf_text": "By 12:17 the crew is stripping off gloves, finished by 12:20."
+    },
+    {
+      "id": "s21",
+      "thread_id": "H",
+      "time_expr": "10:19-10:23",
+      "cf_time_expr": "12:19-12:23",
+      "text": "From 10:19 to 10:23 the crew wipes down the counters.",
+      "cf_text": "From 12:19 to 12:23 the crew wipes down the counters."
+    },
+    {
+      "id": "s22",
+      "thread_id": "L",
+      "time_expr": "9:55-9:59",
+      "cf_time_expr": "11:55-11:59",
+      "text": "She settles low against the parapet from 9:55 to 9:59, the very start of her watch.",
+      "cf_text": "She settles low against the parapet from 9:55 to 9:59, the very start of her watch."
+    },
+    {
+      "id": "s23",
+      "thread_id": "L",
+      "time_expr": "9:59-10:10",
+      "cf_time_expr": "11:59-12:10",
+      "text": "From 9:59 she keeps her scope trained on the street, until she climbs down at 10:10.",
+      "cf_text": "From 9:59 she keeps her scope trained on the street, until she climbs down at 10:10."
+    },
+    {
+      "id": "s24",
+      "thread_id": "L",
+      "time_expr": "10:02-10:06",
+      "cf_time_expr": "12:02-12:06",
+      "text": "Between 10:02 and 10:06 Sana counts patrol cars passing below.",
+      "cf_text": "Between 12:02 and 12:06 Bex counts patrol cars passing below."
+    },
+    {
+      "id": "s25",
+      "thread_id": "L",
+      "time_expr": "10:10-10:15",
+      "cf_time_expr": "12:10-12:15",
+      "text": "From 10:10 to 10:15 Sana waits crouched by the stairwell door, scope lowered.",
+      "cf_text": "From 12:10 to 12:15 Bex waits crouched by the stairwell door, scope lowered."
+    },
+    {
+      "id": "s26",
+      "thread_id": "L",
+      "time_expr": "10:15-10:18",
+      "cf_time_expr": "12:15-12:18",
+      "text": "At 10:15 she keys her radio open and holds the channel until 10:18.",
+      "cf_text": "At 10:15 she keys her radio open and holds the channel until 10:18."
+    },
+    {
+      "id": "s27",
+      "thread_id": "L",
+      "time_expr": "10:18-10:20",
+      "cf_time_expr": "12:18-12:20",
+      "text": "From 10:18 she gathers her gear, gone by 10:20.",
+      "cf_text": "From 10:18 she gathers her gear, gone by 10:20."
+    },
+    {
+      "id": "s28",
+      "thread_id": "T",
+      "time_expr": "9:59-10:16",
+      "cf_time_expr": "11:59-12:16",
+      "text": "Farah is forced flat on the marble floor at 9:59 and isn't allowed up until 10:16.",
+      "cf_text": "Lior is forced flat on the marble floor at 11:59 and isn't allowed up until 12:16."
+    },
+    {
+      "id": "s29",
+      "thread_id": "T",
+      "time_expr": "9:59-10:03",
+      "cf_time_expr": "11:59-12:03",
+      "text": "For the first few minutes, 9:59 to 10:03, Farah stares at the barrel of a gun inches from her face.",
+      "cf_text": "For the first few minutes, 11:59 to 12:03, Lior stares at the barrel of a gun inches from her face."
+    },
+    {
+      "id": "s30",
+      "thread_id": "T",
+      "time_expr": "10:03-10:16",
+      "cf_time_expr": "12:03-12:16",
+      "text": "From 10:03 she counts her own heartbeat to stay calm, all the way until she's finally let up at 10:16.",
+      "cf_text": "From 10:03 she counts her own heartbeat to stay calm, all the way until she's finally let up at 10:16."
+    },
+    {
+      "id": "s31",
+      "thread_id": "T",
+      "time_expr": "10:05-10:09",
+      "cf_time_expr": "12:05-12:09",
+      "text": "Between 10:05 and 10:09, Farah hears the vault door groan open just feet from where she lies.",
+      "cf_text": "Between 12:05 and 12:09, Lior hears the vault door groan open just feet from where she lies."
+    },
+    {
+      "id": "s32",
+      "thread_id": "T",
+      "time_expr": "10:09-10:16",
+      "cf_time_expr": "12:09-12:16",
+      "text": "From 10:09 she listens to bags being filled, right up until she's allowed to stand at 10:16.",
+      "cf_text": "From 10:09 she listens to bags being filled, right up until she's allowed to stand at 10:16."
+    },
+    {
+      "id": "s33",
+      "thread_id": "T",
+      "time_expr": "10:16-10:19",
+      "cf_time_expr": "12:16-12:19",
+      "text": "At 10:16 Farah is helped to a chair, and sits there trembling until 10:19.",
+      "cf_text": "At 12:16 Lior is helped to a chair, and sits there trembling until 12:19."
+    },
+    {
+      "id": "s34",
+      "thread_id": "T",
+      "time_expr": "10:18-10:23",
+      "cf_time_expr": "12:18-12:23",
+      "text": "From 10:18 to 10:23 Farah gives her first shaky account to the responding officer.",
+      "cf_text": "From 12:18 to 12:23 Lior gives her first shaky account to the responding officer."
+    },
+    {
+      "id": "s35",
+      "thread_id": "T",
+      "time_expr": "10:20-10:22",
+      "cf_time_expr": "12:20-12:22",
+      "text": "Between 10:20 and 10:22 Farah remembers the exact words one robber used.",
+      "cf_text": "Between 12:20 and 12:22 Lior remembers the exact words one robber used."
+    },
+    {
+      "id": "s36",
+      "thread_id": "T",
+      "time_expr": "10:23 (instant)",
+      "cf_time_expr": "12:23 (instant)",
+      "text": "At 10:23 Farah finally asks someone to call her husband.",
+      "cf_text": "At 12:23 Lior finally asks someone to call her husband."
+    },
+    {
+      "id": "s37",
+      "thread_id": "K",
+      "time_expr": "10:08-10:26",
+      "cf_time_expr": "12:08-12:26",
+      "text": "Denny watches the van from a café window starting at 10:08, never looking away until it finally pulls off at 10:26.",
+      "cf_text": "Costa watches the van from a café window starting at 12:08, never looking away until it finally pulls off at 12:26."
+    },
+    {
+      "id": "s38",
+      "thread_id": "K",
+      "time_expr": "10:08-10:12",
+      "cf_time_expr": "12:08-12:12",
+      "text": "From 10:08 to 10:12 Denny clocks two patrol cars idling at the corner.",
+      "cf_text": "From 12:08 to 12:12 Costa clocks two patrol cars idling at the corner."
+    },
+    {
+      "id": "s39",
+      "thread_id": "K",
+      "time_expr": "10:12-10:26",
+      "cf_time_expr": "12:12-12:26",
+      "text": "From 10:12 he tracks the van's every inch of movement, all the way to 10:26.",
+      "cf_text": "From 10:12 he tracks the van's every inch of movement, all the way to 10:26."
+    },
+    {
+      "id": "s40",
+      "thread_id": "K",
+      "time_expr": "10:14-10:18",
+      "cf_time_expr": "12:14-12:18",
+      "text": "Between 10:14 and 10:18 Denny texts a single coded word to no one in particular, just habit.",
+      "cf_text": "Between 12:14 and 12:18 Costa texts a single coded word to no one in particular, just habit."
+    },
+    {
+      "id": "s41",
+      "thread_id": "K",
+      "time_expr": "10:18-10:26",
+      "cf_time_expr": "12:18-12:26",
+      "text": "From 10:18 Denny keeps one eye on the bank's side door, until the van finally rolls at 10:26.",
+      "cf_text": "From 12:18 Costa keeps one eye on the bank's side door, until the van finally rolls at 12:26."
+    },
+    {
+      "id": "s42",
+      "thread_id": "K",
+      "time_expr": "10:26 (instant)",
+      "cf_time_expr": "12:26 (instant)",
+      "text": "At 10:26, the exact second the van pulls away, Denny exhales.",
+      "cf_text": "At 12:26, the exact second the van pulls away, Costa exhales."
+    },
+    {
+      "id": "s43",
+      "thread_id": "K",
+      "time_expr": "10:26-10:30",
+      "cf_time_expr": "12:26-12:30",
+      "text": "From 10:26 to 10:30 Denny lingers over a cold coffee, watching the street settle.",
+      "cf_text": "From 12:26 to 12:30 Costa lingers over a cold coffee, watching the street settle."
+    },
+    {
+      "id": "s44",
+      "thread_id": "K",
+      "time_expr": "10:27-10:29",
+      "cf_time_expr": "12:27-12:29",
+      "text": "Between 10:27 and 10:29 Denny counts the pedestrians who never noticed a thing.",
+      "cf_text": "Between 12:27 and 12:29 Costa counts the pedestrians who never noticed a thing."
+    },
+    {
+      "id": "s45",
+      "thread_id": "K",
+      "time_expr": "10:30 (instant)",
+      "cf_time_expr": "12:30 (instant)",
+      "text": "At 10:30 Denny finally gets up and walks the other way.",
+      "cf_text": "At 12:30 Costa finally gets up and walks the other way."
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "allen_relation": "contains",
+      "evidence_span": "Priya's van window (9:58-10:22) fully contains the crew's inside-the-bank window (10:00-10:15): 9:58 < 10:00 and 10:15 < 10:22.",
+      "cf_evidence_span": "Nadira's van window (11:58-12:22) fully contains the crew's inside-the-bank window (12:00-12:15): 11:58 < 12:00 and 12:15 < 12:22."
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s1",
+      "allen_relation": "overlaps",
+      "evidence_span": "Sana's rooftop watch (9:55-10:10) starts before Priya's van window (9:58-10:22) begins, and ends while Priya is still parked: 9:55 < 9:58 < 10:10 < 10:22.",
+      "cf_evidence_span": "Bex's rooftop watch (11:55-12:10) starts before Nadira's van window (11:58-12:22) begins, and ends while Nadira is still parked: 11:55 < 11:58 < 12:10 < 12:22."
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s3",
+      "allen_relation": "during",
+      "evidence_span": "The vault door's 10:05 instant falls strictly inside Sana's rooftop watch (9:55-10:10): 9:55 < 10:05 < 10:10.",
+      "cf_evidence_span": "The vault door's 12:05 instant falls strictly inside Bex's rooftop watch (11:55-12:10): 11:55 < 12:05 < 12:10."
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "The crew's window (10:00-10:15) begins before Priya's second van stretch (10:12-10:25) and ends while she is still edging forward: 10:00 < 10:12 < 10:15 < 10:25.",
+      "cf_evidence_span": "The crew's window (12:00-12:15) begins before Nadira's second van stretch (12:12-12:25) and ends while she is still edging forward: 12:00 < 12:12 < 12:15 < 12:25."
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "allen_relation": "overlaps",
+      "evidence_span": "Priya's first van window (9:58-10:22) starts before her second stretch (10:12-10:25) begins, and ends while it is underway: 9:58 < 10:12 < 10:22 < 10:25.",
+      "cf_evidence_span": "Nadira's first van window (11:58-12:22) starts before her second stretch (12:12-12:25) begins, and ends while it is underway: 11:58 < 12:12 < 12:22 < 12:25."
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s2",
+      "allen_relation": "during",
+      "evidence_span": "The vault door's 10:05 instant falls strictly inside the crew's window (10:00-10:15): 10:00 < 10:05 < 10:15.",
+      "cf_evidence_span": "The vault door's 12:05 instant falls strictly inside the crew's window (12:00-12:15): 12:00 < 12:05 < 12:15."
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "allen_relation": "before",
+      "evidence_span": "The crew's window ends at 10:15, before the cash split at 10:16: 10:15 < 10:16.",
+      "cf_evidence_span": "The crew's window ends at 12:15, before the cash split at 12:16: 12:15 < 12:16."
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "allen_relation": "meets",
+      "evidence_span": "Priya's second stretch ends at 10:25, the exact instant she pulls away: 10:25 == 10:25.",
+      "cf_evidence_span": "Nadira's second stretch ends at 12:25, the exact instant she pulls away: 12:25 == 12:25."
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "allen_relation": "before",
+      "evidence_span": "Priya's first van window ends at 10:22, well before she pulls away at 10:25: 10:22 < 10:25.",
+      "cf_evidence_span": "Nadira's first van window ends at 12:22, well before she pulls away at 12:25: 12:22 < 12:25."
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "allen_relation": "before",
+      "evidence_span": "Sana's rooftop watch ends at 10:10, before she radios the all-clear at 10:15: 10:10 < 10:15.",
+      "cf_evidence_span": "Bex's rooftop watch ends at 12:10, before she radios the all-clear at 12:15: 12:10 < 12:15."
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s9",
+      "allen_relation": "before",
+      "evidence_span": "The all-clear at 10:15 comes before Sana leaves the roof at 10:20: 10:15 < 10:20.",
+      "cf_evidence_span": "The all-clear at 12:15 comes before Bex leaves the roof at 12:20: 12:15 < 12:20."
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "allen_relation": "starts",
+      "evidence_span": "s10's window (9:58-10:05) starts at the same instant as s1 (9:58-10:22) but ends much earlier: 9:58==9:58, 10:05<10:22.",
+      "cf_evidence_span": "s10's window (11:58-12:05) starts at the same instant as s1 (11:58-12:22) but ends much earlier: 11:58==11:58, 12:05<12:22."
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "allen_relation": "finishes",
+      "evidence_span": "s11 (10:03-10:22) starts later than s1 (9:58-10:22) but the two end at the same instant: 9:58<10:03, 10:22==10:22.",
+      "cf_evidence_span": "s11 (12:03-12:22) starts later than s1 (11:58-12:22) but the two end at the same instant: 11:58<12:03, 12:22==12:22."
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s5",
+      "allen_relation": "overlaps",
+      "evidence_span": "s12 (10:10-10:18) begins before s5 (10:12-10:25) and ends while s5 is still underway: 10:10<10:12<10:18<10:25.",
+      "cf_evidence_span": "s12 (12:10-12:18) begins before s5 (12:12-12:25) and ends while s5 is still underway: 12:10<12:12<12:18<12:25."
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s5",
+      "allen_relation": "during",
+      "evidence_span": "s13's window (10:13-10:20) falls strictly inside s5 (10:12-10:25): 10:12<10:13 and 10:20<10:25.",
+      "cf_evidence_span": "s13's window (12:13-12:20) falls strictly inside s5 (12:12-12:25): 12:12<12:13 and 12:20<12:25."
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s8",
+      "allen_relation": "meets",
+      "evidence_span": "s14 (10:22-10:25) ends the exact instant s8 occurs at 10:25: 10:25==10:25.",
+      "cf_evidence_span": "s14 (12:22-12:25) ends the exact instant s8 occurs at 12:25: 12:25==12:25."
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s15",
+      "allen_relation": "before",
+      "evidence_span": "s8's instant at 10:25 comes before s15 begins at 10:26: 10:25<10:26.",
+      "cf_evidence_span": "s8's instant at 12:25 comes before s15 begins at 12:26: 12:25<12:26."
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s2",
+      "allen_relation": "starts",
+      "evidence_span": "s16 (10:00-10:04) starts at the same instant as s2 (10:00-10:15) but ends earlier: 10:00==10:00, 10:04<10:15.",
+      "cf_evidence_span": "s16 (12:00-12:04) starts at the same instant as s2 (12:00-12:15) but ends earlier: 12:00==12:00, 12:04<12:15."
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "allen_relation": "finishes",
+      "evidence_span": "s17 (10:04-10:15) starts later than s2 (10:00-10:15) but both end at 10:15: 10:00<10:04, 10:15==10:15.",
+      "cf_evidence_span": "s17 (12:04-12:15) starts later than s2 (12:00-12:15) but both end at 12:15: 12:00<12:04, 12:15==12:15."
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "allen_relation": "during",
+      "evidence_span": "s18's window (10:05-10:09) falls strictly inside s2 (10:00-10:15): 10:00<10:05 and 10:09<10:15.",
+      "cf_evidence_span": "s18's window (12:05-12:09) falls strictly inside s2 (12:00-12:15): 12:00<12:05 and 12:09<12:15."
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "allen_relation": "starts",
+      "evidence_span": "s4's instant (10:05) starts at the same moment as s18 (10:05-10:09) but s18 continues longer: 10:05==10:05, 10:05<10:09.",
+      "cf_evidence_span": "s4's instant (12:05) starts at the same moment as s18 (12:05-12:09) but s18 continues longer: 12:05==12:05, 12:05<12:09."
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s7",
+      "allen_relation": "meets",
+      "evidence_span": "s19 (10:15-10:16) ends the exact instant s7 occurs at 10:16: 10:16==10:16.",
+      "cf_evidence_span": "s19 (12:15-12:16) ends the exact instant s7 occurs at 12:16: 12:16==12:16."
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s20",
+      "allen_relation": "before",
+      "evidence_span": "s7's instant at 10:16 comes before s20 begins at 10:17: 10:16<10:17.",
+      "cf_evidence_span": "s7's instant at 12:16 comes before s20 begins at 12:17: 12:16<12:17."
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "allen_relation": "overlaps",
+      "evidence_span": "s20 (10:17-10:20) begins before s21 (10:19-10:23) and ends while s21 is underway: 10:17<10:19<10:20<10:23.",
+      "cf_evidence_span": "s20 (12:17-12:20) begins before s21 (12:19-12:23) and ends while s21 is underway: 12:17<12:19<12:20<12:23."
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "allen_relation": "starts",
+      "evidence_span": "s22 (9:55-9:59) starts at the same instant as s3 (9:55-10:10) but ends earlier: 9:55==9:55, 9:59<10:10.",
+      "cf_evidence_span": "s22 (11:55-11:59) starts at the same instant as s3 (11:55-12:10) but ends earlier: 11:55==11:55, 11:59<12:10."
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "allen_relation": "finishes",
+      "evidence_span": "s23 (9:59-10:10) starts later than s3 (9:55-10:10) but both end at 10:10: 9:55<9:59, 10:10==10:10.",
+      "cf_evidence_span": "s23 (11:59-12:10) starts later than s3 (11:55-12:10) but both end at 12:10: 11:55<11:59, 12:10==12:10."
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "allen_relation": "during",
+      "evidence_span": "s24's window (10:02-10:06) falls strictly inside s3 (9:55-10:10): 9:55<10:02 and 10:06<10:10.",
+      "cf_evidence_span": "s24's window (12:02-12:06) falls strictly inside s3 (11:55-12:10): 11:55<12:02 and 12:06<12:10."
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s25",
+      "allen_relation": "meets",
+      "evidence_span": "s3 ends at 10:10, the exact instant s25 begins: 10:10==10:10.",
+      "cf_evidence_span": "s3 ends at 12:10, the exact instant s25 begins: 12:10==12:10."
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s25",
+      "allen_relation": "finishes",
+      "evidence_span": "s6's instant (10:15) starts later than s25 (10:10-10:15) but both end at 10:15: 10:10<10:15, 10:15==10:15.",
+      "cf_evidence_span": "s6's instant (12:15) starts later than s25 (12:10-12:15) but both end at 12:15: 12:10<12:15, 12:15==12:15."
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "allen_relation": "starts",
+      "evidence_span": "s6's instant (10:15) starts at the same moment as s26 (10:15-10:18) but s26 continues longer: 10:15==10:15, 10:15<10:18.",
+      "cf_evidence_span": "s6's instant (12:15) starts at the same moment as s26 (12:15-12:18) but s26 continues longer: 12:15==12:15, 12:15<12:18."
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s9",
+      "allen_relation": "meets",
+      "evidence_span": "s27 (10:18-10:20) ends the exact instant s9 occurs at 10:20: 10:20==10:20.",
+      "cf_evidence_span": "s27 (12:18-12:20) ends the exact instant s9 occurs at 12:20: 12:20==12:20."
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s2",
+      "allen_relation": "contains",
+      "evidence_span": "Farah's ordeal on the floor (9:59-10:16) fully contains the crew's inside-the-bank window (10:00-10:15): 9:59 < 10:00 and 10:15 < 10:16.",
+      "cf_evidence_span": "Lior's ordeal on the floor (11:59-12:16) fully contains the crew's inside-the-bank window (12:00-12:15): 11:59 < 12:00 and 12:15 < 12:16."
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "allen_relation": "starts",
+      "evidence_span": "s29 (9:59-10:03) starts at the same instant as s28 (9:59-10:16) but ends earlier: 9:59==9:59, 10:03<10:16.",
+      "cf_evidence_span": "s29 (11:59-12:03) starts at the same instant as s28 (11:59-12:16) but ends earlier: 11:59==11:59, 12:03<12:16."
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s28",
+      "allen_relation": "finishes",
+      "evidence_span": "s30 (10:03-10:16) starts later than s28 (9:59-10:16) but both end at 10:16: 9:59<10:03, 10:16==10:16.",
+      "cf_evidence_span": "s30 (12:03-12:16) starts later than s28 (11:59-12:16) but both end at 12:16: 11:59<12:03, 12:16==12:16."
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s28",
+      "allen_relation": "during",
+      "evidence_span": "s31's window (10:05-10:09) falls strictly inside s28 (9:59-10:16): 9:59<10:05 and 10:09<10:16.",
+      "cf_evidence_span": "s31's window (12:05-12:09) falls strictly inside s28 (11:59-12:16): 11:59<12:05 and 12:09<12:16."
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s30",
+      "allen_relation": "finishes",
+      "evidence_span": "s32 (10:09-10:16) starts later than s30 (10:03-10:16) but both end at 10:16: 10:03<10:09, 10:16==10:16.",
+      "cf_evidence_span": "s32 (12:09-12:16) starts later than s30 (12:03-12:16) but both end at 12:16: 12:03<12:09, 12:16==12:16."
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s33",
+      "allen_relation": "meets",
+      "evidence_span": "s28 ends at 10:16, the exact instant s33 begins: 10:16==10:16.",
+      "cf_evidence_span": "s28 ends at 12:16, the exact instant s33 begins: 12:16==12:16."
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "allen_relation": "overlaps",
+      "evidence_span": "s33 (10:16-10:19) begins before s34 (10:18-10:23) and ends while s34 is underway: 10:16<10:18<10:19<10:23.",
+      "cf_evidence_span": "s33 (12:16-12:19) begins before s34 (12:18-12:23) and ends while s34 is underway: 12:16<12:18<12:19<12:23."
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s34",
+      "allen_relation": "during",
+      "evidence_span": "s35's window (10:20-10:22) falls strictly inside s34 (10:18-10:23): 10:18<10:20 and 10:22<10:23.",
+      "cf_evidence_span": "s35's window (12:20-12:22) falls strictly inside s34 (12:18-12:23): 12:18<12:20 and 12:22<12:23."
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s36",
+      "allen_relation": "meets",
+      "evidence_span": "s34 ends at 10:23, the exact instant s36 occurs: 10:23==10:23.",
+      "cf_evidence_span": "s34 ends at 12:23, the exact instant s36 occurs: 12:23==12:23."
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s5",
+      "allen_relation": "contains",
+      "evidence_span": "Denny's café-window watch (10:08-10:26) fully contains Priya's second van stretch (10:12-10:25): 10:08 < 10:12 and 10:25 < 10:26.",
+      "cf_evidence_span": "Costa's café-window watch (12:08-12:26) fully contains Nadira's second van stretch (12:12-12:25): 12:08 < 12:12 and 12:25 < 12:26."
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s37",
+      "allen_relation": "starts",
+      "evidence_span": "s38 (10:08-10:12) starts at the same instant as s37 (10:08-10:26) but ends much earlier: 10:08==10:08, 10:12<10:26.",
+      "cf_evidence_span": "s38 (12:08-12:12) starts at the same instant as s37 (12:08-12:26) but ends much earlier: 12:08==12:08, 12:12<12:26."
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s37",
+      "allen_relation": "finishes",
+      "evidence_span": "s39 (10:12-10:26) starts later than s37 (10:08-10:26) but both end at 10:26: 10:08<10:12, 10:26==10:26.",
+      "cf_evidence_span": "s39 (12:12-12:26) starts later than s37 (12:08-12:26) but both end at 12:26: 12:08<12:12, 12:26==12:26."
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s37",
+      "allen_relation": "during",
+      "evidence_span": "s40's window (10:14-10:18) falls strictly inside s37 (10:08-10:26): 10:08<10:14 and 10:18<10:26.",
+      "cf_evidence_span": "s40's window (12:14-12:18) falls strictly inside s37 (12:08-12:26): 12:08<12:14 and 12:18<12:26."
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s39",
+      "allen_relation": "finishes",
+      "evidence_span": "s41 (10:18-10:26) starts later than s39 (10:12-10:26) but both end at 10:26: 10:12<10:18, 10:26==10:26.",
+      "cf_evidence_span": "s41 (12:18-12:26) starts later than s39 (12:12-12:26) but both end at 12:26: 12:12<12:18, 12:26==12:26."
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s37",
+      "allen_relation": "finishes",
+      "evidence_span": "s42's instant (10:26) starts later than s37 (10:08-10:26) but both end at 10:26: 10:08<10:26, 10:26==10:26.",
+      "cf_evidence_span": "s42's instant (12:26) starts later than s37 (12:08-12:26) but both end at 12:26: 12:08<12:26, 12:26==12:26."
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "allen_relation": "starts",
+      "evidence_span": "s42's instant (10:26) starts at the same moment as s43 (10:26-10:30) but s43 continues longer: 10:26==10:26, 10:26<10:30.",
+      "cf_evidence_span": "s42's instant (12:26) starts at the same moment as s43 (12:26-12:30) but s43 continues longer: 12:26==12:26, 12:26<12:30."
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s43",
+      "allen_relation": "during",
+      "evidence_span": "s44's window (10:27-10:29) falls strictly inside s43 (10:26-10:30): 10:26<10:27 and 10:29<10:30.",
+      "cf_evidence_span": "s44's window (12:27-12:29) falls strictly inside s43 (12:26-12:30): 12:26<12:27 and 12:29<12:30."
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "allen_relation": "meets",
+      "evidence_span": "s43 ends at 10:30, the exact instant s45 occurs: 10:30==10:30.",
+      "cf_evidence_span": "s43 ends at 12:30, the exact instant s45 occurs: 12:30==12:30."
+    }
+  ],
+  "convergence_points": [
+    [
+      "s2",
+      "s6"
+    ]
+  ]
+}
