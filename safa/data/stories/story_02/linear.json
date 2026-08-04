@@ -1,0 +1,535 @@
+{
+  "story_id": "story_02_the_falling_house_linear",
+  "title": "The Falling House (flashback-frame, four threads) (linear order)",
+  "source": "Hand-authored, Set B (flashback/frame) x multi-thread, expanded",
+  "threads": [
+    {
+      "id": "P",
+      "label": "Inspector Voss, present-day investigation",
+      "granularity": "days"
+    },
+    {
+      "id": "F",
+      "label": "Elena, the night of the fire (told via flashback framing)",
+      "granularity": "minutes"
+    },
+    {
+      "id": "W",
+      "label": "Mrs. Kade, the neighbor's log",
+      "granularity": "days"
+    },
+    {
+      "id": "S",
+      "label": "Marta, Elena's sister, recalling that same night (a nested flashback within the flashback)",
+      "granularity": "minutes"
+    }
+  ],
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "F",
+      "time_expr": "earlier that same night, before letting herself in",
+      "text": "Earlier that same night, before letting herself in, Elena had watched the house from across the street."
+    },
+    {
+      "id": "s2",
+      "thread_id": "F",
+      "time_expr": "just inside the door, moments after entering",
+      "text": "Just inside the door, Elena's flashlight beam swept the dark hallway."
+    },
+    {
+      "id": "s3",
+      "thread_id": "F",
+      "time_expr": "three nights before the fire",
+      "text": "Three nights before the fire, Elena had already hidden a spare key under the mat."
+    },
+    {
+      "id": "s4",
+      "thread_id": "F",
+      "time_expr": "minutes later, in the study",
+      "text": "Minutes later, in the study, Elena rifled through a drawer of the landlord's old papers."
+    },
+    {
+      "id": "s5",
+      "thread_id": "F",
+      "time_expr": "the next night",
+      "text": "The next night, Elena let herself in with the hidden key just as the neighbor's dog stopped barking."
+    },
+    {
+      "id": "s6",
+      "thread_id": "F",
+      "time_expr": "the instant the alarm sounds",
+      "text": "Elena's flashlight beam vanished from the window the instant the smoke alarm began to blare."
+    },
+    {
+      "id": "s7",
+      "thread_id": "W",
+      "time_expr": "Monday",
+      "text": "That Monday, Mrs. Kade's log records a quiet evening with no visitors."
+    },
+    {
+      "id": "s8",
+      "thread_id": "W",
+      "time_expr": "Monday through Sunday",
+      "text": "Mrs. Kade's full week of notes, spanning Monday through Sunday, entirely contains the single night of the fire."
+    },
+    {
+      "id": "s9",
+      "thread_id": "W",
+      "time_expr": "Tuesday",
+      "text": "On Tuesday, she notes the landlord's car idling outside twice."
+    },
+    {
+      "id": "s10",
+      "thread_id": "W",
+      "time_expr": "sundown until the alarm",
+      "text": "That same night, Mrs. Kade had been logging every noise from the house since sundown, and her log entry ends the moment the alarm sounds."
+    },
+    {
+      "id": "s11",
+      "thread_id": "S",
+      "time_expr": "nine o'clock that night",
+      "text": "At nine that night, Marta had been pacing by the phone, waiting for Elena to call."
+    },
+    {
+      "id": "s12",
+      "thread_id": "S",
+      "time_expr": "twenty past nine until just after ten",
+      "text": "By twenty past nine, Marta had driven to the street and sat idling in her car a block away."
+    },
+    {
+      "id": "s13",
+      "thread_id": "S",
+      "time_expr": "shortly before ten, from the car",
+      "text": "From the car, Marta watched Elena slip through the gate just as the porch light flickered."
+    },
+    {
+      "id": "s14",
+      "thread_id": "S",
+      "time_expr": "minutes later",
+      "text": "Minutes later, Marta checked her phone again for a message that never came."
+    },
+    {
+      "id": "s15",
+      "thread_id": "S",
+      "time_expr": "the instant the alarm sounded",
+      "text": "The instant the alarm's wail reached the car, Marta's stomach dropped."
+    },
+    {
+      "id": "s16",
+      "thread_id": "F",
+      "time_expr": "as she straightened from the drawer",
+      "text": "As Elena straightened from the drawer, a curl of smoke reached the ceiling behind her."
+    },
+    {
+      "id": "s17",
+      "thread_id": "F",
+      "time_expr": "in the seconds after the alarm",
+      "text": "In the seconds after the alarm, Elena bolted for the back door."
+    },
+    {
+      "id": "s18",
+      "thread_id": "F",
+      "time_expr": "by the time she reached the street",
+      "text": "By the time she reached the street, sirens were already rising in the distance."
+    },
+    {
+      "id": "s19",
+      "thread_id": "P",
+      "time_expr": "Monday morning",
+      "text": "The inspector opens the arson case file on Monday morning."
+    },
+    {
+      "id": "s20",
+      "thread_id": "P",
+      "time_expr": "Monday afternoon",
+      "text": "That same Monday afternoon, Voss walks the scorched ground floor of the house himself."
+    },
+    {
+      "id": "s21",
+      "thread_id": "P",
+      "time_expr": "Tuesday",
+      "text": "On Tuesday, he re-interviews the landlord about the building's history."
+    },
+    {
+      "id": "s22",
+      "thread_id": "P",
+      "time_expr": "Tuesday evening",
+      "text": "By Tuesday evening, he has the fire marshal's forensic report open on his desk."
+    },
+    {
+      "id": "s23",
+      "thread_id": "P",
+      "time_expr": "Wednesday",
+      "text": "By Wednesday, he learns the landlord filed an insurance claim the same week as the fire."
+    },
+    {
+      "id": "s24",
+      "thread_id": "P",
+      "time_expr": "Wednesday afternoon",
+      "text": "Wednesday afternoon, Voss requests a warrant for the landlord's financial records."
+    },
+    {
+      "id": "s25",
+      "thread_id": "P",
+      "time_expr": "Thursday",
+      "text": "He arrests Elena on Thursday, one day after learning of the claim."
+    },
+    {
+      "id": "s26",
+      "thread_id": "P",
+      "time_expr": "Thursday afternoon",
+      "text": "Thursday afternoon, Voss books Elena into holding after the arrest."
+    },
+    {
+      "id": "s27",
+      "thread_id": "P",
+      "time_expr": "Friday",
+      "text": "By Friday, Voss closes the file, satisfied the timeline finally holds together."
+    },
+    {
+      "id": "s28",
+      "thread_id": "S",
+      "time_expr": "moments after the alarm",
+      "text": "Moments after, Marta saw the first flashing lights before Elena reappeared at the corner."
+    },
+    {
+      "id": "s29",
+      "thread_id": "S",
+      "time_expr": "just after that",
+      "text": "She pulled the car around to the back street to meet her."
+    },
+    {
+      "id": "s30",
+      "thread_id": "S",
+      "time_expr": "in the drive away from the scene",
+      "text": "She drove Elena away from the scene, taking the long way past the river."
+    },
+    {
+      "id": "s31",
+      "thread_id": "S",
+      "time_expr": "in the weeks that followed",
+      "text": "In the weeks that followed, Marta rehearsed the story so often in her head that she began to believe her own version of it."
+    },
+    {
+      "id": "s32",
+      "thread_id": "W",
+      "time_expr": "within minutes of the alarm, that same night",
+      "text": "Within minutes of the alarm, she logs the fire trucks arriving on the street."
+    },
+    {
+      "id": "s33",
+      "thread_id": "W",
+      "time_expr": "Thursday",
+      "text": "By Thursday, her log notes reporters gathering outside the gate."
+    },
+    {
+      "id": "s34",
+      "thread_id": "W",
+      "time_expr": "Friday",
+      "text": "Friday's entry records the insurance adjuster's visit to the wreckage."
+    },
+    {
+      "id": "s35",
+      "thread_id": "W",
+      "time_expr": "Saturday",
+      "text": "On Saturday, she notes the house finally sealed behind police tape."
+    },
+    {
+      "id": "s36",
+      "thread_id": "W",
+      "time_expr": "Sunday",
+      "text": "Her final entry, on Sunday, notes the street was quiet again."
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s19",
+      "node_j": "s21",
+      "allen_relation": "before",
+      "evidence_span": "opens the arson case file on Monday morning ... On Tuesday, Voss re-interviews"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s23",
+      "allen_relation": "before",
+      "evidence_span": "On Tuesday ... By Wednesday, Voss learns"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s25",
+      "allen_relation": "before",
+      "evidence_span": "By Wednesday ... Voss arrests Elena on Thursday"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s5",
+      "allen_relation": "before",
+      "evidence_span": "Three nights before the fire ... The next night, Elena let herself in"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s6",
+      "allen_relation": "meets",
+      "evidence_span": "let herself in ... the instant the smoke alarm began to blare"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s6",
+      "allen_relation": "meets",
+      "evidence_span": "her log entry ends the moment the alarm sounds"
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s10",
+      "allen_relation": "contains",
+      "evidence_span": "spanning Monday through Sunday, entirely contains the single night of the fire"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s20",
+      "allen_relation": "before",
+      "evidence_span": "opens the arson case file on Monday morning ... That same Monday afternoon, Voss walks"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "allen_relation": "before",
+      "evidence_span": "walks the scorched ground floor ... On Tuesday, Voss re-interviews"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s22",
+      "allen_relation": "before",
+      "evidence_span": "On Tuesday, Voss re-interviews ... By Tuesday evening, Voss has the fire marshal's forensic report"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "before",
+      "evidence_span": "By Tuesday evening ... By Wednesday, Voss learns"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "before",
+      "evidence_span": "By Wednesday, Voss learns ... Wednesday afternoon, Voss requests a warrant"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s25",
+      "allen_relation": "before",
+      "evidence_span": "Voss requests a warrant ... Voss arrests Elena on Thursday"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "allen_relation": "before",
+      "evidence_span": "Voss arrests Elena on Thursday ... Thursday afternoon, Voss books Elena into holding"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "before",
+      "evidence_span": "books Elena into holding ... By Friday, Voss closes the file"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "allen_relation": "before",
+      "evidence_span": "Earlier that same night, before letting herself in, Elena had watched ... The next night, Elena let herself in"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s5",
+      "allen_relation": "during",
+      "evidence_span": "Just inside the door, Elena's flashlight beam swept the dark hallway (occurs within the entry)"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s5",
+      "allen_relation": "during",
+      "evidence_span": "Minutes later, in the study, Elena rifled through a drawer (still within the same break-in)"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s4",
+      "allen_relation": "before",
+      "evidence_span": "flashlight beam swept the dark hallway ... Minutes later, in the study"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s5",
+      "allen_relation": "finishes",
+      "evidence_span": "As Elena straightened from the drawer, a curl of smoke reached the ceiling, ending the break-in at the same moment it began the alarm"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s17",
+      "allen_relation": "before",
+      "evidence_span": "flashlight beam vanished ... In the seconds after the alarm, Elena bolted"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s18",
+      "allen_relation": "before",
+      "evidence_span": "Elena bolted for the back door ... By the time she reached the street"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s12",
+      "allen_relation": "before",
+      "evidence_span": "At nine that night, Marta had been pacing ... By twenty past nine, Marta had driven"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s13",
+      "allen_relation": "overlaps",
+      "evidence_span": "idling in her car a block away (from twenty past nine) ... From the car, Marta watched Elena slip through the gate (shortly before ten, while she was still idling)"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s14",
+      "allen_relation": "before",
+      "evidence_span": "watched Elena slip through the gate ... Minutes later, Marta checked her phone again"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s15",
+      "allen_relation": "before",
+      "evidence_span": "checked her phone again for a message that never came ... The instant the alarm's wail reached the car"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s28",
+      "allen_relation": "before",
+      "evidence_span": "Marta's stomach dropped ... Moments after, Marta saw the first flashing lights"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s29",
+      "allen_relation": "before",
+      "evidence_span": "before Elena reappeared at the corner ... Marta pulled the car around"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s30",
+      "allen_relation": "before",
+      "evidence_span": "pulled the car around to the back street to meet her ... She drove Elena away from the scene"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s31",
+      "allen_relation": "before",
+      "evidence_span": "drove Elena away from the scene ... In the weeks that followed, Marta rehearsed the story"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s9",
+      "allen_relation": "before",
+      "evidence_span": "That Monday ... On Tuesday, she notes the landlord's car idling"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s10",
+      "allen_relation": "before",
+      "evidence_span": "notes the landlord's car idling outside twice ... That same night, Mrs. Kade had been logging every noise since sundown"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s32",
+      "allen_relation": "before",
+      "evidence_span": "her log entry ends the moment the alarm sounds ... Within minutes of the alarm, she logs the fire trucks arriving"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s33",
+      "allen_relation": "before",
+      "evidence_span": "logs the fire trucks arriving ... By Thursday, her log notes reporters gathering"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "allen_relation": "before",
+      "evidence_span": "reporters gathering outside the gate ... Friday's entry records the insurance adjuster's visit"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s35",
+      "allen_relation": "before",
+      "evidence_span": "Friday's entry records the insurance adjuster's visit ... On Saturday, she notes the house finally sealed"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s36",
+      "allen_relation": "before",
+      "evidence_span": "the house finally sealed behind police tape ... Her final entry, on Sunday, notes the street was quiet again"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s5",
+      "allen_relation": "overlaps",
+      "evidence_span": "From the car, Marta watched Elena slip through the gate just as the porch light flickered -- her watching begins before, and runs into, the break-in itself"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s15",
+      "allen_relation": "equals",
+      "evidence_span": "the instant the smoke alarm began to blare ... The instant the alarm's wail reached the car, Marta's stomach dropped -- the same instant, witnessed from two vantage points"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s12",
+      "allen_relation": "contains",
+      "evidence_span": "Mrs. Kade had been logging every noise from the house since sundown ... Marta had driven to the street and sat idling in her car a block away -- her whole vigil falls within the neighbor's night-long log"
+    }
+  ],
+  "convergence_points": [
+    [
+      "s6",
+      "s10"
+    ],
+    [
+      "s6",
+      "s15"
+    ]
+  ],
+  "id_map_from_original": {
+    "s15": "s1",
+    "s16": "s2",
+    "s2": "s3",
+    "s17": "s4",
+    "s4": "s5",
+    "s5": "s6",
+    "s30": "s7",
+    "s8": "s8",
+    "s31": "s9",
+    "s6": "s10",
+    "s21": "s11",
+    "s22": "s12",
+    "s23": "s13",
+    "s24": "s14",
+    "s25": "s15",
+    "s18": "s16",
+    "s19": "s17",
+    "s20": "s18",
+    "s1": "s19",
+    "s10": "s20",
+    "s3": "s21",
+    "s11": "s22",
+    "s7": "s23",
+    "s12": "s24",
+    "s9": "s25",
+    "s13": "s26",
+    "s14": "s27",
+    "s26": "s28",
+    "s27": "s29",
+    "s28": "s30",
+    "s29": "s31",
+    "s32": "s32",
+    "s33": "s33",
+    "s34": "s34",
+    "s35": "s35",
+    "s36": "s36"
+  }
+}
