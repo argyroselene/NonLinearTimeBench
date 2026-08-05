@@ -1,0 +1,818 @@
+{
+  "story_id": "story_06",
+  "cf_story_id": "story_06_cf",
+  "title": "Signal Loss (relation-balanced, referentially indirect)",
+  "cf_title": "Signal Loss (relation-balanced, referentially indirect)",
+  "source": "Hand-authored interval spec; gold relations derived from event intervals by scripts/build_story.py. Designed for a low before/after share and no name-opening thread shortcuts.",
+  "cf_source": "Perturbed twin of story_06 -- same gold graph, renamed entities",
+  "threads": [
+    {
+      "id": "V",
+      "label": "the duty technician, dish control room",
+      "cf_label": "the duty technician, dish control room",
+      "granularity": "minutes"
+    },
+    {
+      "id": "M",
+      "label": "the researcher, data hall",
+      "cf_label": "the researcher, data hall",
+      "granularity": "minutes"
+    },
+    {
+      "id": "K",
+      "label": "the groundskeeper, outside the perimeter",
+      "cf_label": "the groundskeeper, outside the perimeter",
+      "granularity": "minutes"
+    },
+    {
+      "id": "O",
+      "label": "the duty officer, on the phone line",
+      "cf_label": "the duty officer, on the phone line",
+      "granularity": "minutes"
+    }
+  ],
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "V",
+      "time_expr": "22:00-00:00",
+      "cf_time_expr": "22:00-00:00",
+      "text": "Her whole watch in the control room ran from ten until midnight, unbroken.",
+      "cf_text": "Her whole watch in the control room ran from ten until midnight, unbroken."
+    },
+    {
+      "id": "s5",
+      "thread_id": "V",
+      "time_expr": "22:00-22:25",
+      "cf_time_expr": "22:00-22:25",
+      "text": "The first stretch of it, up to twenty-five past, went on calibrating the feed horn.",
+      "cf_text": "The first stretch of it, up to twenty-five past, went on calibrating the feed horn."
+    },
+    {
+      "id": "s9",
+      "thread_id": "V",
+      "time_expr": "23:35-00:00",
+      "cf_time_expr": "23:35-00:00",
+      "text": "The last twenty-five minutes of the same watch were spent writing the fault log.",
+      "cf_text": "The last twenty-five minutes of the same watch were spent writing the fault log."
+    },
+    {
+      "id": "s13",
+      "thread_id": "V",
+      "time_expr": "22:30-23:10",
+      "cf_time_expr": "22:30-23:10",
+      "text": "Somewhere in the middle she nursed the drive motors through the worst of the gusts.",
+      "cf_text": "Somewhere in the middle she nursed the drive motors through the worst of the gusts."
+    },
+    {
+      "id": "s17",
+      "thread_id": "V",
+      "time_expr": "22:40-22:55",
+      "cf_time_expr": "22:40-22:55",
+      "text": "A quarter-hour of that was spent with the cabinet open and both hands inside it.",
+      "cf_text": "A quarter-hour of that was spent with the cabinet open and both hands inside it."
+    },
+    {
+      "id": "s21",
+      "thread_id": "V",
+      "time_expr": "22:25-22:45",
+      "cf_time_expr": "22:25-22:45",
+      "text": "Once the calibration ended she went straight onto the azimuth trim, twenty minutes of it.",
+      "cf_text": "Once the calibration ended she went straight onto the azimuth trim, twenty minutes of it."
+    },
+    {
+      "id": "s25",
+      "thread_id": "V",
+      "time_expr": "23:10-23:35",
+      "cf_time_expr": "23:10-23:35",
+      "text": "When the motors settled, Vance moved to the receiver chain and stayed there until the log.",
+      "cf_text": "When the motors settled, Ivarsen moved to the receiver chain and stayed there until the log."
+    },
+    {
+      "id": "s29",
+      "thread_id": "V",
+      "time_expr": "22:10-22:35",
+      "cf_time_expr": "22:10-22:35",
+      "text": "From ten past she also had the backup recorder spinning, and left it running to twenty-five to.",
+      "cf_text": "From ten past she also had the backup recorder spinning, and left it running to twenty-five to."
+    },
+    {
+      "id": "s33",
+      "thread_id": "V",
+      "time_expr": "22:55-23:20",
+      "cf_time_expr": "22:55-23:20",
+      "text": "Closing the cabinet began a long stint of watching the noise floor climb.",
+      "cf_text": "Closing the cabinet began a long stint of watching the noise floor climb."
+    },
+    {
+      "id": "s2",
+      "thread_id": "M",
+      "time_expr": "22:00-00:00",
+      "cf_time_expr": "22:00-00:00",
+      "text": "Down in the data hall the capture job covered exactly the same two hours, start to finish.",
+      "cf_text": "Down in the data hall the capture job covered exactly the same two hours, start to finish."
+    },
+    {
+      "id": "s6",
+      "thread_id": "M",
+      "time_expr": "22:15-23:00",
+      "cf_time_expr": "22:15-23:00",
+      "text": "He let the first integration run from a quarter past until the hour.",
+      "cf_text": "He let the first integration run from a quarter past until the hour."
+    },
+    {
+      "id": "s10",
+      "thread_id": "M",
+      "time_expr": "23:00-23:30",
+      "cf_time_expr": "23:00-23:30",
+      "text": "The second one picked up where that left off and ran half an hour.",
+      "cf_text": "The second one picked up where that left off and ran half an hour."
+    },
+    {
+      "id": "s14",
+      "thread_id": "M",
+      "time_expr": "22:00-22:40",
+      "cf_time_expr": "22:00-22:40",
+      "text": "The disk array had been staging from the very start of the job, for the first forty minutes.",
+      "cf_text": "The disk array had been staging from the very start of the job, for the first forty minutes."
+    },
+    {
+      "id": "s18",
+      "thread_id": "M",
+      "time_expr": "23:20-00:00",
+      "cf_time_expr": "23:20-00:00",
+      "text": "Checksumming began at twenty past eleven and was still going when the job itself ended.",
+      "cf_text": "Checksumming began at twenty past eleven and was still going when the job itself ended."
+    },
+    {
+      "id": "s22",
+      "thread_id": "M",
+      "time_expr": "22:30-23:15",
+      "cf_time_expr": "22:30-23:15",
+      "text": "For three quarters of an hour around the middle, Mert had the spectrum plot up on the wall.",
+      "cf_text": "For three quarters of an hour around the middle, Dolan had the spectrum plot up on the wall."
+    },
+    {
+      "id": "s26",
+      "thread_id": "M",
+      "time_expr": "22:45 (instant)",
+      "cf_time_expr": "22:45 (instant)",
+      "text": "At a quarter to eleven exactly, every channel in the hall flatlined at once.",
+      "cf_text": "At a quarter to eleven exactly, every channel in the hall flatlined at once."
+    },
+    {
+      "id": "s30",
+      "thread_id": "M",
+      "time_expr": "22:20-22:50",
+      "cf_time_expr": "22:20-22:50",
+      "text": "A half-hour tape backup overlapped the early part of all that.",
+      "cf_text": "A half-hour tape backup overlapped the early part of all that."
+    },
+    {
+      "id": "s34",
+      "thread_id": "M",
+      "time_expr": "23:30-23:50",
+      "cf_time_expr": "23:30-23:50",
+      "text": "After the second integration closed, he spent twenty minutes reconciling timestamps.",
+      "cf_text": "After the second integration closed, he spent twenty minutes reconciling timestamps."
+    },
+    {
+      "id": "s3",
+      "thread_id": "K",
+      "time_expr": "22:10-23:50",
+      "cf_time_expr": "22:10-23:50",
+      "text": "Outside, the perimeter walk began ten minutes into the hour and lasted most of the night.",
+      "cf_text": "Outside, the perimeter walk began ten minutes into the hour and lasted most of the night."
+    },
+    {
+      "id": "s7",
+      "thread_id": "K",
+      "time_expr": "22:10-22:40",
+      "cf_time_expr": "22:10-22:40",
+      "text": "It opened with half an hour spent clearing the drainage channel.",
+      "cf_text": "It opened with half an hour spent clearing the drainage channel."
+    },
+    {
+      "id": "s11",
+      "thread_id": "K",
+      "time_expr": "23:25-23:50",
+      "cf_time_expr": "23:25-23:50",
+      "text": "The final stretch of the same walk was a slow sweep back along the fence line.",
+      "cf_text": "The final stretch of the same walk was a slow sweep back along the fence line."
+    },
+    {
+      "id": "s15",
+      "thread_id": "K",
+      "time_expr": "22:45-23:05",
+      "cf_time_expr": "22:45-23:05",
+      "text": "Twenty minutes in the middle of it went on the generator shed, door propped open.",
+      "cf_text": "Twenty minutes in the middle of it went on the generator shed, door propped open."
+    },
+    {
+      "id": "s19",
+      "thread_id": "K",
+      "time_expr": "22:25-22:55",
+      "cf_time_expr": "22:25-22:55",
+      "text": "Half an hour of that was in driving rain, boots filling steadily.",
+      "cf_text": "Half an hour of that was in driving rain, boots filling steadily."
+    },
+    {
+      "id": "s23",
+      "thread_id": "K",
+      "time_expr": "23:00-23:40",
+      "cf_time_expr": "23:00-23:40",
+      "text": "From the hour onwards Kesler was up on the access road with a hand lamp.",
+      "cf_text": "From the hour onwards Brandt was up on the access road with a hand lamp."
+    },
+    {
+      "id": "s27",
+      "thread_id": "K",
+      "time_expr": "22:35 (instant)",
+      "cf_time_expr": "22:35 (instant)",
+      "text": "At twenty-five to eleven something heavy came down across the service track.",
+      "cf_text": "At twenty-five to eleven something heavy came down across the service track."
+    },
+    {
+      "id": "s31",
+      "thread_id": "K",
+      "time_expr": "22:05-22:30",
+      "cf_time_expr": "22:05-22:30",
+      "text": "He had already been out five minutes before the walk proper started, checking the gate.",
+      "cf_text": "He had already been out five minutes before the walk proper started, checking the gate."
+    },
+    {
+      "id": "s35",
+      "thread_id": "K",
+      "time_expr": "23:40-23:55",
+      "cf_time_expr": "23:40-23:55",
+      "text": "The last quarter-hour outside was spent waiting by the gate for the relief driver.",
+      "cf_text": "The last quarter-hour outside was spent waiting by the gate for the relief driver."
+    },
+    {
+      "id": "s4",
+      "thread_id": "O",
+      "time_expr": "22:20-23:40",
+      "cf_time_expr": "22:20-23:40",
+      "text": "The open line to the regional desk was held from twenty past until twenty to midnight.",
+      "cf_text": "The open line to the regional desk was held from twenty past until twenty to midnight."
+    },
+    {
+      "id": "s8",
+      "thread_id": "O",
+      "time_expr": "22:20-22:45",
+      "cf_time_expr": "22:20-22:45",
+      "text": "Its opening twenty-five minutes were taken up reading out equipment numbers.",
+      "cf_text": "Its opening twenty-five minutes were taken up reading out equipment numbers."
+    },
+    {
+      "id": "s12",
+      "thread_id": "O",
+      "time_expr": "23:15-23:40",
+      "cf_time_expr": "23:15-23:40",
+      "text": "The call closed with a twenty-five minute handover briefing.",
+      "cf_text": "The call closed with a twenty-five minute handover briefing."
+    },
+    {
+      "id": "s16",
+      "thread_id": "O",
+      "time_expr": "22:50-23:10",
+      "cf_time_expr": "22:50-23:10",
+      "text": "Partway through, she put the desk on hold for twenty minutes to chase a second line.",
+      "cf_text": "Partway through, she put the desk on hold for twenty minutes to chase a second line."
+    },
+    {
+      "id": "s20",
+      "thread_id": "O",
+      "time_expr": "22:00-22:20",
+      "cf_time_expr": "22:00-22:20",
+      "text": "The twenty minutes before that call were spent getting the handset to work at all.",
+      "cf_text": "The twenty minutes before that call were spent getting the handset to work at all."
+    },
+    {
+      "id": "s24",
+      "thread_id": "O",
+      "time_expr": "23:40-00:00",
+      "cf_time_expr": "23:40-00:00",
+      "text": "The moment the line dropped, Odile started the incident write-up and worked to midnight.",
+      "cf_text": "The moment the line dropped, Saros started the incident write-up and worked to midnight."
+    },
+    {
+      "id": "s28",
+      "thread_id": "O",
+      "time_expr": "22:55-23:25",
+      "cf_time_expr": "22:55-23:25",
+      "text": "A half-hour argument about whether to send anyone up the road sat in the middle of the call.",
+      "cf_text": "A half-hour argument about whether to send anyone up the road sat in the middle of the call."
+    },
+    {
+      "id": "s32",
+      "thread_id": "O",
+      "time_expr": "22:40 (instant)",
+      "cf_time_expr": "22:40 (instant)",
+      "text": "At twenty to eleven the desk asked for the dish to be stowed, and would not repeat it.",
+      "cf_text": "At twenty to eleven the desk asked for the dish to be stowed, and would not repeat it."
+    },
+    {
+      "id": "s36",
+      "thread_id": "O",
+      "time_expr": "22:10-23:00",
+      "cf_time_expr": "22:10-23:00",
+      "text": "Her logbook entry covering all of this had been open since ten past.",
+      "cf_text": "Her logbook entry covering all of this had been open since ten past."
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s5",
+      "node_j": "s1",
+      "allen_relation": "starts",
+      "evidence_span": "22:00-22:25 vs 22:00-00:00"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s1",
+      "allen_relation": "finishes",
+      "evidence_span": "23:35-00:00 vs 22:00-00:00"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s1",
+      "allen_relation": "during",
+      "evidence_span": "22:30-23:10 vs 22:00-00:00"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s13",
+      "allen_relation": "during",
+      "evidence_span": "22:40-22:55 vs 22:30-23:10"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s21",
+      "allen_relation": "meets",
+      "evidence_span": "22:00-22:25 vs 22:25-22:45"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s17",
+      "allen_relation": "overlaps",
+      "evidence_span": "22:25-22:45 vs 22:40-22:55"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s9",
+      "allen_relation": "meets",
+      "evidence_span": "23:10-23:35 vs 23:35-00:00"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s5",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "22:10-22:35 vs 22:00-22:25"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s13",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "22:55-23:20 vs 22:30-23:10"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s33",
+      "allen_relation": "meets",
+      "evidence_span": "22:40-22:55 vs 22:55-23:20"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s2",
+      "allen_relation": "starts",
+      "evidence_span": "22:00-22:40 vs 22:00-00:00"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "allen_relation": "finishes",
+      "evidence_span": "23:20-00:00 vs 22:00-00:00"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s10",
+      "allen_relation": "meets",
+      "evidence_span": "22:15-23:00 vs 23:00-23:30"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s6",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "22:30-23:15 vs 22:15-23:00"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s14",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "22:20-22:50 vs 22:00-22:40"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s22",
+      "allen_relation": "during",
+      "evidence_span": "22:45 (instant) vs 22:30-23:15"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s34",
+      "allen_relation": "meets",
+      "evidence_span": "23:00-23:30 vs 23:30-23:50"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s2",
+      "allen_relation": "during",
+      "evidence_span": "22:15-23:00 vs 22:00-00:00"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s6",
+      "allen_relation": "during",
+      "evidence_span": "22:20-22:50 vs 22:15-23:00"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s3",
+      "allen_relation": "starts",
+      "evidence_span": "22:10-22:40 vs 22:10-23:50"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s3",
+      "allen_relation": "finishes",
+      "evidence_span": "23:25-23:50 vs 22:10-23:50"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s3",
+      "allen_relation": "during",
+      "evidence_span": "22:45-23:05 vs 22:10-23:50"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s7",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "22:25-22:55 vs 22:10-22:40"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s3",
+      "allen_relation": "overlaps",
+      "evidence_span": "22:05-22:30 vs 22:10-23:50"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s11",
+      "allen_relation": "overlaps",
+      "evidence_span": "23:00-23:40 vs 23:25-23:50"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s7",
+      "allen_relation": "during",
+      "evidence_span": "22:35 (instant) vs 22:10-22:40"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s11",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "23:40-23:55 vs 23:25-23:50"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s15",
+      "allen_relation": "overlaps",
+      "evidence_span": "22:25-22:55 vs 22:45-23:05"
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s4",
+      "allen_relation": "starts",
+      "evidence_span": "22:20-22:45 vs 22:20-23:40"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s4",
+      "allen_relation": "finishes",
+      "evidence_span": "23:15-23:40 vs 22:20-23:40"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s4",
+      "allen_relation": "during",
+      "evidence_span": "22:50-23:10 vs 22:20-23:40"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s4",
+      "allen_relation": "meets",
+      "evidence_span": "22:00-22:20 vs 22:20-23:40"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s4",
+      "allen_relation": "met-by",
+      "evidence_span": "23:40-00:00 vs 22:20-23:40"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s12",
+      "allen_relation": "overlaps",
+      "evidence_span": "22:55-23:25 vs 23:15-23:40"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s4",
+      "allen_relation": "overlaps",
+      "evidence_span": "22:10-23:00 vs 22:20-23:40"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s8",
+      "allen_relation": "during",
+      "evidence_span": "22:40 (instant) vs 22:20-22:45"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s28",
+      "allen_relation": "overlaps",
+      "evidence_span": "22:50-23:10 vs 22:55-23:25"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s17",
+      "allen_relation": "contains",
+      "evidence_span": "22:00-00:00 vs 22:40-22:55"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s9",
+      "allen_relation": "finished-by",
+      "evidence_span": "22:00-00:00 vs 23:35-00:00"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s25",
+      "allen_relation": "before",
+      "evidence_span": "22:00-22:25 vs 23:10-23:35"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s6",
+      "allen_relation": "after",
+      "evidence_span": "23:30-23:50 vs 22:15-23:00"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "allen_relation": "equals",
+      "evidence_span": "22:00-00:00 vs 22:00-00:00"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s15",
+      "allen_relation": "starts",
+      "evidence_span": "22:45 (instant) vs 22:45-23:05"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s29",
+      "allen_relation": "met-by",
+      "evidence_span": "22:35 (instant) vs 22:10-22:35"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s17",
+      "allen_relation": "starts",
+      "evidence_span": "22:40 (instant) vs 22:40-22:55"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s36",
+      "allen_relation": "started-by",
+      "evidence_span": "22:10-23:50 vs 22:10-23:00"
+    }
+  ],
+  "convergence_points": [
+    [
+      "s26",
+      "s15"
+    ],
+    [
+      "s32",
+      "s17"
+    ],
+    [
+      "s27",
+      "s29"
+    ]
+  ],
+  "convergence_pool": [
+    [
+      "s5",
+      "s19"
+    ],
+    [
+      "s13",
+      "s22"
+    ],
+    [
+      "s13",
+      "s31"
+    ],
+    [
+      "s13",
+      "s16"
+    ],
+    [
+      "s17",
+      "s14"
+    ],
+    [
+      "s17",
+      "s7"
+    ],
+    [
+      "s17",
+      "s19"
+    ],
+    [
+      "s17",
+      "s28"
+    ],
+    [
+      "s17",
+      "s32"
+    ],
+    [
+      "s21",
+      "s26"
+    ],
+    [
+      "s21",
+      "s15"
+    ],
+    [
+      "s21",
+      "s19"
+    ],
+    [
+      "s21",
+      "s8"
+    ],
+    [
+      "s25",
+      "s16"
+    ],
+    [
+      "s29",
+      "s3"
+    ],
+    [
+      "s29",
+      "s7"
+    ],
+    [
+      "s29",
+      "s27"
+    ],
+    [
+      "s29",
+      "s36"
+    ],
+    [
+      "s33",
+      "s18"
+    ],
+    [
+      "s33",
+      "s19"
+    ],
+    [
+      "s33",
+      "s28"
+    ],
+    [
+      "s6",
+      "s23"
+    ],
+    [
+      "s6",
+      "s36"
+    ],
+    [
+      "s10",
+      "s23"
+    ],
+    [
+      "s10",
+      "s36"
+    ],
+    [
+      "s14",
+      "s7"
+    ],
+    [
+      "s14",
+      "s32"
+    ],
+    [
+      "s22",
+      "s31"
+    ],
+    [
+      "s22",
+      "s12"
+    ],
+    [
+      "s26",
+      "s15"
+    ],
+    [
+      "s26",
+      "s8"
+    ],
+    [
+      "s30",
+      "s4"
+    ],
+    [
+      "s30",
+      "s8"
+    ],
+    [
+      "s30",
+      "s16"
+    ],
+    [
+      "s30",
+      "s20"
+    ],
+    [
+      "s34",
+      "s3"
+    ],
+    [
+      "s34",
+      "s11"
+    ],
+    [
+      "s3",
+      "s36"
+    ],
+    [
+      "s7",
+      "s32"
+    ],
+    [
+      "s7",
+      "s36"
+    ],
+    [
+      "s11",
+      "s28"
+    ],
+    [
+      "s15",
+      "s8"
+    ],
+    [
+      "s19",
+      "s28"
+    ],
+    [
+      "s23",
+      "s4"
+    ],
+    [
+      "s23",
+      "s12"
+    ],
+    [
+      "s23",
+      "s24"
+    ],
+    [
+      "s23",
+      "s36"
+    ],
+    [
+      "s35",
+      "s4"
+    ],
+    [
+      "s35",
+      "s12"
+    ],
+    [
+      "s35",
+      "s24"
+    ]
+  ]
+}
