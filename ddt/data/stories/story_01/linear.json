@@ -1,0 +1,595 @@
+{
+  "story_id": "story_01_beachhead_linear",
+  "title": "Beachhead (four converging threads) (linear order)",
+  "source": "Blueprint worked example (Nolan-style interleaved timeline), Section 4, expanded to four threads",
+  "threads": [
+    {
+      "id": "L",
+      "label": "Tanner, on the beach",
+      "granularity": "days"
+    },
+    {
+      "id": "S",
+      "label": "Dawson, at sea",
+      "granularity": "hours"
+    },
+    {
+      "id": "A",
+      "label": "Farrow, in the air",
+      "granularity": "minutes"
+    },
+    {
+      "id": "R",
+      "label": "Winters, a home-front radio operator, tracking the evacuation by wireless",
+      "granularity": "hours"
+    }
+  ],
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "L",
+      "time_expr": "day 1 on the beach",
+      "text": "Tanner has been dug into the sand for six days, waiting for a ship that never comes."
+    },
+    {
+      "id": "s2",
+      "thread_id": "L",
+      "time_expr": "day 2",
+      "text": "He queues at the water's edge for hours, watching ship after ship turn back under strafing fire."
+    },
+    {
+      "id": "s3",
+      "thread_id": "L",
+      "time_expr": "day 3",
+      "text": "He shares a tin of rations with a stranger, both of them trading rumors of a mole further down the beach."
+    },
+    {
+      "id": "s4",
+      "thread_id": "L",
+      "time_expr": "week 1",
+      "text": "He watches the mole get bombed for the third time that week."
+    },
+    {
+      "id": "s5",
+      "thread_id": "L",
+      "time_expr": "day 4",
+      "text": "Tanner helps drive stranded trucks out into the shallows, building a makeshift jetty at low tide."
+    },
+    {
+      "id": "s6",
+      "thread_id": "L",
+      "time_expr": "day 5",
+      "text": "He watches a destroyer go down just offshore, the tide afterward pushing wreckage back onto the sand."
+    },
+    {
+      "id": "s7",
+      "thread_id": "L",
+      "time_expr": "day 6, morning",
+      "text": "Tanner is herded into an orderly line along the mole for the first time all week."
+    },
+    {
+      "id": "s8",
+      "thread_id": "L",
+      "time_expr": "day 6, night",
+      "text": "He is given a place near the front of the queue as darkness falls."
+    },
+    {
+      "id": "s9",
+      "thread_id": "L",
+      "time_expr": "day 7, first light",
+      "text": "Word passes down the line the instant dawn breaks: ships have been spotted approaching the mole."
+    },
+    {
+      "id": "s10",
+      "thread_id": "L",
+      "time_expr": "one week after reaching the beach",
+      "text": "Tanner finally boards a ship, one week after he first reached the beach."
+    },
+    {
+      "id": "s11",
+      "thread_id": "S",
+      "time_expr": "first light",
+      "text": "Dawson pushes his fishing boat out from the coast at first light, three hours from the beach."
+    },
+    {
+      "id": "s12",
+      "thread_id": "S",
+      "time_expr": "half an hour out",
+      "text": "He steers around a drifting lifeboat, empty and half-swamped in the swell."
+    },
+    {
+      "id": "s13",
+      "thread_id": "S",
+      "time_expr": "one hour out",
+      "text": "He spots the wreckage of a downed fighter bobbing in the water ahead."
+    },
+    {
+      "id": "s14",
+      "thread_id": "S",
+      "time_expr": "ninety minutes out",
+      "text": "Dawson changes course toward a lone figure waving from the waves."
+    },
+    {
+      "id": "s15",
+      "thread_id": "S",
+      "time_expr": "mid-morning",
+      "text": "He pulls a shivering pilot from the water, radio crackling with news from the beach."
+    },
+    {
+      "id": "s16",
+      "thread_id": "S",
+      "time_expr": "just after mid-morning",
+      "text": "The rescued pilot, wrapped in a blanket, points Dawson toward the mole where the crowds are thickest."
+    },
+    {
+      "id": "s17",
+      "thread_id": "S",
+      "time_expr": "noon, continuing into early afternoon",
+      "text": "His boat joins a line of small craft ferrying men out to the larger ships, the work stretching on into the early afternoon."
+    },
+    {
+      "id": "s18",
+      "thread_id": "S",
+      "time_expr": "early afternoon",
+      "text": "He takes on a dozen soldiers, the little boat riding low and the fuel gauge sinking toward empty."
+    },
+    {
+      "id": "s19",
+      "thread_id": "S",
+      "time_expr": "mid-afternoon",
+      "text": "Dawson turns back toward the mole for one more run before the fuel runs out."
+    },
+    {
+      "id": "s20",
+      "thread_id": "S",
+      "time_expr": "same moment as s8",
+      "text": "Dawson's boat reaches the mole just as Tanner's ship is pulling away."
+    },
+    {
+      "id": "s21",
+      "thread_id": "A",
+      "time_expr": "before dawn, the morning of the dogfight",
+      "text": "Farrow climbs into the cockpit before dawn, briefed on the thousands massed along a beach across the water."
+    },
+    {
+      "id": "s22",
+      "thread_id": "A",
+      "time_expr": "over the channel, minutes before contact",
+      "text": "He crosses the channel at altitude, smoke already rising from the coastline ahead."
+    },
+    {
+      "id": "s23",
+      "thread_id": "A",
+      "time_expr": "the fight begins",
+      "text": "He banks hard as a plane goes down below him, the fight barely a minute old."
+    },
+    {
+      "id": "s24",
+      "thread_id": "A",
+      "time_expr": "barely a minute into the dogfight",
+      "text": "Farrow scans the horizon from the cockpit, fuel gauge dropping fast."
+    },
+    {
+      "id": "s25",
+      "thread_id": "A",
+      "time_expr": "two minutes into the fight",
+      "text": "Farrow lines up a burst on an enemy fighter, tracer fire stitching the sky as another plane spins away trailing smoke."
+    },
+    {
+      "id": "s26",
+      "thread_id": "A",
+      "time_expr": "minutes later, gliding",
+      "text": "Gliding now with the engine cut, he sees hundreds of men lined up on the sand below."
+    },
+    {
+      "id": "s27",
+      "thread_id": "A",
+      "time_expr": "gliding lower still",
+      "text": "He watches the coastline rise fast, the crowded sand now filling the whole of his windscreen."
+    },
+    {
+      "id": "s28",
+      "thread_id": "A",
+      "time_expr": "seconds before the water",
+      "text": "The pilot braces in the cockpit as the sea rushes up grey and flat beneath him."
+    },
+    {
+      "id": "s29",
+      "thread_id": "A",
+      "time_expr": "the moment of ditching",
+      "text": "Farrow ditches just short of the sand, scrambling clear of the cockpit as the plane noses under."
+    },
+    {
+      "id": "s30",
+      "thread_id": "A",
+      "time_expr": "instantly after",
+      "text": "He is hauled, dripping, over the gunwale of a small fishing boat, the whole ordeal over almost as soon as it began."
+    },
+    {
+      "id": "s31",
+      "thread_id": "R",
+      "time_expr": "day 1, mid-morning",
+      "text": "Winters logs the first garbled signal at the listening post: large numbers stranded, awaiting evacuation."
+    },
+    {
+      "id": "s32",
+      "thread_id": "R",
+      "time_expr": "day 2, evening",
+      "text": "A bulletin crackles through describing repeated bombing runs on a mole somewhere near the beach."
+    },
+    {
+      "id": "s33",
+      "thread_id": "R",
+      "time_expr": "day 3",
+      "text": "Winters relays an urgent request for every available small craft to the Admiralty."
+    },
+    {
+      "id": "s34",
+      "thread_id": "R",
+      "time_expr": "day 4, night shift",
+      "text": "He hears of a destroyer lost just offshore and holds off telling the families waiting outside."
+    },
+    {
+      "id": "s35",
+      "thread_id": "R",
+      "time_expr": "day 7, the instant the dogfight opens",
+      "text": "A burst of Morse reports fighters clashing in the skies above the beach, the signal almost drowned out by static."
+    },
+    {
+      "id": "s36",
+      "thread_id": "R",
+      "time_expr": "day 7, late morning into early afternoon",
+      "text": "Word comes over the wireless that civilian boats are ferrying soldiers from the beach in growing numbers."
+    },
+    {
+      "id": "s37",
+      "thread_id": "R",
+      "time_expr": "day 7, early afternoon",
+      "text": "Winters hears, secondhand, that a downed pilot was fished alive out of the Channel."
+    },
+    {
+      "id": "s38",
+      "thread_id": "R",
+      "time_expr": "day 7, mid-afternoon",
+      "text": "A report notes that the queues on the mole are finally moving quickly."
+    },
+    {
+      "id": "s39",
+      "thread_id": "R",
+      "time_expr": "day 7, early evening",
+      "text": "Word arrives that the last ships have pulled away from the mole."
+    },
+    {
+      "id": "s40",
+      "thread_id": "R",
+      "time_expr": "day 7, night",
+      "text": "Winters logs the final tally of the day and switches off the set, the beach reportedly emptying at last."
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s4",
+      "allen_relation": "before",
+      "evidence_span": "Tanner has been dug into the sand for six days ... Tanner watches the mole get bombed for the third time that week"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s10",
+      "allen_relation": "before",
+      "evidence_span": "Tanner watches the mole get bombed for the third time that week ... Tanner finally boards a ship, one week after he first reached the beach"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s15",
+      "allen_relation": "before",
+      "evidence_span": "Dawson pushes his fishing boat out from the coast at first light ... Dawson pulls a shivering pilot from the water"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s20",
+      "allen_relation": "before",
+      "evidence_span": "Dawson pulls a shivering pilot from the water ... Dawson's boat reaches the mole just as Tanner's ship is pulling away"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "before",
+      "evidence_span": "Farrow banks hard as a plane goes down below him, the fight barely a minute old ... Farrow scans the horizon from the cockpit, fuel gauge dropping fast"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s26",
+      "allen_relation": "before",
+      "evidence_span": "barely a minute into the dogfight, fuel gauge dropping fast ... minutes later, gliding now with the engine cut"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s20",
+      "allen_relation": "equals",
+      "evidence_span": "Tanner finally boards a ship, one week after he first reached the beach ... Dawson's boat reaches the mole just as Tanner's ship is pulling away"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s22",
+      "allen_relation": "before",
+      "evidence_span": "Farrow climbs into the cockpit before dawn ... Farrow crosses the channel at altitude, smoke already rising"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "before",
+      "evidence_span": "Farrow crosses the channel at altitude, smoke already rising from the coastline ahead ... the fight barely a minute old"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s25",
+      "allen_relation": "before",
+      "evidence_span": "barely a minute into the dogfight, fuel gauge dropping fast ... two minutes into the fight, Farrow lines up a burst"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "allen_relation": "before",
+      "evidence_span": "Farrow lines up a burst on an enemy fighter ... minutes later, gliding now with the engine cut"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "before",
+      "evidence_span": "gliding now with the engine cut, sees hundreds of men lined up on the sand below ... gliding lower still, the crowded sand now filling the whole of his windscreen"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s28",
+      "allen_relation": "before",
+      "evidence_span": "the crowded sand now filling the whole of his windscreen ... seconds before the water, Farrow braces in the cockpit"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s29",
+      "allen_relation": "before",
+      "evidence_span": "Farrow braces in the cockpit as the sea rushes up grey and flat beneath him ... Farrow ditches just short of the sand"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s30",
+      "allen_relation": "meets",
+      "evidence_span": "Farrow ditches just short of the sand, scrambling clear of the cockpit as the plane noses under ... instantly after, Farrow is hauled, dripping, over the gunwale"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "allen_relation": "before",
+      "evidence_span": "Tanner has been dug into the sand for six days ... day 2, Tanner queues at the water's edge for hours"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s3",
+      "allen_relation": "before",
+      "evidence_span": "Tanner queues at the water's edge for hours, watching ship after ship turn back ... day 3, Tanner shares a tin of rations with a stranger"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s4",
+      "allen_relation": "before",
+      "evidence_span": "Tanner shares a tin of rations with a stranger, both of them trading rumors of a mole further down the beach ... week 1, Tanner watches the mole get bombed for the third time"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s5",
+      "allen_relation": "before",
+      "evidence_span": "Tanner watches the mole get bombed for the third time that week ... day 4, Tanner helps drive stranded trucks out into the shallows"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s6",
+      "allen_relation": "before",
+      "evidence_span": "Tanner helps drive stranded trucks out into the shallows, building a makeshift jetty at low tide ... day 5, Tanner watches a destroyer go down just offshore"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s7",
+      "allen_relation": "before",
+      "evidence_span": "the tide afterward pushing wreckage back onto the sand ... day 6, morning, Tanner is herded into an orderly line along the mole"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s8",
+      "allen_relation": "before",
+      "evidence_span": "Tanner is herded into an orderly line along the mole for the first time all week ... day 6, night, Tanner is given a place near the front of the queue"
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s9",
+      "allen_relation": "meets",
+      "evidence_span": "Tanner is given a place near the front of the queue as darkness falls ... day 7, first light, word passes down the line the instant dawn breaks"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s10",
+      "allen_relation": "before",
+      "evidence_span": "word passes down the line the instant dawn breaks: ships have been spotted approaching the mole ... Tanner finally boards a ship, one week after he first reached the beach"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s12",
+      "allen_relation": "before",
+      "evidence_span": "Dawson pushes his fishing boat out from the coast at first light ... half an hour out, Dawson steers around a drifting lifeboat"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s13",
+      "allen_relation": "before",
+      "evidence_span": "Dawson steers around a drifting lifeboat, empty and half-swamped in the swell ... one hour out, Dawson spots the wreckage of a downed fighter"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s14",
+      "allen_relation": "before",
+      "evidence_span": "Dawson spots the wreckage of a downed fighter bobbing in the water ahead ... ninety minutes out, Dawson changes course toward a lone figure waving"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s15",
+      "allen_relation": "before",
+      "evidence_span": "Dawson changes course toward a lone figure waving from the waves ... mid-morning, Dawson pulls a shivering pilot from the water"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s16",
+      "allen_relation": "before",
+      "evidence_span": "Dawson pulls a shivering pilot from the water, radio crackling with news from the beach ... just after mid-morning, the rescued pilot points Dawson toward the mole"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s17",
+      "allen_relation": "before",
+      "evidence_span": "the rescued pilot, wrapped in a blanket, points Dawson toward the mole where the crowds are thickest ... noon, Dawson's boat joins a line of small craft ferrying men"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s18",
+      "allen_relation": "before",
+      "evidence_span": "the work stretching on into the early afternoon ... early afternoon, Dawson takes on a dozen soldiers"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s19",
+      "allen_relation": "before",
+      "evidence_span": "the little boat riding low and the fuel gauge sinking toward empty ... mid-afternoon, Dawson turns back toward the mole for one more run"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s20",
+      "allen_relation": "before",
+      "evidence_span": "Dawson turns back toward the mole for one more run before the fuel runs out ... Dawson's boat reaches the mole just as Tanner's ship is pulling away"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s32",
+      "allen_relation": "before",
+      "evidence_span": "day 1, mid-morning, Winters logs the first garbled signal ... day 2, evening, a bulletin crackles through describing repeated bombing runs on a mole"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s33",
+      "allen_relation": "before",
+      "evidence_span": "a bulletin crackles through describing repeated bombing runs on a mole somewhere near the beach ... day 3, Winters relays an urgent request for every available small craft"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "allen_relation": "before",
+      "evidence_span": "Winters relays an urgent request for every available small craft to the Admiralty ... day 4, night shift, Winters hears of a destroyer lost just offshore"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s35",
+      "allen_relation": "before",
+      "evidence_span": "Winters hears of a destroyer lost just offshore and holds off telling the families waiting outside ... day 7, the instant the dogfight opens, a burst of Morse reports fighters clashing"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s36",
+      "allen_relation": "before",
+      "evidence_span": "a burst of Morse reports fighters clashing in the skies above the beach, the signal almost drowned out by static ... late morning into early afternoon, word comes over the wireless that civilian boats are ferrying soldiers"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s37",
+      "allen_relation": "before",
+      "evidence_span": "word comes over the wireless that civilian boats are ferrying soldiers from the beach in growing numbers ... day 7, early afternoon, Winters hears, secondhand, that a downed pilot was fished alive out of the Channel"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s38",
+      "allen_relation": "before",
+      "evidence_span": "Winters hears, secondhand, that a downed pilot was fished alive out of the Channel ... day 7, mid-afternoon, a report notes that the queues on the mole are finally moving quickly"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s39",
+      "allen_relation": "before",
+      "evidence_span": "a report notes that the queues on the mole are finally moving quickly ... day 7, early evening, word arrives that the last ships have pulled away from the mole"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s40",
+      "allen_relation": "before",
+      "evidence_span": "word arrives that the last ships have pulled away from the mole ... day 7, night, Winters logs the final tally of the day and switches off the set"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s30",
+      "allen_relation": "equals",
+      "evidence_span": "Dawson pulls a shivering pilot from the water ... instantly after, Farrow is hauled, dripping, over the gunwale of a small fishing boat -- the same rescue, described from the boat and from the cockpit"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s4",
+      "allen_relation": "during",
+      "evidence_span": "the day 2 evening bulletin about the mole being bombed is logged well after the week's raids began and well before that week is over, the same week in which Tanner watches the mole get bombed for the third time"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s23",
+      "allen_relation": "starts",
+      "evidence_span": "a burst of Morse reports fighters clashing the instant the dogfight opens, the same instant the fight begins beneath Farrow, though the Morse burst itself fades out long before the fight does"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s17",
+      "allen_relation": "overlaps",
+      "evidence_span": "word comes over the wireless during the late morning, before Dawson's boat joins the ferrying line at noon, and the report runs out shortly after that line gets underway but before Dawson's run finally ends in the early afternoon"
+    }
+  ],
+  "convergence_points": [
+    [
+      "s10",
+      "s20"
+    ]
+  ],
+  "id_map_from_original": {
+    "s2": "s1",
+    "s17": "s2",
+    "s18": "s3",
+    "s5": "s4",
+    "s19": "s5",
+    "s20": "s6",
+    "s21": "s7",
+    "s22": "s8",
+    "s23": "s9",
+    "s8": "s10",
+    "s3": "s11",
+    "s24": "s12",
+    "s25": "s13",
+    "s26": "s14",
+    "s6": "s15",
+    "s27": "s16",
+    "s28": "s17",
+    "s29": "s18",
+    "s30": "s19",
+    "s9": "s20",
+    "s10": "s21",
+    "s11": "s22",
+    "s4": "s23",
+    "s1": "s24",
+    "s12": "s25",
+    "s7": "s26",
+    "s13": "s27",
+    "s14": "s28",
+    "s15": "s29",
+    "s16": "s30",
+    "s31": "s31",
+    "s32": "s32",
+    "s33": "s33",
+    "s34": "s34",
+    "s35": "s35",
+    "s36": "s36",
+    "s37": "s37",
+    "s38": "s38",
+    "s39": "s39",
+    "s40": "s40"
+  }
+}

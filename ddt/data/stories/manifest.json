@@ -1,0 +1,39 @@
+{
+  "stories": [
+    {
+      "id": "story_01",
+      "dir": "story_01",
+      "title": "Beachhead (three converging threads)"
+    },
+    {
+      "id": "story_02",
+      "dir": "story_02",
+      "title": "The Falling House (flashback-frame, three threads)"
+    },
+    {
+      "id": "story_03",
+      "dir": "story_03",
+      "title": "Reverse Wing (Memento-style dual-direction threads)"
+    },
+    {
+      "id": "story_04",
+      "dir": "story_04",
+      "title": "Ten Minutes Past Ten (overlapping stakeout durations)"
+    },
+    {
+      "id": "story_05",
+      "dir": "story_05",
+      "title": "Three Shifts (parallel shift-change durations)"
+    },
+    {
+      "id": "story_06",
+      "dir": "story_06",
+      "title": "Signal Loss (relation-balanced, referentially indirect)"
+    },
+    {
+      "id": "story_07",
+      "dir": "story_07",
+      "title": "Tide Watch (relation-balanced, referentially indirect)"
+    }
+  ]
+}

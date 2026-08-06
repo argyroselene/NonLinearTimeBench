@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NonlinearTime Thesis Plan</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  :root {
+    --paper: #eef1ee;
+    --paper-raised: #e4e9e4;
+    --ink: #172420;
+    --ink-soft: #35443e;
+    --muted: #5c665f;
+    --line: #c9d1c9;
+    --line-strong: #a9b4a8;
+    --accent: #196b5f;
+    --accent-strong: #0f4a41;
+    --accent-tint: #d9ebe6;
+    --accent-tint-strong: #b9d9d0;
+    --gold: #93641f;
+    --gold-tint: #f0e2c4;
+    --good: #1f7a4d;
+    --warn: #a15b1f;
+    --font-display: 'Newsreader', 'Iowan Old Style', 'Georgia', serif;
+    --font-body: 'IBM Plex Sans', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #101815;
+      --paper-raised: #16211d;
+      --ink: #e7ede9;
+      --ink-soft: #c2ccc6;
+      --muted: #8b9691;
+      --line: #2b3733;
+      --line-strong: #3d4a44;
+      --accent: #55d1bb;
+      --accent-strong: #8ee6d4;
+      --accent-tint: #1b3530;
+      --accent-tint-strong: #204740;
+      --gold: #e0b060;
+      --gold-tint: #362c17;
+      --good: #6fce9a;
+      --warn: #e0a15c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #101815;
+    --paper-raised: #16211d;
+    --ink: #e7ede9;
+    --ink-soft: #c2ccc6;
+    --muted: #8b9691;
+    --line: #2b3733;
+    --line-strong: #3d4a44;
+    --accent: #55d1bb;
+    --accent-strong: #8ee6d4;
+    --accent-tint: #1b3530;
+    --accent-tint-strong: #204740;
+    --gold: #e0b060;
+    --gold-tint: #362c17;
+    --good: #6fce9a;
+    --warn: #e0a15c;
+  }
+
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--accent-tint-strong); }
+
+  .page {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 3.2rem 1.75rem 6rem;
+    position: relative;
+  }
+
+  /* thread spine — the visual echo of a multi-thread narrative graph */
+  .spine {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .spine svg { position: sticky; top: 0; }
+
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; color: var(--ink); }
+  h1 { font-size: clamp(2.1rem, 1.7rem + 1.6vw, 3rem); line-height: 1.08; margin: 0 0 0.5rem; letter-spacing: -0.01em; }
+  h2 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 0.9rem; }
+  h3 { font-size: 1.08rem; font-weight: 600; margin: 0 0 0.5rem; }
+  p { margin: 0 0 1rem; max-width: 62ch; color: var(--ink-soft); }
+  a { color: var(--accent-strong); text-decoration-color: var(--line-strong); }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--accent-strong);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.9rem;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  header.masthead {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 2.2rem;
+    margin-bottom: 2.6rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .masthead .dek { font-size: 1.08rem; color: var(--ink-soft); max-width: 58ch; }
+  .masthead .meta-row {
+    display: flex; flex-wrap: wrap; gap: 1.6rem;
+    margin-top: 1.4rem;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .masthead .meta-row strong { color: var(--ink); font-weight: 500; }
+
+  section { position: relative; z-index: 1; margin-bottom: 3.4rem; }
+  section > .section-head { display: flex; align-items: baseline; gap: 0.75rem; margin-bottom: 1.3rem; }
+  .section-num {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--muted);
+    padding-top: 0.28rem;
+  }
+
+  .lede { font-size: 1.05rem; color: var(--ink-soft); }
+
+  /* research framing cards */
+  .rq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    margin: 1.4rem 0;
+  }
+  .rq-card { background: var(--paper); padding: 1.1rem 1.2rem; }
+  .rq-card .tag {
+    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em;
+    color: var(--accent-strong); margin-bottom: 0.45rem; display: block;
+  }
+  .rq-card p { margin: 0; font-size: 0.92rem; max-width: none; }
+
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-tint);
+    padding: 0.95rem 1.2rem;
+    margin: 1.4rem 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .callout p { margin: 0; color: var(--ink); max-width: none; }
+  .callout.gold { border-left-color: var(--gold); background: var(--gold-tint); }
+
+  /* pipeline diagram */
+  .diagram-wrap { overflow-x: auto; margin: 1.6rem 0; }
+  .diagram-wrap svg { display: block; }
+  .diagram-caption { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; max-width: none; }
+
+  /* findings */
+  .finding {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 1.6rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--line);
+  }
+  .finding:first-of-type { border-top: none; }
+  .finding h3 { display: flex; align-items: center; gap: 0.55rem; }
+  .verdict-chip {
+    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.05em;
+    text-transform: uppercase; padding: 0.18rem 0.5rem; border-radius: 3px;
+    background: var(--accent-tint-strong); color: var(--accent-strong);
+    white-space: nowrap;
+  }
+  .verdict-chip.caution { background: var(--gold-tint); color: var(--gold); }
+  @media (max-width: 700px) { .finding { grid-template-columns: 1fr; } }
+
+  table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
+  .table-wrap { overflow-x: auto; }
+  th, td {
+    text-align: right; padding: 0.42rem 0.6rem;
+    border-bottom: 1px solid var(--line);
+    font-variant-numeric: tabular-nums;
+    font-family: var(--font-mono);
+    white-space: nowrap;
+  }
+  th:first-child, td:first-child { text-align: left; font-family: var(--font-body); }
+  thead th { color: var(--muted); font-weight: 500; font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; border-bottom: 1px solid var(--line-strong); }
+  td.hot { color: var(--warn); font-weight: 600; }
+  td.zero { color: var(--muted); }
+  tr.total td { font-weight: 600; color: var(--ink); }
+
+  /* work streams */
+  .streams { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.2rem; }
+  .stream-card {
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 1.2rem 1.3rem;
+  }
+  .stream-card .stream-letter {
+    font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent-strong);
+    letter-spacing: 0.06em; display: block; margin-bottom: 0.35rem;
+  }
+  .stream-card ul { margin: 0.7rem 0 0; padding-left: 1.1rem; }
+  .stream-card li { margin-bottom: 0.45rem; font-size: 0.9rem; color: var(--ink-soft); }
+  .stream-card li::marker { color: var(--line-strong); }
+
+  /* timeline / gantt */
+  .timeline-scale {
+    display: grid;
+    grid-template-columns: 130px repeat(16, 1fr);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: var(--muted);
+    margin-bottom: 0.35rem;
+  }
+  .timeline-scale span { text-align: center; }
+  .timeline-scale span:first-child { text-align: left; }
+  .gantt { overflow-x: auto; }
+  .gantt-inner { min-width: 640px; }
+  .gantt-row {
+    display: grid;
+    grid-template-columns: 130px repeat(16, 1fr);
+    align-items: stretch;
+    border-top: 1px solid var(--line);
+  }
+  .gantt-row:last-child { border-bottom: 1px solid var(--line); }
+  .gantt-label {
+    font-size: 0.82rem; font-weight: 500; color: var(--ink);
+    display: flex; align-items: center; padding: 0.5rem 0.6rem 0.5rem 0;
+  }
+  .gantt-track { grid-column: span 16; display: grid; grid-template-columns: repeat(16, 1fr); }
+  .gantt-cell { border-left: 1px solid var(--line); min-height: 2.7rem; position: relative; }
+  .gantt-bar {
+    position: absolute; inset: 0.3rem 0.15rem;
+    border-radius: 3px;
+    font-size: 0.7rem; line-height: 1.25;
+    padding: 0.25rem 0.45rem;
+    color: var(--accent-strong);
+    display: flex; align-items: center;
+    overflow: hidden;
+  }
+  .gantt-bar.primary { background: var(--accent-tint-strong); font-weight: 600; }
+  .gantt-bar.support { background: var(--accent-tint); color: var(--ink-soft); font-weight: 400; }
+  .gantt-bar.milestone { background: var(--gold-tint); color: var(--gold); font-weight: 600; justify-content: center; text-align: center; }
+  .legend { display: flex; gap: 1.4rem; margin-top: 0.9rem; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; }
+  .legend span { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .legend i { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
+
+  /* risks */
+  .risk-list { display: flex; flex-direction: column; gap: 0.9rem; }
+  .risk {
+    display: grid; grid-template-columns: 108px 1fr; gap: 1rem;
+    padding: 0.9rem 0; border-top: 1px solid var(--line);
+  }
+  .risk:first-child { border-top: none; }
+  .risk-kind { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.03em; color: var(--muted); padding-top: 0.15rem; }
+  .risk p { margin: 0; max-width: none; font-size: 0.92rem; }
+  @media (max-width: 620px) { .risk { grid-template-columns: 1fr; gap: 0.3rem; } }
+
+  /* open questions */
+  .oq-list { display: grid; gap: 0.9rem; }
+  .oq {
+    display: flex; gap: 0.85rem;
+    padding: 0.9rem 1.1rem;
+    background: var(--paper-raised);
+    border: 1px dashed var(--line-strong);
+    border-radius: 5px;
+  }
+  .oq .q-mark { font-family: var(--font-display); font-style: italic; color: var(--gold); font-size: 1.3rem; line-height: 1; }
+  .oq p { margin: 0; max-width: none; font-size: 0.92rem; }
+
+  footer {
+    position: relative; z-index: 1;
+    border-top: 1px solid var(--line);
+    padding-top: 1.4rem;
+    margin-top: 3rem;
+    font-size: 0.82rem;
+    color: var(--muted);
+    display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+  }
+  footer span { font-family: var(--font-mono); }
+
+  @media (max-width: 640px) {
+    .page { padding: 2.2rem 1.1rem 4rem; }
+    .timeline-scale, .gantt-row { grid-template-columns: 84px repeat(16, minmax(24px, 1fr)); }
+  }
+</style>
+</head>
+<body>
+
+<div class="spine" aria-hidden="true">
+  <svg width="100%" height="100%" style="position:absolute; top:0; left:0;">
+    <line x1="28" y1="0" x2="28" y2="100%" stroke="var(--line)" stroke-width="1" />
+  </svg>
+</div>
+
+<div class="page">
+
+  <header class="masthead">
+    <div class="eyebrow">Thesis plan · NonlinearTime</div>
+    <h1>Reasoning across interleaved time</h1>
+    <p class="dek">A 3-person undergraduate thesis plan for measuring how much of an LLM's temporal
+      reasoning survives genuine narrative nonlinearity, and whether decomposing the task into a
+      checkable graph pipeline recovers any of the gap.</p>
+    <div class="meta-row">
+      <span>Decided <strong>2026-09-04</strong> (M1.1)</span>
+      <span>Team of <strong>3</strong></span>
+      <span>Window <strong>~16 weeks</strong> → defense</span>
+      <span>Target N <strong>20</strong> stories</span>
+      <span>Venue <strong>thesis only</strong></span>
+    </div>
+  </header>
+
+  <section id="framing">
+    <div class="section-head">
+      <h2>The three questions this thesis answers</h2>
+    </div>
+    <p class="lede">Fixed in <code>thesis_blueprint_v2.pdf</code> and unchanged by this pivot — only the
+      schedule and team size below are new.</p>
+    <div class="rq-grid">
+      <div class="rq-card">
+        <span class="tag">RQ1 · H1</span>
+        <p>Multi-thread and flashback structure degrades temporal accuracy substantially more than
+          shuffling a single chronology — thread attribution is an <em>added</em> reasoning step, not
+          just more events to sort.</p>
+      </div>
+      <div class="rq-card">
+        <span class="tag">RQ2 · H2</span>
+        <p>Some of a model's apparent temporal skill is memorized world-knowledge, not text-grounded
+          reasoning — measured as the score gap between an original passage and a structurally
+          identical counterfactual twin.</p>
+      </div>
+      <div class="rq-card">
+        <span class="tag">RQ3 · H3</span>
+        <p>A graph-mediated pipeline — extract, repair, verify, sort — degrades more gracefully than
+          one-shot direct prompting, because it turns one opaque global-order guess into several
+          checkable steps.</p>
+      </div>
+      <div class="rq-card">
+        <span class="tag">H3a · diagnostic</span>
+        <p>The pipeline's remaining failures should localize to specific stages rather than spread
+          evenly — this is the payoff of decomposing the task at all.</p>
+      </div>
+    </div>
+    <div class="callout gold">
+      <p><strong>Already partly falsified at pilot scale:</strong> thread attribution is ≈1.000 across
+        every pilot story — not a bottleneck. The dominant failure is <strong>convergence-point
+        detection</strong> (recognizing that two threads reach the same moment), which the harmonic-mean
+        AWT-F1 metric zeroes out whenever it fails. H3a's stage prediction was wrong in the specific
+        stage it named; the diagnostic story reframes around convergence detection instead.</p>
+    </div>
+  </section>
+
+  <section id="method">
+    <div class="section-head">
+      <h2>Method, frozen</h2>
+    </div>
+    <p class="lede">Per the <code>PLAN_AND_STATUS.md</code> §3.5 decision already on record: prompt and
+      stage design stopped iterating after v3, with sign-off. What follows is reported as the fixed
+      method for the N=20 run — bug fixes only, no further redesign.</p>
+
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 860 300" width="860" height="300" role="img" aria-label="Two competing methods, one shared scoring metric">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="var(--line-strong)" />
+          </marker>
+        </defs>
+        <style>
+          .box { fill: var(--paper-raised); stroke: var(--line-strong); stroke-width: 1; }
+          .box.accent { fill: var(--accent-tint); stroke: var(--accent); }
+          .box.gold { fill: var(--gold-tint); stroke: var(--gold); }
+          .lbl { font-family: 'IBM Plex Sans', sans-serif; font-size: 13px; fill: var(--ink); }
+          .lbl-small { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; fill: var(--muted); }
+          .lbl-title { font-family: 'IBM Plex Sans', sans-serif; font-size: 12.5px; font-weight: 600; fill: var(--ink); }
+          .edge { stroke: var(--line-strong); stroke-width: 1.4; fill: none; marker-end: url(#arrow); }
+        </style>
+
+        <rect x="10" y="120" width="90" height="56" rx="5" class="box accent" />
+        <text x="55" y="144" text-anchor="middle" class="lbl-title">Story</text>
+        <text x="55" y="161" text-anchor="middle" class="lbl-small">shuffled /</text>
+        <text x="55" y="173" text-anchor="middle" class="lbl-small">CF variant</text>
+
+        <path d="M100,138 C130,110 150,90 175,78" class="edge" />
+        <path d="M100,158 C130,186 150,206 175,218" class="edge" />
+
+        <rect x="176" y="42" width="150" height="56" rx="5" class="box" />
+        <text x="251" y="66" text-anchor="middle" class="lbl-title">Direct baseline</text>
+        <text x="251" y="83" text-anchor="middle" class="lbl-small">one-shot global order</text>
+
+        <rect x="176" y="182" width="150" height="96" rx="5" class="box" />
+        <text x="251" y="203" text-anchor="middle" class="lbl-title">Graph pipeline</text>
+        <text x="196" y="222" class="lbl-small">1 · node + thread extract</text>
+        <text x="196" y="236" class="lbl-small">2 · edge extraction</text>
+        <text x="196" y="250" class="lbl-small">3 · PCR (repair, no LLM)</text>
+        <text x="196" y="264" class="lbl-small">4-6 · sort → COC → align</text>
+
+        <path d="M326,70 C400,70 400,140 460,140" class="edge" />
+        <path d="M326,230 C400,230 400,150 460,150" class="edge" />
+
+        <rect x="462" y="98" width="160" height="90" rx="5" class="box gold" />
+        <text x="542" y="122" text-anchor="middle" class="lbl-title">AWT-F1</text>
+        <text x="542" y="140" text-anchor="middle" class="lbl-small">harmonic mean</text>
+        <text x="542" y="160" text-anchor="middle" class="lbl-small">relation · thread · convergence</text>
+        <text x="542" y="176" text-anchor="middle" class="lbl-small">→ 0 if any sub-score fails</text>
+
+        <path d="M622,143 C670,143 670,143 700,143" class="edge" />
+        <rect x="702" y="108" width="148" height="70" rx="5" class="box accent" />
+        <text x="776" y="132" text-anchor="middle" class="lbl-title">Sub-scores reported</text>
+        <text x="776" y="150" text-anchor="middle" class="lbl-small">at every comparison —</text>
+        <text x="776" y="164" text-anchor="middle" class="lbl-small">never headline-only</text>
+      </svg>
+    </div>
+    <p class="diagram-caption">Path-Consistency Repair (PCR) checks Allen-relation transitivity against
+      the composition table and repairs violations deterministically; Convergence-Order Consistency
+      (COC) keeps only the largest mutually order-consistent set of cross-thread candidates. Both run
+      with zero additional LLM calls.</p>
+  </section>
+
+  <section id="findings">
+    <div class="section-head">
+      <h2>What the 5-story pilot already tells us</h2>
+    </div>
+    <p class="lede">Real-model results (Qwen2.5-72B-Instruct via Featherless), the evidence motivating
+      the N=20 scale-up — not re-litigated here, only summarized.</p>
+
+    <div class="finding">
+      <div>
+        <h3>H3 falsified at pilot scale <span class="verdict-chip caution">reported, not hidden</span></h3>
+        <p>The direct baseline's relation score beats the graph pipeline on all 5/5 stories, and its
+          headline AWT-F1 strictly beats the graph pipeline wherever they differ. This is exactly the
+          kind of pre-registered negative result worth reporting as a finding, not a failed run — the
+          scoring is if anything generous to the baseline, since it only ever asserts coarse
+          before/after and still wins.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Story</th><th>Direct AWT-F1</th><th>Graph AWT-F1</th><th>Direct rel.</th><th>Graph rel.</th></tr></thead>
+          <tbody>
+            <tr><td>story_01</td><td class="zero">0.000</td><td class="zero">0.000</td><td>0.873</td><td>0.601</td></tr>
+            <tr><td>story_02</td><td class="hot">0.713</td><td>0.289</td><td>0.871</td><td>0.533</td></tr>
+            <tr><td>story_03</td><td class="zero">0.000</td><td class="zero">0.000</td><td>0.910</td><td>0.641</td></tr>
+            <tr><td>story_04</td><td class="zero">0.000</td><td class="zero">0.000</td><td>0.694</td><td>0.517</td></tr>
+            <tr><td>story_05</td><td class="zero">0.000</td><td class="zero">0.000</td><td>0.642</td><td>0.577</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div>
+        <h3>Convergence detection is the load-bearing failure <span class="verdict-chip caution">bottleneck</span></h3>
+        <p>4 of 5 stories score exactly 0.000 convergence-F1 in the graph pipeline, which zeroes AWT-F1
+          for those stories regardless of relation or thread quality. Thread attribution, by contrast,
+          is ≈1.000 everywhere — solved at this scale. PCR is doing real work on story_04/story_05
+          (73 and 10 repairs respectively) but can't fix a score that convergence recall alone zeroes
+          out. This — not thread attribution — is where H3a's diagnostic story now points.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Story</th><th>Relation</th><th>Thread</th><th>Convergence</th><th>AWT-F1</th></tr></thead>
+          <tbody>
+            <tr><td>story_01</td><td>0.601</td><td>1.000</td><td class="zero">0.000</td><td class="zero">0.000</td></tr>
+            <tr><td>story_02</td><td>0.533</td><td>1.000</td><td>0.133</td><td>0.289</td></tr>
+            <tr><td>story_03</td><td>0.641</td><td>1.000</td><td class="zero">0.000</td><td class="zero">0.000</td></tr>
+            <tr><td>story_04</td><td>0.517</td><td>1.000</td><td class="zero">0.000</td><td class="zero">0.000</td></tr>
+            <tr><td>story_05</td><td>0.577</td><td>1.000</td><td class="zero">0.000</td><td class="zero">0.000</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div>
+        <h3>H2 — suggestive, not confirmed <span class="verdict-chip">sub-score level only</span></h3>
+        <p>Headline memorization gap ≈0 for 4/5 stories reads as "no effect" — that reading is wrong.
+          It's a floor effect: when convergence-F1 is already 0 in both conditions, AWT-F1 is 0 either
+          way regardless of what happens underneath. The sub-scores tell a real story instead:
+          story_04's thread accuracy collapses under the counterfactual condition, and story_05's
+          relation score drops hard. Any H2 analysis in the thesis must be reported at the sub-score
+          level — the headline metric is actively misleading here.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Story</th><th>Δ relation</th><th>Δ thread</th><th>Δ AWT-F1</th></tr></thead>
+          <tbody>
+            <tr><td>story_01</td><td>+0.021</td><td>+0.000</td><td>+0.000</td></tr>
+            <tr><td>story_02</td><td>+0.041</td><td>+0.028</td><td>+0.005</td></tr>
+            <tr><td>story_03</td><td>+0.000</td><td>+0.000</td><td>+0.000</td></tr>
+            <tr><td>story_04</td><td>+0.071</td><td class="hot">+0.956</td><td>+0.000</td></tr>
+            <tr><td>story_05</td><td class="hot">+0.305</td><td>+0.093</td><td>+0.000</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="streams">
+    <div class="section-head">
+      <h2>Three streams, running in parallel</h2>
+    </div>
+    <p class="lede">All three can code Python and web. Names are assigned by the team, not fixed here —
+      all streams converge on results interpretation and defense prep at the end.</p>
+    <div class="streams">
+      <div class="stream-card">
+        <span class="stream-letter">Stream A</span>
+        <h3>Pipeline &amp; statistics</h3>
+        <ul>
+          <li>Bug fixes only on the graph pipeline — no stage redesign</li>
+          <li><code>generate_linear_predictions.py</code></li>
+          <li>Groq / <code>openai/gpt-oss-120b</code> secondary-model switch on existing generation scripts</li>
+          <li><code>scripts/statistical_analysis.py</code> — Wilcoxon + bootstrap CI via <code>metrics/significance.py</code></li>
+        </ul>
+      </div>
+      <div class="stream-card">
+        <span class="stream-letter">Stream B</span>
+        <h3>Dataset &amp; execution</h3>
+        <ul>
+          <li>Hybrid-author 15 new stories: outline → LLM draft → human gold-review</li>
+          <li><code>split_stories.py</code> / <code>check_coverage.py</code> per batch</li>
+          <li>Run all generation scripts across the full N=20 set, both models</li>
+        </ul>
+      </div>
+      <div class="stream-card">
+        <span class="stream-letter">Stream C</span>
+        <h3>Web demo &amp; writing</h3>
+        <ul>
+          <li>Finish the functional web pass (direct-baseline view, done this session)</li>
+          <li>Deferred visual/motion polish pass once results exist</li>
+          <li>Assemble thesis chapters from <code>PLAN_AND_STATUS.md</code> / <code>paper_draft.md</code> / <code>related_work.md</code></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="timeline">
+    <div class="section-head">
+      <h2>Sixteen weeks, 2026-09-04 → defense</h2>
+    </div>
+    <p class="lede">A schedule skeleton, adjustable once the team assigns names to streams and confirms
+      the real defense date. Each bar spans the weeks that phase runs.</p>
+
+    <div class="gantt">
+      <div class="gantt-inner">
+        <div class="timeline-scale">
+          <span>Week</span>
+          <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span>
+          <span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span>
+          <span>13</span><span>14</span><span>15</span><span>16</span>
+        </div>
+
+        <div class="gantt-row">
+          <div class="gantt-label">Stream A</div>
+          <div class="gantt-track">
+            <div class="gantt-cell"></div>
+            <div class="gantt-cell" style="grid-column: 2 / 6;"><div class="gantt-bar support">build linear + Groq scripts</div></div>
+            <div class="gantt-cell" style="grid-column: 6 / 10;"><div class="gantt-bar primary">run N=20 generation, both models</div></div>
+            <div class="gantt-cell" style="grid-column: 10 / 11;"><div class="gantt-bar primary">stats</div></div>
+            <div class="gantt-cell" style="grid-column: 11 / 14;"><div class="gantt-bar support">update results chapters</div></div>
+            <div class="gantt-cell" style="grid-column: 14 / 16;"></div>
+            <div class="gantt-cell" style="grid-column: 16 / 17;"></div>
+          </div>
+        </div>
+
+        <div class="gantt-row">
+          <div class="gantt-label">Stream B</div>
+          <div class="gantt-track">
+            <div class="gantt-cell" style="grid-column: 1 / 3;"><div class="gantt-bar support">outline 15 stories</div></div>
+            <div class="gantt-cell" style="grid-column: 3 / 7;"><div class="gantt-bar primary">hybrid-author + gold-review, batched</div></div>
+            <div class="gantt-cell" style="grid-column: 7 / 10;"><div class="gantt-bar support">support N=20 runs</div></div>
+            <div class="gantt-cell" style="grid-column: 10 / 14;"><div class="gantt-bar support">writing</div></div>
+            <div class="gantt-cell" style="grid-column: 14 / 16;"></div>
+            <div class="gantt-cell" style="grid-column: 16 / 17;"></div>
+          </div>
+        </div>
+
+        <div class="gantt-row">
+          <div class="gantt-label">Stream C</div>
+          <div class="gantt-track">
+            <div class="gantt-cell" style="grid-column: 1 / 3;"><div class="gantt-bar primary">web functional pass</div></div>
+            <div class="gantt-cell" style="grid-column: 3 / 10;"><div class="gantt-bar primary">deferred visual/motion polish</div></div>
+            <div class="gantt-cell" style="grid-column: 10 / 14;"><div class="gantt-bar primary">finalize demo + assemble chapters</div></div>
+            <div class="gantt-cell" style="grid-column: 14 / 16;"></div>
+            <div class="gantt-cell" style="grid-column: 16 / 17;"></div>
+          </div>
+        </div>
+
+        <div class="gantt-row">
+          <div class="gantt-label">All streams</div>
+          <div class="gantt-track">
+            <div class="gantt-cell" style="grid-column: 14 / 16;"><div class="gantt-bar milestone">full draft · internal review</div></div>
+            <div class="gantt-cell" style="grid-column: 16 / 17;"><div class="gantt-bar milestone">defense prep</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="legend">
+      <span><i style="background: var(--accent-tint-strong);"></i>primary focus</span>
+      <span><i style="background: var(--accent-tint);"></i>supporting</span>
+      <span><i style="background: var(--gold-tint);"></i>shared checkpoint</span>
+    </div>
+  </section>
+
+  <section id="risks">
+    <div class="section-head">
+      <h2>Risks, honestly stated</h2>
+    </div>
+    <div class="risk-list">
+      <div class="risk">
+        <div class="risk-kind">Technical</div>
+        <p>Convergence detection may be a genuine model-capability ceiling — repair and verification
+          stages can only work with <em>some</em> correct signal from the model, and there's nothing
+          to verify if raw recall stays near zero. Untried mitigation: check whether a stronger/frontier
+          model has materially better raw convergence recall before concluding this is a hard limit.</p>
+      </div>
+      <div class="risk">
+        <div class="risk-kind">Metric design</div>
+        <p>AWT-F1's harmonic mean produces a floor effect that masks real sub-score gaps whenever one
+          dimension is already 0 in both conditions being compared. Every H2 analysis in the thesis
+          reports sub-scores explicitly — the headline metric alone is misleading for that comparison.</p>
+      </div>
+      <div class="risk">
+        <div class="risk-kind">Schedule</div>
+        <p>Authoring 15 new stories under human gold-review is real work, not a quick follow-up — the
+          batched authoring + <code>check_coverage.py</code> validation in weeks 2-6 is the pacing
+          bottleneck most likely to slip. If N=20 clearly won't be reached, the fallback is to scope
+          down honestly and report the N actually achieved — not to silently treat it as the plan.</p>
+      </div>
+      <div class="risk">
+        <div class="risk-kind">Scope</div>
+        <p>Three people over four months is real slack compared to the original solo timeline, but it
+          still doesn't fund a human baseline (no budget or IRB-style infrastructure exists here) — that
+          stays explicit future work, independent of team size.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="open">
+    <div class="section-head">
+      <h2>Open questions</h2>
+    </div>
+    <p class="lede">Not blocking this plan, but unresolved as of 2026-09-04.</p>
+    <div class="oq-list">
+      <div class="oq"><span class="q-mark">?</span><p>Exact defense date — the ~16-week schedule above is anchored only to the 2026-09-04 start.</p></div>
+      <div class="oq"><span class="q-mark">?</span><p>Department formatting requirements and advisor review checkpoints — a file named <code>Implementation plan.sty</code> was checked this session; it turned out to be an unrelated prior engineering plan, not the department's thesis template. The actual formatting template is still unopened.</p></div>
+      <div class="oq"><span class="q-mark">?</span><p>Which of the three team members takes which stream — left to the team, not fixed by this document.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <span>PLAN_AND_STATUS.md §1 / §5 / §6 — source of record</span>
+    <span>Published 2026-09-05</span>
+  </footer>
+
+</div>
+</body>
+</html>
