@@ -65,6 +65,47 @@ class InferenceEngine:
 
         return new_edges
 
+    def infer_transitivity(self, graph: TemporalGraph) -> List[TemporalEdge]:
+        """
+        Derive composed transitive relations across paths (u -> v -> w).
+        e.g. A BEFORE B and B BEFORE C => A BEFORE C.
+        """
+        new_edges: List[TemporalEdge] = []
+        all_edges = graph.get_all_edges()
+
+        # Group edges by source and target
+        outgoing: Dict[str, List[TemporalEdge]] = {}
+        for edge in all_edges:
+            outgoing.setdefault(edge.source_id, []).append(edge)
+
+        for edge1 in all_edges:
+            u = edge1.source_id
+            v = edge1.target_id
+            r1 = edge1.relation
+
+            for edge2 in outgoing.get(v, []):
+                w = edge2.target_id
+                r2 = edge2.relation
+                if u == w:
+                    continue
+
+                composed_set = compose_relations(r1, r2)
+                if len(composed_set) == 1:
+                    r3 = next(iter(composed_set))
+                    existing = graph.get_relations_between(u, w)
+                    if r3 not in existing:
+                        inferred = graph.add_relation(
+                            source=u,
+                            target=w,
+                            relation=r3,
+                            is_inferred=True,
+                            confidence=min(edge1.confidence, edge2.confidence),
+                            provenance=f"Transitivity: ({u} {r1.value} {v}) and ({v} {r2.value} {w})",
+                        )
+                        new_edges.append(inferred)
+
+        return new_edges
+
     def step(self, graph: TemporalGraph) -> List[TemporalEdge]:
         """Execute a single round of inference rules."""
         inferred_this_step: List[TemporalEdge] = []
@@ -72,6 +113,10 @@ class InferenceEngine:
         if self.enable_inverse:
             inv_edges = self.infer_inverses(graph)
             inferred_this_step.extend(inv_edges)
+
+        if self.enable_transitivity:
+            trans_edges = self.infer_transitivity(graph)
+            inferred_this_step.extend(trans_edges)
 
         return inferred_this_step
 

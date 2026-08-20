@@ -32,3 +32,33 @@ def test_inverse_during_contains():
     engine.run(graph)
 
     assert graph.get_relation(e2, e1) == TemporalRelation.CONTAINS
+
+
+def test_transitivity_before_chain():
+    # Alice BEFORE Bob, Bob BEFORE Charlie => Alice BEFORE Charlie, Charlie AFTER Alice
+    graph = TemporalGraph()
+    e1 = Event(event_id="E1", description="Alice")
+    e2 = Event(event_id="E2", description="Bob")
+    e3 = Event(event_id="E3", description="Charlie")
+
+    graph.add_relation(e1, e2, TemporalRelation.BEFORE)
+    graph.add_relation(e2, e3, TemporalRelation.BEFORE)
+
+    engine = InferenceEngine(enable_inverse=True, enable_transitivity=True)
+    res = engine.run(graph)
+
+    assert graph.get_relation("E1", "E3") == TemporalRelation.BEFORE
+    assert graph.get_relation("E3", "E1") == TemporalRelation.AFTER
+
+
+def test_transitivity_with_equality():
+    # A EQUAL B, B BEFORE C => A BEFORE C
+    graph = TemporalGraph()
+    graph.add_relation("A", "B", TemporalRelation.EQUAL)
+    graph.add_relation("B", "C", TemporalRelation.BEFORE)
+
+    engine = InferenceEngine(enable_inverse=True, enable_transitivity=True)
+    engine.run(graph)
+
+    assert graph.get_relation("A", "C") == TemporalRelation.BEFORE
+
