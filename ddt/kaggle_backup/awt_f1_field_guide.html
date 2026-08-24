@@ -1,0 +1,739 @@
+<title>AWT-F1 Field Guide</title>
+<style>
+  :root {
+    --ink: #171b26;
+    --ink-soft: #454b5c;
+    --paper: #f3f4f7;
+    --paper-raised: #ffffff;
+    --rule: #d8dbe3;
+    --rule-strong: #b7bccb;
+    --accent-gold: #8a5f16;
+    --accent-gold-bg: #f4e9d3;
+    --accent-pred: #2f5fa8;
+    --accent-pred-bg: #dfe7f6;
+    --accent-repair: #0d7d6e;
+    --accent-repair-bg: #d9efec;
+    --accent-bad: #a5372f;
+    --accent-bad-bg: #f6e0dd;
+    --focus: #2f5fa8;
+    --font-display: 'Fraunces', 'Source Serif 4', Georgia, serif;
+    --font-body: 'IBM Plex Sans', -apple-system, Segoe UI, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #e7e8ee;
+      --ink-soft: #b6bacb;
+      --paper: #14161d;
+      --paper-raised: #1c1f29;
+      --rule: #333749;
+      --rule-strong: #464c66;
+      --accent-gold: #d9a94f;
+      --accent-gold-bg: #362c17;
+      --accent-pred: #7fa4e0;
+      --accent-pred-bg: #1c2c47;
+      --accent-repair: #4fcab8;
+      --accent-repair-bg: #10322d;
+      --accent-bad: #e3897f;
+      --accent-bad-bg: #3a1e1b;
+      --focus: #7fa4e0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #e7e8ee;
+    --ink-soft: #b6bacb;
+    --paper: #14161d;
+    --paper-raised: #1c1f29;
+    --rule: #333749;
+    --rule-strong: #464c66;
+    --accent-gold: #d9a94f;
+    --accent-gold-bg: #362c17;
+    --accent-pred: #7fa4e0;
+    --accent-pred-bg: #1c2c47;
+    --accent-repair: #4fcab8;
+    --accent-repair-bg: #10322d;
+    --accent-bad: #e3897f;
+    --accent-bad-bg: #3a1e1b;
+    --focus: #7fa4e0;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--accent-pred-bg); color: var(--ink); }
+  a { color: var(--accent-pred); }
+  a:focus-visible, button:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--focus); outline-offset: 2px;
+  }
+
+  .page {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 56px 28px 120px;
+  }
+
+  header.masthead {
+    border-bottom: 3px solid var(--ink);
+    padding-bottom: 28px;
+    margin-bottom: 8px;
+  }
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 14px;
+  }
+  h1.title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(2rem, 1.6rem + 1.6vw, 2.9rem);
+    line-height: 1.08;
+    margin: 0 0 14px;
+    text-wrap: balance;
+  }
+  .subtitle {
+    font-size: 1.08rem;
+    color: var(--ink-soft);
+    max-width: 60ch;
+    margin: 0 0 20px;
+  }
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+  }
+  .meta-row strong { color: var(--ink); font-weight: 600; }
+
+  .provenance {
+    margin-top: 20px;
+    padding: 14px 16px;
+    background: var(--accent-gold-bg);
+    border: 1px solid var(--rule-strong);
+    border-left: 3px solid var(--accent-gold);
+    border-radius: 3px;
+    font-size: 13.5px;
+    color: var(--ink-soft);
+  }
+  .provenance strong { color: var(--ink); }
+
+  nav.toc {
+    margin: 40px 0 48px;
+    padding: 20px 24px;
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+  }
+  nav.toc .toc-label {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 10px;
+  }
+  nav.toc ol { margin: 0; padding-left: 1.3em; columns: 2; column-gap: 28px; }
+  nav.toc li { margin-bottom: 6px; break-inside: avoid; font-size: 14.5px; }
+  nav.toc a { text-decoration: none; color: var(--ink); }
+  nav.toc a:hover { color: var(--accent-pred); text-decoration: underline; }
+  @media (max-width: 560px) { nav.toc ol { columns: 1; } }
+
+  section { margin: 56px 0; }
+  section > h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.65rem;
+    border-bottom: 2px solid var(--rule-strong);
+    padding-bottom: 10px;
+    margin: 0 0 20px;
+    text-wrap: balance;
+    scroll-margin-top: 20px;
+  }
+  .sec-num { font-family: var(--font-mono); color: var(--ink-soft); font-weight: 400; margin-right: 10px; }
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 32px 0 12px;
+    scroll-margin-top: 20px;
+  }
+  h4 {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin: 22px 0 8px;
+    color: var(--ink);
+  }
+  p { max-width: 72ch; }
+  p.lead { font-size: 1.05rem; color: var(--ink-soft); }
+  .max-prose { max-width: 72ch; }
+
+  code, .formula-inline {
+    font-family: var(--font-mono);
+    font-size: 0.92em;
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0.05em 0.4em;
+  }
+
+  .formula-block {
+    font-family: var(--font-mono);
+    font-size: 14.5px;
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent-pred);
+    border-radius: 4px;
+    padding: 16px 20px;
+    margin: 14px 0 18px;
+    overflow-x: auto;
+    line-height: 1.65;
+    white-space: pre;
+  }
+  .formula-block .comment { color: var(--ink-soft); }
+
+  .callout {
+    border: 1px solid var(--rule-strong);
+    border-left: 3px solid var(--accent-repair);
+    background: var(--accent-repair-bg);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin: 18px 0;
+    font-size: 14.5px;
+  }
+  .callout.warn { border-left-color: var(--accent-bad); background: var(--accent-bad-bg); }
+  .callout.open { border-left-color: var(--accent-gold); background: var(--accent-gold-bg); }
+  .callout h4 { margin-top: 0; }
+
+  .ref-tag {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    color: var(--ink-soft);
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 1px 9px;
+    margin-left: 6px;
+    white-space: nowrap;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.8px;
+    background: var(--paper-raised);
+  }
+  caption {
+    text-align: left;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    margin-bottom: 6px;
+    font-family: var(--font-mono);
+  }
+  th, td {
+    text-align: left;
+    padding: 7px 10px;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    border-bottom: 1.5px solid var(--rule-strong);
+  }
+  td.num, th.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; text-align: right; }
+  .table-wrap { overflow-x: auto; margin: 12px 0 20px; border: 1px solid var(--rule); border-radius: 4px; }
+  .table-wrap table { border: none; }
+  .table-wrap .table-wrap { border: none; }
+
+  .score-1 { color: var(--accent-repair); font-weight: 600; }
+  .score-mid { color: var(--accent-gold); font-weight: 600; }
+  .score-0 { color: var(--accent-bad); font-weight: 600; }
+
+  .tag {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 1px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.02em;
+  }
+  .tag-gold { background: var(--accent-gold-bg); color: var(--accent-gold); }
+  .tag-pred { background: var(--accent-pred-bg); color: var(--accent-pred); }
+  .tag-repair { background: var(--accent-repair-bg); color: var(--accent-repair); }
+
+  .passage-list {
+    list-style: none;
+    margin: 12px 0 20px;
+    padding: 0;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .passage-list li {
+    display: grid;
+    grid-template-columns: 46px 92px 1fr;
+    gap: 12px;
+    padding: 7px 12px;
+    border-bottom: 1px solid var(--rule);
+    font-size: 13.6px;
+    align-items: baseline;
+  }
+  .passage-list li:last-child { border-bottom: none; }
+  .passage-list li:nth-child(odd) { background: color-mix(in srgb, var(--paper-raised) 92%, var(--ink) 3%); }
+  .passage-list .pid { font-family: var(--font-mono); color: var(--ink-soft); }
+  .passage-list .pthread { font-family: var(--font-mono); font-size: 11.5px; }
+
+  figure { margin: 20px 0; }
+  figure svg { max-width: 100%; height: auto; display: block; }
+  figcaption {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-top: 10px;
+    max-width: 68ch;
+  }
+
+  .stage-fill { fill: var(--accent-pred-bg); stroke: var(--accent-pred); }
+  .stage-outline { fill: var(--paper-raised); stroke: var(--ink-soft); }
+  .stage-repair { fill: var(--accent-repair-bg); stroke: var(--accent-repair); }
+  .diagram-text { fill: var(--ink); font-family: var(--font-body); }
+  .diagram-label { fill: var(--ink-soft); font-family: var(--font-mono); }
+  .diagram-arrow { stroke: var(--ink-soft); fill: none; }
+
+  .metric-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 18px 0 24px;
+  }
+  @media (max-width: 640px) { .metric-grid { grid-template-columns: 1fr; } }
+  .metric-tile {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 14px 16px;
+    background: var(--paper-raised);
+  }
+  .metric-tile .mt-label { font-family: var(--font-mono); font-size: 11px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.04em; }
+  .metric-tile .mt-value { font-family: var(--font-mono); font-size: 1.7rem; font-weight: 600; margin: 4px 0; font-variant-numeric: tabular-nums; }
+  .metric-tile .mt-sub { font-size: 12px; color: var(--ink-soft); }
+
+  ol.step-list { padding-left: 1.3em; }
+  ol.step-list li { margin-bottom: 10px; }
+
+  .refs { list-style: none; padding: 0; margin: 0; }
+  .refs li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 13.8px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 14px;
+  }
+  .refs li:last-child { border-bottom: none; }
+  .refs .ref-id { font-family: var(--font-mono); color: var(--ink-soft); font-size: 12px; }
+  @media (max-width: 560px) { .refs li { grid-template-columns: 1fr; } .refs .ref-id { order: 2; } }
+
+  footer.doc-footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    font-family: var(--font-mono);
+  }
+
+  @media print {
+    body { background: #fff; }
+    nav.toc { break-inside: avoid; }
+    section { break-inside: avoid-page; margin: 32px 0; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Methodology &amp; metric reference — nonlinear narrative temporal reasoning</p>
+    <h1 class="title">AWT-F1 Field Guide</h1>
+    <p class="subtitle">How the graph pipeline works, how AWT-F1 scores it against a gold graph, a fully worked example from a real pilot story, and an honest answer to whether the pipeline closes the gap it measures.</p>
+    <div class="meta-row">
+      <span><strong>Generated</strong> 2026-09-11</span>
+      <span><strong>Pilot set</strong> 5 hand-authored stories</span>
+      <span><strong>Worked example</strong> story_02, "The Falling House"</span>
+      <span><strong>Source</strong> metrics/awt_f1.py, metrics/allen_relations.py, pipeline/*.py</span>
+    </div>
+    <div class="provenance">
+      <strong>Data provenance note.</strong> The worked numbers in §4 come from a real, unmodified run of this project's pipeline (Qwen2.5-72B-Instruct, temperature 0) against the post-remediation "original" variant of story_02, exactly as saved in <code>web/src/data/predictions/story_02.json</code> this session — nothing here is illustrative or invented. Two other pilot stories are mid-regeneration on a different model at the time of writing (see the project's own status document); this guide does not depend on those numbers.
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Table of contents">
+    <div class="toc-label">Contents</div>
+    <ol>
+      <li><a href="#framing">Research framing</a></li>
+      <li><a href="#pipeline">Methodology: two pipelines</a></li>
+      <li><a href="#metric">The metric: AWT-F1</a></li>
+      <li><a href="#example">Worked example: The Falling House</a></li>
+      <li><a href="#gap">Does the pipeline close the gap?</a></li>
+      <li><a href="#refs">References</a></li>
+    </ol>
+  </nav>
+
+  <section id="framing">
+    <h2><span class="sec-num">1</span>Research framing</h2>
+    <p class="max-prose">When a narrative is genuinely nonlinear — several interleaved threads, flashback framing, events that converge across threads at a shared moment — how much of a language model's apparent temporal reasoning survives, how much of it is memorized world-knowledge rather than text-grounded inference, and does decomposing the task into an explicit, checkable graph pipeline recover some of that gap <em>and</em> reveal exactly where reasoning breaks down?</p>
+    <p class="max-prose">Two methods are compared head to head on the same passages: a one-shot <strong>direct baseline</strong> (ask the model for the whole timeline in one call) and a <strong>graph pipeline</strong> that decomposes the task into extraction, deterministic repair, and deterministic verification stages. Both are scored by the same metric, described in §3, so the comparison is apples-to-apples.</p>
+  </section>
+
+  <section id="pipeline">
+    <h2><span class="sec-num">2</span>Methodology: two pipelines</h2>
+    <p class="max-prose">Both methods start from the same input: a passage of numbered sentences whose <em>surface order is scrambled</em> relative to the true, multi-thread chronology — the model never sees the gold ordering, only prose. Node ids are the sentence numbers (<code>s1</code>…<code>s36</code>), so predicted and gold nodes correspond by construction (see §3's scope note).</p>
+
+    <figure>
+      <svg viewBox="0 0 960 500" role="img" aria-label="Diagram comparing the direct-baseline pipeline (one LLM call, then deterministic edge derivation) against the graph pipeline (two LLM calls feeding three deterministic repair and verification stages: Path-Consistency Repair, per-thread topological sort, and Convergence-Order Consistency) before both are scored by the same AWT-F1 function.">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="currentColor" class="diagram-arrow" style="stroke:none;"></path>
+          </marker>
+        </defs>
+
+        <!-- shared input -->
+        <rect x="360" y="8" width="240" height="46" rx="4" class="stage-outline"></rect>
+        <text x="480" y="27" text-anchor="middle" class="diagram-text" font-size="12.5" font-weight="600">Shuffled passage</text>
+        <text x="480" y="42" text-anchor="middle" class="diagram-label" font-size="11">36 sentences, ids s1..s36</text>
+
+        <line x1="430" y1="54" x2="200" y2="96" class="diagram-arrow" stroke-width="1.4" marker-end="url(#arrow)"></line>
+        <line x1="540" y1="54" x2="200" y2="201" class="diagram-arrow" stroke-width="1.4" marker-end="url(#arrow)"></line>
+
+        <!-- Lane A: direct baseline -->
+        <text x="40" y="88" class="diagram-label" font-size="12" font-weight="600">DIRECT BASELINE — 1 LLM call</text>
+
+        <rect x="40" y="98" width="270" height="62" rx="4" class="stage-fill"></rect>
+        <text x="175" y="123" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">LLM (1 call)</text>
+        <text x="175" y="139" text-anchor="middle" class="diagram-label" font-size="10.5">thread labels + full global</text>
+        <text x="175" y="151" text-anchor="middle" class="diagram-label" font-size="10.5">order + convergence pairs</text>
+
+        <line x1="310" y1="129" x2="340" y2="129" class="diagram-arrow" stroke-width="1.4" marker-end="url(#arrow)"></line>
+
+        <rect x="340" y="98" width="270" height="62" rx="4" class="stage-outline"></rect>
+        <text x="475" y="123" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">Derive edges</text>
+        <text x="475" y="139" text-anchor="middle" class="diagram-label" font-size="10.5">before/after only, from</text>
+        <text x="475" y="151" text-anchor="middle" class="diagram-label" font-size="10.5">relative order (deterministic)</text>
+
+        <line x1="610" y1="129" x2="640" y2="129" class="diagram-arrow" stroke-width="1.4" marker-end="url(#arrow)"></line>
+
+        <rect x="640" y="98" width="270" height="62" rx="4" class="stage-outline"></rect>
+        <text x="775" y="129" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">Scored by AWT-F1</text>
+        <text x="775" y="146" text-anchor="middle" class="diagram-label" font-size="10.5">vs. the gold graph (§3)</text>
+
+        <!-- Lane B: graph pipeline -->
+        <text x="40" y="193" class="diagram-label" font-size="12" font-weight="600">GRAPH PIPELINE — 2 LLM calls + 3 deterministic stages</text>
+
+        <rect x="40" y="203" width="270" height="62" rx="4" class="stage-fill"></rect>
+        <text x="175" y="228" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">LLM: node extraction</text>
+        <text x="175" y="244" text-anchor="middle" class="diagram-label" font-size="10.5">events + thread_id</text>
+        <text x="175" y="256" text-anchor="middle" class="diagram-label" font-size="10.5">per sentence</text>
+
+        <line x1="310" y1="234" x2="340" y2="234" class="diagram-arrow" stroke-width="1.4" marker-end="url(#arrow)"></line>
+
+        <rect x="340" y="203" width="270" height="62" rx="4" class="stage-fill"></rect>
+        <text x="475" y="228" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">LLM: edge extraction</text>
+        <text x="475" y="244" text-anchor="middle" class="diagram-label" font-size="10.5">Allen relations + candidate</text>
+        <text x="475" y="256" text-anchor="middle" class="diagram-label" font-size="10.5">convergence groups</text>
+
+        <line x1="610" y1="234" x2="640" y2="234" class="diagram-arrow" stroke-width="1.4" marker-end="url(#arrow)"></line>
+
+        <rect x="640" y="203" width="270" height="62" rx="4" class="stage-repair"></rect>
+        <text x="775" y="228" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">PCR: repair</text>
+        <text x="775" y="244" text-anchor="middle" class="diagram-label" font-size="10.5">transitivity violations</text>
+        <text x="775" y="256" text-anchor="middle" class="diagram-label" font-size="10.5">(deterministic)</text>
+
+        <polyline points="775,265 775,282 175,282 175,298" class="diagram-arrow" stroke-width="1.4" fill="none" marker-end="url(#arrow)"></polyline>
+
+        <rect x="40" y="300" width="270" height="62" rx="4" class="stage-outline"></rect>
+        <text x="175" y="325" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">Per-thread sort</text>
+        <text x="175" y="341" text-anchor="middle" class="diagram-label" font-size="10.5">topological order</text>
+        <text x="175" y="353" text-anchor="middle" class="diagram-label" font-size="10.5">(deterministic)</text>
+
+        <line x1="310" y1="331" x2="340" y2="331" class="diagram-arrow" stroke-width="1.4" marker-end="url(#arrow)"></line>
+
+        <rect x="340" y="300" width="270" height="62" rx="4" class="stage-repair"></rect>
+        <text x="475" y="325" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">COC: verify</text>
+        <text x="475" y="341" text-anchor="middle" class="diagram-label" font-size="10.5">convergence order-</text>
+        <text x="475" y="353" text-anchor="middle" class="diagram-label" font-size="10.5">consistency (deterministic)</text>
+
+        <line x1="610" y1="331" x2="640" y2="331" class="diagram-arrow" stroke-width="1.4" marker-end="url(#arrow)"></line>
+
+        <rect x="640" y="300" width="270" height="62" rx="4" class="stage-outline"></rect>
+        <text x="775" y="325" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">Cross-thread align</text>
+        <text x="775" y="341" text-anchor="middle" class="diagram-label" font-size="10.5">final global order</text>
+        <text x="775" y="353" text-anchor="middle" class="diagram-label" font-size="10.5">(deterministic)</text>
+
+        <line x1="775" y1="362" x2="775" y2="398" class="diagram-arrow" stroke-width="1.4" marker-end="url(#arrow)"></line>
+
+        <rect x="640" y="400" width="270" height="56" rx="4" class="stage-outline"></rect>
+        <text x="775" y="424" text-anchor="middle" class="diagram-text" font-size="12" font-weight="600">Scored by AWT-F1</text>
+        <text x="775" y="441" text-anchor="middle" class="diagram-label" font-size="10.5">vs. the gold graph (§3)</text>
+
+        <!-- legend -->
+        <rect x="40" y="468" width="16" height="14" class="stage-fill"></rect>
+        <text x="62" y="479" class="diagram-label" font-size="11">LLM call (non-deterministic)</text>
+        <rect x="280" y="468" width="16" height="14" class="stage-repair"></rect>
+        <text x="302" y="479" class="diagram-label" font-size="11">deterministic repair/verify stage</text>
+        <rect x="580" y="468" width="16" height="14" class="stage-outline"></rect>
+        <text x="602" y="479" class="diagram-label" font-size="11">deterministic, no repair logic</text>
+      </svg>
+      <figcaption>Fig. 1 — Both methods score the same passage with the same AWT-F1 function. The direct baseline spends one LLM call and no repair logic; the graph pipeline spends two LLM calls (extraction only) and three zero-LLM deterministic stages (PCR, per-thread sort, COC) between extraction and scoring.</figcaption>
+    </figure>
+
+    <h3>Stage-by-stage</h3>
+    <ol class="step-list">
+      <li><strong>Node extraction</strong> <span class="tag tag-pred">LLM</span> — for each sentence, the model outputs its id and a short thread label (its own invented string, e.g. <code>"Inspector"</code> — it never sees gold's label <code>"P"</code>).</li>
+      <li><strong>Edge extraction</strong> <span class="tag tag-pred">LLM</span> — the model proposes Allen-relation edges between node pairs it judges related, plus <em>candidate convergence groups</em>: sets of node ids (across threads) it believes describe the same moment, each grounded in a quoted shared textual detail.</li>
+      <li><strong>Path-Consistency Repair (PCR)</strong> <span class="tag tag-repair">deterministic</span> — for every same-thread triangle of predicted edges, checks Allen's composition table (<code>metrics/allen_composition.py</code>) for transitivity violations. If ≥2 independent witness paths agree on a fix, repairs the edge to the relation closest (by conceptual-neighborhood distance) to the model's original guess. If evidence is too thin or contradictory, logs the conflict and leaves the edge unchanged rather than guessing.</li>
+      <li><strong>Per-thread topological sort</strong> <span class="tag tag-repair">deterministic</span> — Kahn's algorithm orders each thread's own events using only that thread's precedence-implying edges.</li>
+      <li><strong>Convergence-Order Consistency (COC)</strong> <span class="tag tag-repair">deterministic</span> — takes every surviving cross-thread convergence candidate, converts it to a point <code>(position in thread A, position in thread B)</code> using the orders stage 4 just computed for free, and keeps only the largest mutually order-consistent subset per thread pair via longest-increasing-subsequence (patience sorting).</li>
+      <li><strong>Cross-thread alignment</strong> <span class="tag tag-repair">deterministic</span> — merges the per-thread orders at COC's verified convergence anchors into one final global order.</li>
+    </ol>
+  </section>
+
+  <section id="metric">
+    <h2><span class="sec-num">3</span>The metric: AWT-F1</h2>
+    <p class="max-prose">Plain Exact Match collapses toward zero on long sequences even when a model is nearly right; Kendall's tau / pairwise ordering accuracy only ever asks "before or after," discarding 11 of Allen's 13 relations and any notion of a near-miss. Neither scores thread attribution or cross-thread convergence detection at all. AWT-F1 is the harmonic mean of three sub-scores built specifically to keep each failure mode visible on its own.</p>
+
+    <h3>3.1 — Relation score (near-miss-aware)</h3>
+    <p class="max-prose">Foundation: Allen's interval algebra <span class="ref-tag">Allen 1983</span> — 13 relations fully determined by the ordering of two intervals' 4 endpoints <code>{s₁,e₁,s₂,e₂}</code>. The distance between two relations is how many of the <strong>6 pairwise endpoint comparisons</strong> disagree, derived directly from each relation's formal definition rather than copied from a hand-drawn diagram — it reproduces the structure of Freksa's conceptual neighborhood graph <span class="ref-tag">Freksa 1992</span> exactly, but is exact and unit-testable.</p>
+    <div class="formula-block"><span class="comment"># metrics/allen_relations.py</span>
+distance(gold, predicted) = |{ (p,q) ∈ 6 endpoint pairs : cmp(p,q) differs }|
+edge_score(gold, predicted) = max(0, 1 − distance / 6)
+
+relation_score(story) = (1/|E_gold|) · Σ edge_score(g_i, p_i)   over every gold edge
+                         (missing predicted edge → scores 0; vacuously 1.0 if E_gold = ∅)</div>
+    <p class="max-prose"><code>before</code> vs <code>meets</code> disagree on exactly 1 of 6 comparisons → score 5/6 ≈ 0.833 (a near-miss). <code>before</code> vs <code>during</code> disagree on more → a lower score, reflecting a structurally different claim about the scene.</p>
+
+    <h3>3.2 — Thread-attribution accuracy</h3>
+    <p class="max-prose">The model can never reproduce gold's exact label string, so accuracy is scored against the <strong>best one-to-one correspondence</strong> between predicted and gold thread-label vocabularies (found by brute-force permutation over a contingency table — thread counts per story are always small, 3–6).</p>
+    <div class="formula-block"><span class="comment"># best_mapping = argmax over permutations π of Σ contingency[gold_i, π(pred_i)]</span>
+thread_attribution_accuracy = (# gold events whose mapped predicted thread = gold thread) / |events_gold|
+                               (a gold event with no matching predicted id counts as wrong)</div>
+
+    <h3>3.3 — Convergence F1</h3>
+    <p class="max-prose">Standard precision/recall/F1 over unordered same-moment node-id pairs.</p>
+    <div class="formula-block">precision = |gold_pairs ∩ pred_pairs| / |pred_pairs|
+recall    = |gold_pairs ∩ pred_pairs| / |gold_pairs|
+F1        = 2·precision·recall / (precision + recall)
+
+both empty → vacuously (1, 1, 1)
+gold empty, prediction non-empty → (0, 0, 0)   <span class="comment"># a hallucinated convergence is a real error</span></div>
+
+    <h3>3.4 — Combining them: harmonic mean, deliberately</h3>
+    <div class="formula-block">AWT-F1 = harmonic_mean(relation_score, thread_attribution_accuracy, convergence_F1)
+        = n / Σ(1/scoreᵢ),   n = 3   — and exactly 0 if any scoreᵢ ≤ 0
+
+memorization_gap = AWT-F1(original) − AWT-F1(counterfactual)   <span class="comment"># per sub-score too</span></div>
+    <p class="max-prose">An arithmetic mean would let a model that's perfect on two dimensions and totally fails the third post a comfortable ~0.6–0.7. Harmonic mean zeroes the headline score instead — this exact design choice is what surfaced this project's central empirical finding (§5): convergence detection failing almost everywhere while the other two dimensions look reasonable, a pattern an arithmetic mean would have buried.</p>
+
+    <div class="callout">
+      <h4>Scope note — node correspondence</h4>
+      <p style="margin-bottom:0" class="max-prose">Predicted and gold nodes are matched by shared sentence-number id (<code>s7</code> means the same sentence on both sides) because this pilot dataset is synthetic with numbered source sentences. This is <em>simpler</em> than CALLMSAE's Hungarian graph-similarity matching <span class="ref-tag">2406.18449</span>, the Set-Aligning Framework's Hausdorff-distance matching <span class="ref-tag">2404.01532</span>, or GEST's graph-matching similarity <span class="ref-tag">2305.12940</span> — those solve the harder problem of aligning freely-generated predicted event text with no guaranteed correspondence to gold. This is a stated scope limitation, not an improvement over them, and would need addressing before AWT-F1 generalizes past a sentence-anchored dataset.</p>
+    </div>
+  </section>
+
+  <section id="example">
+    <h2><span class="sec-num">4</span>Worked example: <em>The Falling House</em></h2>
+    <p class="max-prose"><strong>story_02</strong> — four threads: <span class="tag tag-gold">P</span> Inspector Voss's present-day arson investigation (days), <span class="tag tag-gold">F</span> Elena's night of the fire, told via flashback (minutes), <span class="tag tag-gold">W</span> Mrs. Kade the neighbor's log (days), <span class="tag tag-gold">S</span> Marta, Elena's sister, recalling the same night — a flashback nested inside the flashback (minutes). 36 sentences, 40 gold edges, 2 gold convergence points.</p>
+
+    <h3>4.1 — The full passage, exactly as fed to the model</h3>
+    <p class="max-prose">Sentence numbering is scrambled relative to true chronology on purpose — thread <span class="tag tag-gold">P</span>'s real order, for instance, is s1→s10→s3→s11→s7→s12→s9→s13→s14, not s1→s3→s7→s9…→s14. The model sees only this list, in this order:</p>
+
+    <div class="table-wrap">
+      <ol class="passage-list" style="list-style:none;">
+        <li><span class="pid">s1</span><span class="pthread tag tag-gold">P</span><span>The inspector opens the arson case file on Monday morning.</span></li>
+        <li><span class="pid">s2</span><span class="pthread tag tag-gold">F</span><span>Three nights before the fire, Elena had already hidden a spare key under the mat.</span></li>
+        <li><span class="pid">s3</span><span class="pthread tag tag-gold">P</span><span>On Tuesday, he re-interviews the landlord about the building's history.</span></li>
+        <li><span class="pid">s4</span><span class="pthread tag tag-gold">F</span><span>The next night, Elena let herself in with the hidden key just as the neighbor's dog stopped barking.</span></li>
+        <li><span class="pid">s5</span><span class="pthread tag tag-gold">F</span><span>Elena's flashlight beam vanished from the window the instant the smoke alarm began to blare.</span></li>
+        <li><span class="pid">s6</span><span class="pthread tag tag-gold">W</span><span>That same night, Mrs. Kade had been logging every noise from the house since sundown, and her log entry ends the moment the alarm sounds.</span></li>
+        <li><span class="pid">s7</span><span class="pthread tag tag-gold">P</span><span>By Wednesday, he learns the landlord filed an insurance claim the same week as the fire.</span></li>
+        <li><span class="pid">s8</span><span class="pthread tag tag-gold">W</span><span>Mrs. Kade's full week of notes, spanning Monday through Sunday, entirely contains the single night of the fire.</span></li>
+        <li><span class="pid">s9</span><span class="pthread tag tag-gold">P</span><span>He arrests Elena on Thursday, one day after learning of the claim.</span></li>
+        <li><span class="pid">s10</span><span class="pthread tag tag-gold">P</span><span>That same Monday afternoon, Voss walks the scorched ground floor of the house himself.</span></li>
+        <li><span class="pid">s11</span><span class="pthread tag tag-gold">P</span><span>By Tuesday evening, he has the fire marshal's forensic report open on his desk.</span></li>
+        <li><span class="pid">s12</span><span class="pthread tag tag-gold">P</span><span>Wednesday afternoon, Voss requests a warrant for the landlord's financial records.</span></li>
+        <li><span class="pid">s13</span><span class="pthread tag tag-gold">P</span><span>Thursday afternoon, Voss books Elena into holding after the arrest.</span></li>
+        <li><span class="pid">s14</span><span class="pthread tag tag-gold">P</span><span>By Friday, Voss closes the file, satisfied the timeline finally holds together.</span></li>
+        <li><span class="pid">s15</span><span class="pthread tag tag-gold">F</span><span>Earlier that same night, before letting herself in, Elena had watched the house from across the street.</span></li>
+        <li><span class="pid">s16</span><span class="pthread tag tag-gold">F</span><span>Just inside the door, Elena's flashlight beam swept the dark hallway.</span></li>
+        <li><span class="pid">s17</span><span class="pthread tag tag-gold">F</span><span>Minutes later, in the study, Elena rifled through a drawer of the landlord's old papers.</span></li>
+        <li><span class="pid">s18</span><span class="pthread tag tag-gold">F</span><span>As Elena straightened from the drawer, a curl of smoke reached the ceiling behind her.</span></li>
+        <li><span class="pid">s19</span><span class="pthread tag tag-gold">F</span><span>In the seconds after the alarm, Elena bolted for the back door.</span></li>
+        <li><span class="pid">s20</span><span class="pthread tag tag-gold">F</span><span>By the time she reached the street, sirens were already rising in the distance.</span></li>
+        <li><span class="pid">s21</span><span class="pthread tag tag-gold">S</span><span>At nine that night, Marta had been pacing by the phone, waiting for Elena to call.</span></li>
+        <li><span class="pid">s22</span><span class="pthread tag tag-gold">S</span><span>By twenty past nine, Marta had driven to the street and sat idling in her car a block away.</span></li>
+        <li><span class="pid">s23</span><span class="pthread tag tag-gold">S</span><span>From the car, Marta watched Elena slip through the gate just as the porch light flickered.</span></li>
+        <li><span class="pid">s24</span><span class="pthread tag tag-gold">S</span><span>Minutes later, Marta checked her phone again for a message that never came.</span></li>
+        <li><span class="pid">s25</span><span class="pthread tag tag-gold">S</span><span>The instant the alarm's wail reached the car, Marta's stomach dropped.</span></li>
+        <li><span class="pid">s26</span><span class="pthread tag tag-gold">S</span><span>Moments after, Marta saw the first flashing lights before Elena reappeared at the corner.</span></li>
+        <li><span class="pid">s27</span><span class="pthread tag tag-gold">S</span><span>She pulled the car around to the back street to meet her.</span></li>
+        <li><span class="pid">s28</span><span class="pthread tag tag-gold">S</span><span>She drove Elena away from the scene, taking the long way past the river.</span></li>
+        <li><span class="pid">s29</span><span class="pthread tag tag-gold">S</span><span>In the weeks that followed, Marta rehearsed the story so often in her head that she began to believe her own version of it.</span></li>
+        <li><span class="pid">s30</span><span class="pthread tag tag-gold">W</span><span>That Monday, Mrs. Kade's log records a quiet evening with no visitors.</span></li>
+        <li><span class="pid">s31</span><span class="pthread tag tag-gold">W</span><span>On Tuesday, she notes the landlord's car idling outside twice.</span></li>
+        <li><span class="pid">s32</span><span class="pthread tag tag-gold">W</span><span>Within minutes of the alarm, she logs the fire trucks arriving on the street.</span></li>
+        <li><span class="pid">s33</span><span class="pthread tag tag-gold">W</span><span>By Thursday, her log notes reporters gathering outside the gate.</span></li>
+        <li><span class="pid">s34</span><span class="pthread tag tag-gold">W</span><span>Friday's entry records the insurance adjuster's visit to the wreckage.</span></li>
+        <li><span class="pid">s35</span><span class="pthread tag tag-gold">W</span><span>On Saturday, she notes the house finally sealed behind police tape.</span></li>
+        <li><span class="pid">s36</span><span class="pthread tag tag-gold">W</span><span>Her final entry, on Sunday, notes the street was quiet again.</span></li>
+      </ol>
+    </div>
+
+    <h3>4.2 — Gold convergence points</h3>
+    <p class="max-prose"><code>[s5, s6]</code> — Elena's flashlight vanishing and Mrs. Kade's log entry both end at the instant the smoke alarm sounds. <code>[s5, s25]</code> — that same instant, from Marta's position in the car outside.</p>
+
+    <h3>4.3 — What the model predicted</h3>
+    <p class="max-prose">Node extraction produced its own thread-label strings (never gold's <code>P/F/W/S</code>): <span class="tag tag-pred">Inspector</span> for s1,s3,s7,s9; <span class="tag tag-pred">Voss</span> — <em>a second, different label for the same person</em> — for s10–s14; <span class="tag tag-pred">Elena</span> for the F-thread events; <span class="tag tag-pred">MrsKade</span> for W; <span class="tag tag-pred">Marta</span> for S.</p>
+
+    <div class="callout warn">
+      <h4>A genuine, specific error: one gold thread, two predicted labels</h4>
+      <p class="max-prose" style="margin-bottom:0">The model correctly grouped every P-thread event by content, but used <em>two different label strings</em> for the same investigator across the passage — <code>"Inspector"</code> early on, <code>"Voss"</code> later. Thread scoring maps predicted labels to gold labels one-to-one, so only one of the two can match gold <code>P</code> (here, <code>"Voss"</code> wins with 5 events vs. <code>"Inspector"</code>'s 4). The other 4 events — s1, s3, s7, s9 — are marked wrong, purely for this labeling inconsistency, even though the model never actually confused Voss with anyone else.</p>
+    </div>
+
+    <p class="max-prose">Edge extraction proposed 29 edges (against 40 gold edges) and 3 candidate convergence groups: <code>{s5,s6,s25}</code> ("the smoke alarm begins to blare / the alarm sounds / the alarm's wail reaches the car — all the same moment"), <code>{s16,s23}</code>, and <code>{s20,s26}</code>. PCR found <strong>zero</strong> transitivity violations in this story's edges (no repairs were needed — the model's local edge predictions were internally consistent, even where they missed gold edges entirely). COC then verified the convergence candidates:</p>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Convergence-Order Consistency (COC) verification log, story_02</caption>
+        <thead><tr><th>Candidate pair</th><th>Kept?</th><th>Reason</th></tr></thead>
+        <tbody>
+          <tr><td><code>s5, s6</code></td><td class="score-1">yes</td><td>sole candidate between this thread pair</td></tr>
+          <tr><td><code>s16, s23</code></td><td class="score-1">yes</td><td>order-consistent with the other convergence anchor(s) between these threads</td></tr>
+          <tr><td><code>s5, s25</code></td><td class="score-1">yes</td><td>order-consistent with the other convergence anchor(s) between these threads</td></tr>
+          <tr><td><code>s20, s26</code></td><td class="score-1">yes</td><td>order-consistent with the other convergence anchor(s) between these threads</td></tr>
+          <tr><td><code>s6, s25</code></td><td class="score-1">yes</td><td>sole candidate between this thread pair</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="max-prose">All 5 pairwise combinations implied by the 3-member group <code>{s5,s6,s25}</code> survive COC (none of them contradict each other's implied order) — 2 of the 5 happen to match gold exactly, and the other 3 are real cross-thread same-moment claims that simply aren't in this story's gold annotation, so they count as false positives, not internal errors.</p>
+
+    <h3>4.4 — Metric calculation, step by step</h3>
+    <p class="max-prose"><strong>Relation score.</strong> Of 40 gold edges, 19 scored exactly 1.0 (exact match), 2 scored 0.833 (near-misses — see below), and 19 scored 0.0 (no matching predicted edge):</p>
+    <div class="table-wrap">
+      <table>
+        <caption>A representative sample of scored gold edges (full 40-edge table omitted for length; every number below is real)</caption>
+        <thead><tr><th>Edge</th><th>Gold relation</th><th>Predicted relation</th><th class="num">edge_score</th></tr></thead>
+        <tbody>
+          <tr><td><code>s1 → s3</code></td><td>before</td><td>before</td><td class="num score-1">1.000</td></tr>
+          <tr><td><code>s4 → s5</code></td><td><strong>meets</strong></td><td>before</td><td class="num score-mid">0.833</td></tr>
+          <tr><td><code>s22 → s23</code></td><td><strong>overlaps</strong></td><td>before</td><td class="num score-mid">0.833</td></tr>
+          <tr><td><code>s6 → s5</code></td><td>meets</td><td><em>(none)</em></td><td class="num score-0">0.000</td></tr>
+          <tr><td><code>s8 → s6</code></td><td>contains</td><td><em>(none)</em></td><td class="num score-0">0.000</td></tr>
+          <tr><td><code>s16 → s4</code></td><td>during</td><td><em>(none)</em></td><td class="num score-0">0.000</td></tr>
+          <tr><td><code>s6 → s22</code></td><td>contains</td><td><em>(none)</em></td><td class="num score-0">0.000</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="formula-block">relation_score = (19×1.000 + 2×0.833 + 19×0.000) / 40
+               = (19 + 1.667) / 40
+               = 20.667 / 40
+               = <strong>0.517</strong></div>
+
+    <p class="max-prose"><strong>Thread attribution.</strong> Elena→F, Mrs. Kade→W, and Marta→S each mapped perfectly (9/9 each = 27 correct). Voss→P contributed its 5 correct events; Inspector's 4 events (s1,s3,s7,s9) counted wrong per the labeling split above.</p>
+    <div class="formula-block">thread_attribution_accuracy = (27 + 5) / 36 = 32 / 36 = <strong>0.889</strong></div>
+
+    <p class="max-prose"><strong>Convergence F1.</strong> Predicted (post-COC): <code>{s5,s6}, {s16,s23}, {s5,s25}, {s20,s26}, {s6,s25}</code> — 5 pairs. Gold: <code>{s5,s6}, {s5,s25}</code> — 2 pairs. Both gold pairs are present in the prediction.</p>
+    <div class="formula-block">precision = 2/5 = 0.400
+recall    = 2/2 = 1.000
+F1        = 2 × 0.400 × 1.000 / (0.400 + 1.000) = 0.800 / 1.400 = <strong>0.571</strong></div>
+
+    <p class="max-prose"><strong>AWT-F1.</strong></p>
+    <div class="formula-block">AWT-F1 = 3 / (1/0.517 + 1/0.889 + 1/0.571)
+       = 3 / (1.935 + 1.125 + 1.751)
+       = 3 / 4.811
+       = <strong>0.624</strong></div>
+
+    <div class="metric-grid">
+      <div class="metric-tile"><div class="mt-label">relation_score</div><div class="mt-value">0.517</div><div class="mt-sub">19/40 exact, 2 near-miss, 19 missed</div></div>
+      <div class="metric-tile"><div class="mt-label">thread_attribution</div><div class="mt-value">0.889</div><div class="mt-sub">32/36 — 4 lost to label-split, not misclassification</div></div>
+      <div class="metric-tile"><div class="mt-label">convergence_F1</div><div class="mt-value">0.571</div><div class="mt-sub">recall 1.000, precision 0.400</div></div>
+      <div class="metric-tile" style="grid-column: span 3; text-align:center; border-color: var(--accent-pred);"><div class="mt-label">AWT-F1 (harmonic mean)</div><div class="mt-value" style="font-size:2.1rem;">0.624</div><div class="mt-sub">real number, story_02, this session's data</div></div>
+    </div>
+  </section>
+
+  <section id="gap">
+    <h2><span class="sec-num">5</span>Does the pipeline close the gap?</h2>
+    <p class="lead max-prose"><strong>Partially — yes for consistency, not yet for recall.</strong> Here is exactly what PCR and COC fix, and what they structurally cannot touch.</p>
+
+    <h3>5.1 — What PCR/COC demonstrably resolve (real example, story_04)</h3>
+    <p class="max-prose">A different pilot story (story_04, chosen because story_02 above happened to need zero PCR repairs) shows PCR intervening for real. The model predicted <code>s6 → s19: meets</code>, but 5 independent transitivity paths through other predicted edges agreed this was inconsistent — PCR repaired it:</p>
+    <div class="table-wrap">
+      <table>
+        <caption>Sample of PCR's real repair log, story_04</caption>
+        <thead><tr><th>Edge</th><th>from</th><th>to</th><th>Reason</th></tr></thead>
+        <tbody>
+          <tr><td><code>s6, s19</code></td><td>meets</td><td class="score-1">contains</td><td>violates transitivity with 5 witness paths in agreement; repaired to closest consistent relation</td></tr>
+          <tr><td><code>s6, s35</code></td><td>meets</td><td class="score-1">before</td><td>violates transitivity with 5 witness paths in agreement; repaired to closest consistent relation</td></tr>
+          <tr><td><code>s4, s18</code></td><td>meets</td><td class="score-0"><em>unchanged</em></td><td>violates transitivity with only 1 witness path (&lt; 2 needed for confidence); left unchanged rather than guess</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="max-prose">Story_04's full run: <strong>10 edges repaired</strong>, <strong>28 conflicts logged and honestly left alone</strong> (too little or too contradictory evidence to fix confidently) — PCR never silently forces a guess it can't justify. And in story_02 above, COC is what turned a 3-member grouped candidate into 5 concrete, gold-comparable pairs and verified all of them were mutually order-consistent — without COC's deterministic conversion, the raw grouped output isn't even in a form the scorer can compare against gold pairs at all.</p>
+
+    <h3>5.2 — What remains open</h3>
+    <div class="callout open">
+      <h4>The honest answer: the dominant bottleneck is not yet solved</h4>
+      <p class="max-prose">PCR and COC are <em>consistency</em> layers — they clean up and verify candidates the model already proposed. Neither can invent a convergence pair the model never proposed in the first place, and neither can fix the model's edge-extraction call missing a relation entirely (the majority of story_02's 19 zero-score edges above are missing predictions, not wrong ones). Across the pilot set, <strong>convergence-point recall is the single largest driver of low AWT-F1</strong> — several stories score convergence_F1 = 0.000 outright because the model's edge-extraction call proposed no usable candidates for that story at all, and no deterministic downstream stage can manufacture recall that was never generated upstream.</p>
+      <p class="max-prose" style="margin-bottom:0"><strong>We do not yet have a mechanism that closes this specific gap.</strong> It is the correct next thing to design — options worth investigating (not yet built, not yet decided): a second, targeted LLM pass specifically prompted to hunt for convergence cues after the main extraction; a lower-level signal (shared timestamps/phrases) that seeds convergence candidates deterministically before the LLM step, rather than relying on it to notice; or accepting recall as a reported model-capability ceiling rather than an engineering problem to solve. This is flagged here exactly as open — to be researched and the answer added to this document later, not glossed over.</p>
+    </div>
+  </section>
+
+  <section id="refs">
+    <h2><span class="sec-num">6</span>References</h2>
+    <p class="max-prose" style="font-size: 13px; color: var(--ink-soft);">Compiled from this project's own related-work review. That review was a targeted search, not a systematic/exhaustive one — treat absence of a competing method here as suggestive, not proof it doesn't exist.</p>
+    <ul class="refs">
+      <li><span class="ref-id">Allen 1983</span><span>J. F. Allen, "Maintaining Knowledge about Temporal Intervals" — the original 13-relation interval algebra this metric's relation scoring is built on.</span></li>
+      <li><span class="ref-id">Freksa 1992</span><span>C. Freksa — conceptual neighborhood graphs; the classical reference for "which Allen relations are near each other," reproduced here from first principles rather than copied.</span></li>
+      <li><span class="ref-id">arXiv 2511.14214</span><span>"Do LLMs Understand Chronology?" — motivates AWT-F1's partial-credit design; shows Exact Match collapsing with sequence length even when rank correlation stays stable.</span></li>
+      <li><span class="ref-id">OpenReview jogKc4OluB</span><span>Direct predecessor: single-chronology shuffled-biography benchmark. This project extends it along two axes — genuine multi-thread nonlinearity, and a memorization control.</span></li>
+      <li><span class="ref-id">arXiv 2605.18380</span><span>QSTRBench — tests Allen-relation classification/composition in isolation, not embedded in narrative comprehension.</span></li>
+      <li><span class="ref-id">arXiv 2501.03040</span><span>ChronoSense — same cluster as QSTRBench.</span></li>
+      <li><span class="ref-id">arXiv 2606.23667</span><span>ContraTable — counterfactual perturbation as a memorization-control method, applied to tables.</span></li>
+      <li><span class="ref-id">arXiv 2502.11008</span><span>CounterBench — counterfactual perturbation applied to causal reasoning.</span></li>
+      <li><span class="ref-id">arXiv 2606.04915</span><span>Caliper — counterfactual perturbation applied to general QA.</span></li>
+      <li><span class="ref-id">arXiv 2307.02477</span><span>"Reasoning or Reciting?" — counterfactual-conditions method precedent.</span></li>
+      <li><span class="ref-id">arXiv 2406.05265</span><span>TLEX — applies Allen's path-consistency algorithm to LLM-extracted TimeML graphs, but for <em>detection only</em>; its own paper states automatic correction as future work. This project's PCR appears to be a genuinely new auto-repair mechanism against this precedent.</span></li>
+      <li><span class="ref-id">arXiv 2507.03410</span><span>"Graph Repairs with Large Language Models" — a term collision, not prior art on this project's claim: repairs property-graph schema/data-constraint violations via LLM reasoning, with no Allen algebra or temporal relations involved.</span></li>
+      <li><span class="ref-id">arXiv 2406.18449</span><span>CALLMSAE — Hungarian graph-similarity matching; solves the harder node-correspondence problem AWT-F1 deliberately sidesteps (§3 scope note).</span></li>
+      <li><span class="ref-id">arXiv 2404.01532</span><span>Set-Aligning Framework — Hausdorff-distance node matching, same cluster as CALLMSAE.</span></li>
+      <li><span class="ref-id">arXiv 2305.12940</span><span>GEST — graph-matching similarity, same cluster.</span></li>
+      <li><span class="ref-id">PMLR v267</span><span>GRAIL (2025) — graph edit distance via LLM-generated code, same cluster.</span></li>
+      <li><span class="ref-id">ACL 2026.eacl-long.90</span><span>ChronoQA / Entity-Event RAG — extract-structure-evaluate pattern over narrative text; doesn't target multi-thread temporal ordering or Allen relations specifically.</span></li>
+      <li><span class="ref-id">arXiv 2601.08510</span><span>STAGE — same narrative-to-graph-pipeline cluster.</span></li>
+      <li><span class="ref-id">arXiv 2606.05724</span><span>Narrative Knowledge Weaver — same cluster.</span></li>
+      <li><span class="ref-id">ACL 2026.acl-long.1024</span><span>LitVISTA / VISTA Space — anchor-identification failures dominate on frontier models; partially supports this project's "errors localize to a specific stage" framing, though the specific stage this project's own pilot data names (convergence detection) differs from theirs.</span></li>
+    </ul>
+  </section>
+
+  <footer class="doc-footer">
+    NonlinearTime thesis project — AWT-F1 Field Guide — generated 2026-09-11 from real pipeline output, no invented numbers. Source: <code>PLAN_AND_STATUS.md</code>, <code>docs/metric.md</code>, <code>metrics/</code>, <code>pipeline/</code>, <code>web/src/data/predictions/story_02.json</code>.
+  </footer>
+
+</div>
