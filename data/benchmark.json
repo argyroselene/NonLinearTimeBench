@@ -1,0 +1,2124 @@
+[
+  {
+    "id": "eo_001",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_1 before OrderB_1.",
+      "OrderB_1 before OrderC_1."
+    ],
+    "query": [
+      "OrderA_1",
+      "OrderC_1"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_002",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_2 after OrderB_2.",
+      "OrderB_2 after OrderC_2."
+    ],
+    "query": [
+      "OrderA_2",
+      "OrderC_2"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_003",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_3 before OrderB_3.",
+      "OrderB_3 before OrderC_3."
+    ],
+    "query": [
+      "OrderA_3",
+      "OrderC_3"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_004",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_4 after OrderB_4.",
+      "OrderB_4 after OrderC_4."
+    ],
+    "query": [
+      "OrderA_4",
+      "OrderC_4"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_005",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_5 before OrderB_5.",
+      "OrderB_5 before OrderC_5."
+    ],
+    "query": [
+      "OrderA_5",
+      "OrderC_5"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_006",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_6 after OrderB_6.",
+      "OrderB_6 after OrderC_6."
+    ],
+    "query": [
+      "OrderA_6",
+      "OrderC_6"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_007",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_7 before OrderB_7.",
+      "OrderB_7 before OrderC_7."
+    ],
+    "query": [
+      "OrderA_7",
+      "OrderC_7"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_008",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_8 after OrderB_8.",
+      "OrderB_8 after OrderC_8."
+    ],
+    "query": [
+      "OrderA_8",
+      "OrderC_8"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_009",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_9 before OrderB_9.",
+      "OrderB_9 before OrderC_9."
+    ],
+    "query": [
+      "OrderA_9",
+      "OrderC_9"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_010",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_10 after OrderB_10.",
+      "OrderB_10 after OrderC_10."
+    ],
+    "query": [
+      "OrderA_10",
+      "OrderC_10"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_011",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_11 before OrderB_11.",
+      "OrderB_11 before OrderC_11."
+    ],
+    "query": [
+      "OrderA_11",
+      "OrderC_11"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_012",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_12 after OrderB_12.",
+      "OrderB_12 after OrderC_12."
+    ],
+    "query": [
+      "OrderA_12",
+      "OrderC_12"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_013",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_13 before OrderB_13.",
+      "OrderB_13 before OrderC_13."
+    ],
+    "query": [
+      "OrderA_13",
+      "OrderC_13"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_014",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_14 after OrderB_14.",
+      "OrderB_14 after OrderC_14."
+    ],
+    "query": [
+      "OrderA_14",
+      "OrderC_14"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_015",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_15 before OrderB_15.",
+      "OrderB_15 before OrderC_15."
+    ],
+    "query": [
+      "OrderA_15",
+      "OrderC_15"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_016",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_16 after OrderB_16.",
+      "OrderB_16 after OrderC_16."
+    ],
+    "query": [
+      "OrderA_16",
+      "OrderC_16"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_017",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_17 before OrderB_17.",
+      "OrderB_17 before OrderC_17."
+    ],
+    "query": [
+      "OrderA_17",
+      "OrderC_17"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_018",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_18 after OrderB_18.",
+      "OrderB_18 after OrderC_18."
+    ],
+    "query": [
+      "OrderA_18",
+      "OrderC_18"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_019",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_19 before OrderB_19.",
+      "OrderB_19 before OrderC_19."
+    ],
+    "query": [
+      "OrderA_19",
+      "OrderC_19"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_020",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_20 after OrderB_20.",
+      "OrderB_20 after OrderC_20."
+    ],
+    "query": [
+      "OrderA_20",
+      "OrderC_20"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_021",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_21 before OrderB_21.",
+      "OrderB_21 before OrderC_21."
+    ],
+    "query": [
+      "OrderA_21",
+      "OrderC_21"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_022",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_22 after OrderB_22.",
+      "OrderB_22 after OrderC_22."
+    ],
+    "query": [
+      "OrderA_22",
+      "OrderC_22"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_023",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_23 before OrderB_23.",
+      "OrderB_23 before OrderC_23."
+    ],
+    "query": [
+      "OrderA_23",
+      "OrderC_23"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_024",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_24 after OrderB_24.",
+      "OrderB_24 after OrderC_24."
+    ],
+    "query": [
+      "OrderA_24",
+      "OrderC_24"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "eo_025",
+    "category": "event ordering",
+    "statements": [
+      "OrderA_25 before OrderB_25.",
+      "OrderB_25 before OrderC_25."
+    ],
+    "query": [
+      "OrderA_25",
+      "OrderC_25"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_001",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_1 before TransB_1.",
+      "TransB_1 before TransC_1.",
+      "TransC_1 before TransD_1."
+    ],
+    "query": [
+      "TransA_1",
+      "TransD_1"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_002",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_2 before TransB_2.",
+      "TransB_2 before TransC_2.",
+      "TransC_2 before TransD_2."
+    ],
+    "query": [
+      "TransA_2",
+      "TransD_2"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_003",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_3 before TransB_3.",
+      "TransB_3 before TransC_3.",
+      "TransC_3 before TransD_3."
+    ],
+    "query": [
+      "TransA_3",
+      "TransD_3"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_004",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_4 before TransB_4.",
+      "TransB_4 before TransC_4.",
+      "TransC_4 before TransD_4."
+    ],
+    "query": [
+      "TransA_4",
+      "TransD_4"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_005",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_5 before TransB_5.",
+      "TransB_5 before TransC_5.",
+      "TransC_5 before TransD_5."
+    ],
+    "query": [
+      "TransA_5",
+      "TransD_5"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_006",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_6 before TransB_6.",
+      "TransB_6 before TransC_6.",
+      "TransC_6 before TransD_6."
+    ],
+    "query": [
+      "TransA_6",
+      "TransD_6"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_007",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_7 before TransB_7.",
+      "TransB_7 before TransC_7.",
+      "TransC_7 before TransD_7."
+    ],
+    "query": [
+      "TransA_7",
+      "TransD_7"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_008",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_8 before TransB_8.",
+      "TransB_8 before TransC_8.",
+      "TransC_8 before TransD_8."
+    ],
+    "query": [
+      "TransA_8",
+      "TransD_8"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_009",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_9 before TransB_9.",
+      "TransB_9 before TransC_9.",
+      "TransC_9 before TransD_9."
+    ],
+    "query": [
+      "TransA_9",
+      "TransD_9"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_010",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_10 before TransB_10.",
+      "TransB_10 before TransC_10.",
+      "TransC_10 before TransD_10."
+    ],
+    "query": [
+      "TransA_10",
+      "TransD_10"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_011",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_11 before TransB_11.",
+      "TransB_11 before TransC_11.",
+      "TransC_11 before TransD_11."
+    ],
+    "query": [
+      "TransA_11",
+      "TransD_11"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_012",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_12 before TransB_12.",
+      "TransB_12 before TransC_12.",
+      "TransC_12 before TransD_12."
+    ],
+    "query": [
+      "TransA_12",
+      "TransD_12"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_013",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_13 before TransB_13.",
+      "TransB_13 before TransC_13.",
+      "TransC_13 before TransD_13."
+    ],
+    "query": [
+      "TransA_13",
+      "TransD_13"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_014",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_14 before TransB_14.",
+      "TransB_14 before TransC_14.",
+      "TransC_14 before TransD_14."
+    ],
+    "query": [
+      "TransA_14",
+      "TransD_14"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_015",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_15 before TransB_15.",
+      "TransB_15 before TransC_15.",
+      "TransC_15 before TransD_15."
+    ],
+    "query": [
+      "TransA_15",
+      "TransD_15"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_016",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_16 before TransB_16.",
+      "TransB_16 before TransC_16.",
+      "TransC_16 before TransD_16."
+    ],
+    "query": [
+      "TransA_16",
+      "TransD_16"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_017",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_17 before TransB_17.",
+      "TransB_17 before TransC_17.",
+      "TransC_17 before TransD_17."
+    ],
+    "query": [
+      "TransA_17",
+      "TransD_17"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_018",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_18 before TransB_18.",
+      "TransB_18 before TransC_18.",
+      "TransC_18 before TransD_18."
+    ],
+    "query": [
+      "TransA_18",
+      "TransD_18"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_019",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_19 before TransB_19.",
+      "TransB_19 before TransC_19.",
+      "TransC_19 before TransD_19."
+    ],
+    "query": [
+      "TransA_19",
+      "TransD_19"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_020",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_20 before TransB_20.",
+      "TransB_20 before TransC_20.",
+      "TransC_20 before TransD_20."
+    ],
+    "query": [
+      "TransA_20",
+      "TransD_20"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_021",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_21 before TransB_21.",
+      "TransB_21 before TransC_21.",
+      "TransC_21 before TransD_21."
+    ],
+    "query": [
+      "TransA_21",
+      "TransD_21"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_022",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_22 before TransB_22.",
+      "TransB_22 before TransC_22.",
+      "TransC_22 before TransD_22."
+    ],
+    "query": [
+      "TransA_22",
+      "TransD_22"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_023",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_23 before TransB_23.",
+      "TransB_23 before TransC_23.",
+      "TransC_23 before TransD_23."
+    ],
+    "query": [
+      "TransA_23",
+      "TransD_23"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_024",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_24 before TransB_24.",
+      "TransB_24 before TransC_24.",
+      "TransC_24 before TransD_24."
+    ],
+    "query": [
+      "TransA_24",
+      "TransD_24"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ti_025",
+    "category": "transitive inference",
+    "statements": [
+      "TransA_25 before TransB_25.",
+      "TransB_25 before TransC_25.",
+      "TransC_25 before TransD_25."
+    ],
+    "query": [
+      "TransA_25",
+      "TransD_25"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_001",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_1 before InvB_1."
+    ],
+    "query": [
+      "InvB_1",
+      "InvA_1"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_002",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_2 during InvB_2."
+    ],
+    "query": [
+      "InvB_2",
+      "InvA_2"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_003",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_3 before InvB_3."
+    ],
+    "query": [
+      "InvB_3",
+      "InvA_3"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_004",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_4 during InvB_4."
+    ],
+    "query": [
+      "InvB_4",
+      "InvA_4"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_005",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_5 before InvB_5."
+    ],
+    "query": [
+      "InvB_5",
+      "InvA_5"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_006",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_6 during InvB_6."
+    ],
+    "query": [
+      "InvB_6",
+      "InvA_6"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_007",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_7 before InvB_7."
+    ],
+    "query": [
+      "InvB_7",
+      "InvA_7"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_008",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_8 during InvB_8."
+    ],
+    "query": [
+      "InvB_8",
+      "InvA_8"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_009",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_9 before InvB_9."
+    ],
+    "query": [
+      "InvB_9",
+      "InvA_9"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_010",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_10 during InvB_10."
+    ],
+    "query": [
+      "InvB_10",
+      "InvA_10"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_011",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_11 before InvB_11."
+    ],
+    "query": [
+      "InvB_11",
+      "InvA_11"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_012",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_12 during InvB_12."
+    ],
+    "query": [
+      "InvB_12",
+      "InvA_12"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_013",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_13 before InvB_13."
+    ],
+    "query": [
+      "InvB_13",
+      "InvA_13"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_014",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_14 during InvB_14."
+    ],
+    "query": [
+      "InvB_14",
+      "InvA_14"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_015",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_15 before InvB_15."
+    ],
+    "query": [
+      "InvB_15",
+      "InvA_15"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_016",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_16 during InvB_16."
+    ],
+    "query": [
+      "InvB_16",
+      "InvA_16"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_017",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_17 before InvB_17."
+    ],
+    "query": [
+      "InvB_17",
+      "InvA_17"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_018",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_18 during InvB_18."
+    ],
+    "query": [
+      "InvB_18",
+      "InvA_18"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_019",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_19 before InvB_19."
+    ],
+    "query": [
+      "InvB_19",
+      "InvA_19"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "ir_020",
+    "category": "inverse relations",
+    "statements": [
+      "InvA_20 during InvB_20."
+    ],
+    "query": [
+      "InvB_20",
+      "InvA_20"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "int_001",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_1 during IntervalB_1."
+    ],
+    "query": [
+      "IntervalA_1",
+      "IntervalB_1"
+    ],
+    "expected": "during",
+    "is_consistent": true
+  },
+  {
+    "id": "int_002",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_2 contains IntervalB_2."
+    ],
+    "query": [
+      "IntervalA_2",
+      "IntervalB_2"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "int_003",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_3 equal IntervalB_3."
+    ],
+    "query": [
+      "IntervalA_3",
+      "IntervalB_3"
+    ],
+    "expected": "equal",
+    "is_consistent": true
+  },
+  {
+    "id": "int_004",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_4 meets IntervalB_4."
+    ],
+    "query": [
+      "IntervalA_4",
+      "IntervalB_4"
+    ],
+    "expected": "meets",
+    "is_consistent": true
+  },
+  {
+    "id": "int_005",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_5 during IntervalB_5."
+    ],
+    "query": [
+      "IntervalA_5",
+      "IntervalB_5"
+    ],
+    "expected": "during",
+    "is_consistent": true
+  },
+  {
+    "id": "int_006",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_6 contains IntervalB_6."
+    ],
+    "query": [
+      "IntervalA_6",
+      "IntervalB_6"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "int_007",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_7 equal IntervalB_7."
+    ],
+    "query": [
+      "IntervalA_7",
+      "IntervalB_7"
+    ],
+    "expected": "equal",
+    "is_consistent": true
+  },
+  {
+    "id": "int_008",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_8 meets IntervalB_8."
+    ],
+    "query": [
+      "IntervalA_8",
+      "IntervalB_8"
+    ],
+    "expected": "meets",
+    "is_consistent": true
+  },
+  {
+    "id": "int_009",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_9 during IntervalB_9."
+    ],
+    "query": [
+      "IntervalA_9",
+      "IntervalB_9"
+    ],
+    "expected": "during",
+    "is_consistent": true
+  },
+  {
+    "id": "int_010",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_10 contains IntervalB_10."
+    ],
+    "query": [
+      "IntervalA_10",
+      "IntervalB_10"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "int_011",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_11 equal IntervalB_11."
+    ],
+    "query": [
+      "IntervalA_11",
+      "IntervalB_11"
+    ],
+    "expected": "equal",
+    "is_consistent": true
+  },
+  {
+    "id": "int_012",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_12 meets IntervalB_12."
+    ],
+    "query": [
+      "IntervalA_12",
+      "IntervalB_12"
+    ],
+    "expected": "meets",
+    "is_consistent": true
+  },
+  {
+    "id": "int_013",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_13 during IntervalB_13."
+    ],
+    "query": [
+      "IntervalA_13",
+      "IntervalB_13"
+    ],
+    "expected": "during",
+    "is_consistent": true
+  },
+  {
+    "id": "int_014",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_14 contains IntervalB_14."
+    ],
+    "query": [
+      "IntervalA_14",
+      "IntervalB_14"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "int_015",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_15 equal IntervalB_15."
+    ],
+    "query": [
+      "IntervalA_15",
+      "IntervalB_15"
+    ],
+    "expected": "equal",
+    "is_consistent": true
+  },
+  {
+    "id": "int_016",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_16 meets IntervalB_16."
+    ],
+    "query": [
+      "IntervalA_16",
+      "IntervalB_16"
+    ],
+    "expected": "meets",
+    "is_consistent": true
+  },
+  {
+    "id": "int_017",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_17 during IntervalB_17."
+    ],
+    "query": [
+      "IntervalA_17",
+      "IntervalB_17"
+    ],
+    "expected": "during",
+    "is_consistent": true
+  },
+  {
+    "id": "int_018",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_18 contains IntervalB_18."
+    ],
+    "query": [
+      "IntervalA_18",
+      "IntervalB_18"
+    ],
+    "expected": "contains",
+    "is_consistent": true
+  },
+  {
+    "id": "int_019",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_19 equal IntervalB_19."
+    ],
+    "query": [
+      "IntervalA_19",
+      "IntervalB_19"
+    ],
+    "expected": "equal",
+    "is_consistent": true
+  },
+  {
+    "id": "int_020",
+    "category": "interval relations",
+    "statements": [
+      "IntervalA_20 meets IntervalB_20."
+    ],
+    "query": [
+      "IntervalA_20",
+      "IntervalB_20"
+    ],
+    "expected": "meets",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_001",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_1 happened 2 days ago.",
+      "MeetingB_1 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_1",
+      "MeetingB_1"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_002",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_2 happened 3 days ago.",
+      "MeetingB_2 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_2",
+      "MeetingB_2"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_003",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_3 happened 4 days ago.",
+      "MeetingB_3 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_3",
+      "MeetingB_3"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_004",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_4 happened 5 days ago.",
+      "MeetingB_4 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_4",
+      "MeetingB_4"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_005",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_5 happened 6 days ago.",
+      "MeetingB_5 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_5",
+      "MeetingB_5"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_006",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_6 happened 7 days ago.",
+      "MeetingB_6 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_6",
+      "MeetingB_6"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_007",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_7 happened 8 days ago.",
+      "MeetingB_7 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_7",
+      "MeetingB_7"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_008",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_8 happened 9 days ago.",
+      "MeetingB_8 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_8",
+      "MeetingB_8"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_009",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_9 happened 10 days ago.",
+      "MeetingB_9 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_9",
+      "MeetingB_9"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_010",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_10 happened 11 days ago.",
+      "MeetingB_10 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_10",
+      "MeetingB_10"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_011",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_11 happened 12 days ago.",
+      "MeetingB_11 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_11",
+      "MeetingB_11"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_012",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_12 happened 13 days ago.",
+      "MeetingB_12 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_12",
+      "MeetingB_12"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_013",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_13 happened 14 days ago.",
+      "MeetingB_13 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_13",
+      "MeetingB_13"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_014",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_14 happened 15 days ago.",
+      "MeetingB_14 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_14",
+      "MeetingB_14"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "rd_015",
+    "category": "relative dates",
+    "statements": [
+      "MeetingA_15 happened 16 days ago.",
+      "MeetingB_15 happened tomorrow."
+    ],
+    "query": [
+      "MeetingA_15",
+      "MeetingB_15"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_001",
+    "category": "durations",
+    "statements": [
+      "Lecture_1 started at 09:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_1 started at 11:00."
+    ],
+    "query": [
+      "Lecture_1",
+      "Discussion_1"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_002",
+    "category": "durations",
+    "statements": [
+      "Lecture_2 started at 10:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_2 started at 12:00."
+    ],
+    "query": [
+      "Lecture_2",
+      "Discussion_2"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_003",
+    "category": "durations",
+    "statements": [
+      "Lecture_3 started at 11:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_3 started at 13:00."
+    ],
+    "query": [
+      "Lecture_3",
+      "Discussion_3"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_004",
+    "category": "durations",
+    "statements": [
+      "Lecture_4 started at 12:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_4 started at 14:00."
+    ],
+    "query": [
+      "Lecture_4",
+      "Discussion_4"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_005",
+    "category": "durations",
+    "statements": [
+      "Lecture_5 started at 13:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_5 started at 15:00."
+    ],
+    "query": [
+      "Lecture_5",
+      "Discussion_5"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_006",
+    "category": "durations",
+    "statements": [
+      "Lecture_6 started at 08:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_6 started at 10:00."
+    ],
+    "query": [
+      "Lecture_6",
+      "Discussion_6"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_007",
+    "category": "durations",
+    "statements": [
+      "Lecture_7 started at 09:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_7 started at 11:00."
+    ],
+    "query": [
+      "Lecture_7",
+      "Discussion_7"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_008",
+    "category": "durations",
+    "statements": [
+      "Lecture_8 started at 10:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_8 started at 12:00."
+    ],
+    "query": [
+      "Lecture_8",
+      "Discussion_8"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_009",
+    "category": "durations",
+    "statements": [
+      "Lecture_9 started at 11:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_9 started at 13:00."
+    ],
+    "query": [
+      "Lecture_9",
+      "Discussion_9"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_010",
+    "category": "durations",
+    "statements": [
+      "Lecture_10 started at 12:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_10 started at 14:00."
+    ],
+    "query": [
+      "Lecture_10",
+      "Discussion_10"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_011",
+    "category": "durations",
+    "statements": [
+      "Lecture_11 started at 13:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_11 started at 15:00."
+    ],
+    "query": [
+      "Lecture_11",
+      "Discussion_11"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_012",
+    "category": "durations",
+    "statements": [
+      "Lecture_12 started at 08:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_12 started at 10:00."
+    ],
+    "query": [
+      "Lecture_12",
+      "Discussion_12"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_013",
+    "category": "durations",
+    "statements": [
+      "Lecture_13 started at 09:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_13 started at 11:00."
+    ],
+    "query": [
+      "Lecture_13",
+      "Discussion_13"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_014",
+    "category": "durations",
+    "statements": [
+      "Lecture_14 started at 10:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_14 started at 12:00."
+    ],
+    "query": [
+      "Lecture_14",
+      "Discussion_14"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "dur_015",
+    "category": "durations",
+    "statements": [
+      "Lecture_15 started at 11:00.",
+      "It lasted for 60 minutes.",
+      "Discussion_15 started at 13:00."
+    ],
+    "query": [
+      "Lecture_15",
+      "Discussion_15"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "contra_001",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_1 before ConflictB_1.",
+      "ConflictB_1 before ConflictA_1."
+    ],
+    "query": [
+      "ConflictA_1",
+      "ConflictB_1"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_002",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_2 before ConflictB_2.",
+      "ConflictB_2 before ConflictC_2.",
+      "ConflictC_2 before ConflictA_2."
+    ],
+    "query": [
+      "ConflictA_2",
+      "ConflictB_2"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_003",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_3 before ConflictB_3.",
+      "ConflictB_3 before ConflictA_3."
+    ],
+    "query": [
+      "ConflictA_3",
+      "ConflictB_3"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_004",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_4 before ConflictB_4.",
+      "ConflictB_4 before ConflictC_4.",
+      "ConflictC_4 before ConflictA_4."
+    ],
+    "query": [
+      "ConflictA_4",
+      "ConflictB_4"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_005",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_5 before ConflictB_5.",
+      "ConflictB_5 before ConflictA_5."
+    ],
+    "query": [
+      "ConflictA_5",
+      "ConflictB_5"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_006",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_6 before ConflictB_6.",
+      "ConflictB_6 before ConflictC_6.",
+      "ConflictC_6 before ConflictA_6."
+    ],
+    "query": [
+      "ConflictA_6",
+      "ConflictB_6"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_007",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_7 before ConflictB_7.",
+      "ConflictB_7 before ConflictA_7."
+    ],
+    "query": [
+      "ConflictA_7",
+      "ConflictB_7"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_008",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_8 before ConflictB_8.",
+      "ConflictB_8 before ConflictC_8.",
+      "ConflictC_8 before ConflictA_8."
+    ],
+    "query": [
+      "ConflictA_8",
+      "ConflictB_8"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_009",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_9 before ConflictB_9.",
+      "ConflictB_9 before ConflictA_9."
+    ],
+    "query": [
+      "ConflictA_9",
+      "ConflictB_9"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_010",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_10 before ConflictB_10.",
+      "ConflictB_10 before ConflictC_10.",
+      "ConflictC_10 before ConflictA_10."
+    ],
+    "query": [
+      "ConflictA_10",
+      "ConflictB_10"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_011",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_11 before ConflictB_11.",
+      "ConflictB_11 before ConflictA_11."
+    ],
+    "query": [
+      "ConflictA_11",
+      "ConflictB_11"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_012",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_12 before ConflictB_12.",
+      "ConflictB_12 before ConflictC_12.",
+      "ConflictC_12 before ConflictA_12."
+    ],
+    "query": [
+      "ConflictA_12",
+      "ConflictB_12"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_013",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_13 before ConflictB_13.",
+      "ConflictB_13 before ConflictA_13."
+    ],
+    "query": [
+      "ConflictA_13",
+      "ConflictB_13"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_014",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_14 before ConflictB_14.",
+      "ConflictB_14 before ConflictC_14.",
+      "ConflictC_14 before ConflictA_14."
+    ],
+    "query": [
+      "ConflictA_14",
+      "ConflictB_14"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "contra_015",
+    "category": "contradictions",
+    "statements": [
+      "ConflictA_15 before ConflictB_15.",
+      "ConflictB_15 before ConflictA_15."
+    ],
+    "query": [
+      "ConflictA_15",
+      "ConflictB_15"
+    ],
+    "expected": null,
+    "is_consistent": false
+  },
+  {
+    "id": "mix_001",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_1 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_1 started at 14:00."
+    ],
+    "query": [
+      "Sprint_1",
+      "Release_1"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_002",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_2 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_2 started at 14:00."
+    ],
+    "query": [
+      "Sprint_2",
+      "Release_2"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_003",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_3 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_3 started at 14:00."
+    ],
+    "query": [
+      "Sprint_3",
+      "Release_3"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_004",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_4 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_4 started at 14:00."
+    ],
+    "query": [
+      "Sprint_4",
+      "Release_4"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_005",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_5 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_5 started at 14:00."
+    ],
+    "query": [
+      "Sprint_5",
+      "Release_5"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_006",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_6 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_6 started at 14:00."
+    ],
+    "query": [
+      "Sprint_6",
+      "Release_6"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_007",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_7 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_7 started at 14:00."
+    ],
+    "query": [
+      "Sprint_7",
+      "Release_7"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_008",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_8 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_8 started at 14:00."
+    ],
+    "query": [
+      "Sprint_8",
+      "Release_8"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_009",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_9 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_9 started at 14:00."
+    ],
+    "query": [
+      "Sprint_9",
+      "Release_9"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_010",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_10 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_10 started at 14:00."
+    ],
+    "query": [
+      "Sprint_10",
+      "Release_10"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_011",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_11 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_11 started at 14:00."
+    ],
+    "query": [
+      "Sprint_11",
+      "Release_11"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_012",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_12 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_12 started at 14:00."
+    ],
+    "query": [
+      "Sprint_12",
+      "Release_12"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_013",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_13 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_13 started at 14:00."
+    ],
+    "query": [
+      "Sprint_13",
+      "Release_13"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_014",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_14 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_14 started at 14:00."
+    ],
+    "query": [
+      "Sprint_14",
+      "Release_14"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "mix_015",
+    "category": "mixed temporal expressions",
+    "statements": [
+      "Sprint_15 started at 09:00.",
+      "It lasted for 2 hours.",
+      "Release_15 started at 14:00."
+    ],
+    "query": [
+      "Sprint_15",
+      "Release_15"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  }
+]

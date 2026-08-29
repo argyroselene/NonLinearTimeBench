@@ -1,0 +1,43 @@
+[
+  {
+    "id": "demo_01",
+    "category": "event ordering",
+    "statements": [
+      "Alice arrived before Bob.",
+      "Bob left before Charlie."
+    ],
+    "query": [
+      "Alice",
+      "Charlie"
+    ],
+    "expected": "before",
+    "is_consistent": true
+  },
+  {
+    "id": "demo_02",
+    "category": "inverse relations",
+    "statements": [
+      "Breakfast happened before Lunch."
+    ],
+    "query": [
+      "Lunch",
+      "Breakfast"
+    ],
+    "expected": "after",
+    "is_consistent": true
+  },
+  {
+    "id": "demo_03",
+    "category": "contradictions",
+    "statements": [
+      "Alpha before Beta.",
+      "Beta before Alpha."
+    ],
+    "query": [
+      "Alpha",
+      "Beta"
+    ],
+    "expected": null,
+    "is_consistent": false
+  }
+]
