@@ -13,6 +13,7 @@ from temporal_reasoning.graph import TemporalGraph
 from temporal_reasoning.inference import InferenceEngine
 from temporal_reasoning.consistency import ConsistencyChecker
 from temporal_reasoning.engine import TemporalReasoningEngine
+from temporal_reasoning.evaluator import BenchmarkEvaluator, EvaluationMetrics
 
 __version__ = "0.1.0"
 __all__ = [
@@ -28,4 +29,6 @@ __all__ = [
     "InferenceEngine",
     "ConsistencyChecker",
     "TemporalReasoningEngine",
+    "BenchmarkEvaluator",
+    "EvaluationMetrics",
 ]
