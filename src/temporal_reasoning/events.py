@@ -69,6 +69,8 @@ class Event:
         self.start_time = parse_iso_datetime(self.start_time)
         self.end_time = parse_iso_datetime(self.end_time)
         self.duration = parse_duration(self.duration)
+        if self.start_time and self.end_time and self.duration is None:
+            self.duration = self.end_time - self.start_time
         self.validate()
 
     def validate(self) -> None:
