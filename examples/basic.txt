@@ -1,0 +1,3 @@
+Alice arrived before Bob.
+Bob left before Charlie.
+Charlie arrived before David.
