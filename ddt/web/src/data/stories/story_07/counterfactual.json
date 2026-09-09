@@ -1,0 +1,974 @@
+{
+  "story_id": "story_07_cf",
+  "title": "Tide Watch (relation-balanced, referentially indirect)",
+  "source": "Perturbed twin of story_07 -- same gold graph, renamed entities",
+  "threads": [
+    {
+      "id": "P",
+      "label": "the pump-house operator, below the sea wall",
+      "granularity": "minutes"
+    },
+    {
+      "id": "N",
+      "label": "the dispatcher, in the harbour office",
+      "granularity": "minutes"
+    },
+    {
+      "id": "S",
+      "label": "the sandbag crew, on the esplanade",
+      "granularity": "minutes"
+    },
+    {
+      "id": "W",
+      "label": "the lifeboat coxswain, in the channel",
+      "granularity": "minutes"
+    },
+    {
+      "id": "I",
+      "label": "the surveyor, walking the flood line",
+      "granularity": "minutes"
+    }
+  ],
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "P",
+      "time_expr": "03:00-04:30",
+      "text": "The pumps ran from three until half four without anyone touching them."
+    },
+    {
+      "id": "s6",
+      "thread_id": "P",
+      "time_expr": "03:00-03:20",
+      "text": "The opening twenty minutes of that went on priming the intake."
+    },
+    {
+      "id": "s11",
+      "thread_id": "P",
+      "time_expr": "04:10-04:30",
+      "text": "The last twenty minutes before shutdown were spent bleeding air from the line."
+    },
+    {
+      "id": "s16",
+      "thread_id": "P",
+      "time_expr": "03:25-04:05",
+      "text": "In between, he sat watching the sump gauge climb and refuse to fall."
+    },
+    {
+      "id": "s21",
+      "thread_id": "P",
+      "time_expr": "03:40-03:55",
+      "text": "A quarter of an hour of that was spent on the radio, arguing."
+    },
+    {
+      "id": "s26",
+      "thread_id": "P",
+      "time_expr": "03:20-03:45",
+      "text": "Once priming finished the secondary pump came on and ran twenty-five minutes."
+    },
+    {
+      "id": "s31",
+      "thread_id": "P",
+      "time_expr": "03:55-04:20",
+      "text": "Ending that call started a long stretch of shovelling grit off the floor plate."
+    },
+    {
+      "id": "s36",
+      "thread_id": "P",
+      "time_expr": "03:10-03:35",
+      "text": "Rourke had the floor drains open from ten past until twenty-five to."
+    },
+    {
+      "id": "s41",
+      "thread_id": "P",
+      "time_expr": "04:30-05:00",
+      "text": "After the pumps stopped he stayed on another half hour writing it up."
+    },
+    {
+      "id": "s2",
+      "thread_id": "N",
+      "time_expr": "03:15-04:45",
+      "text": "Upstairs in the office the radio watch covered a quarter past three to quarter to five."
+    },
+    {
+      "id": "s7",
+      "thread_id": "N",
+      "time_expr": "03:15-03:40",
+      "text": "Its first twenty-five minutes were nothing but hold music and apologies."
+    },
+    {
+      "id": "s12",
+      "thread_id": "N",
+      "time_expr": "04:25-04:45",
+      "text": "The watch ended with twenty minutes of handover notes read aloud."
+    },
+    {
+      "id": "s17",
+      "thread_id": "N",
+      "time_expr": "03:30-04:15",
+      "text": "Three quarters of an hour in the middle went on the county flood line."
+    },
+    {
+      "id": "s22",
+      "thread_id": "N",
+      "time_expr": "03:55 (instant)",
+      "text": "At five to four the board lit up red across every channel at once."
+    },
+    {
+      "id": "s27",
+      "thread_id": "N",
+      "time_expr": "03:40-04:10",
+      "text": "Half an hour of logging positions overlapped the tail of the first quiet spell."
+    },
+    {
+      "id": "s32",
+      "thread_id": "N",
+      "time_expr": "04:15-04:40",
+      "text": "When the flood line finally cleared, Imogen started calling the outlying farms."
+    },
+    {
+      "id": "s37",
+      "thread_id": "N",
+      "time_expr": "03:00-03:15",
+      "text": "The quarter hour before any of that was spent finding the spare handset."
+    },
+    {
+      "id": "s42",
+      "thread_id": "N",
+      "time_expr": "04:45-05:00",
+      "text": "The moment the watch closed she went down to the quay to see it herself."
+    },
+    {
+      "id": "s3",
+      "thread_id": "S",
+      "time_expr": "03:20-04:40",
+      "text": "Out on the esplanade the filling line worked from twenty past until twenty to five."
+    },
+    {
+      "id": "s8",
+      "thread_id": "S",
+      "time_expr": "03:20-03:50",
+      "text": "The first half hour of it produced more argument than sandbags."
+    },
+    {
+      "id": "s13",
+      "thread_id": "S",
+      "time_expr": "04:20-04:40",
+      "text": "The closing twenty minutes were spent stacking what they had against the railings."
+    },
+    {
+      "id": "s18",
+      "thread_id": "S",
+      "time_expr": "03:45-04:15",
+      "text": "A half-hour stretch in the middle ran with the lorry headlights as the only light."
+    },
+    {
+      "id": "s23",
+      "thread_id": "S",
+      "time_expr": "03:55 (instant)",
+      "text": "At five to four the whole crew stopped dead and looked up at the same sound."
+    },
+    {
+      "id": "s28",
+      "thread_id": "S",
+      "time_expr": "03:30-04:00",
+      "text": "Half an hour of ferrying bags to the corner overlapped the early argument."
+    },
+    {
+      "id": "s33",
+      "thread_id": "S",
+      "time_expr": "04:40-04:55",
+      "text": "After the line broke up, Achterberg kept a quarter-hour watch on the join."
+    },
+    {
+      "id": "s38",
+      "thread_id": "S",
+      "time_expr": "04:00-04:20",
+      "text": "From four o'clock the second pallet was opened and worked through."
+    },
+    {
+      "id": "s43",
+      "thread_id": "S",
+      "time_expr": "03:10-03:30",
+      "text": "They had been out since ten past, before the filling line properly began."
+    },
+    {
+      "id": "s4",
+      "thread_id": "W",
+      "time_expr": "03:35-04:55",
+      "text": "The boat was in the channel from twenty-five to four until five to five."
+    },
+    {
+      "id": "s9",
+      "thread_id": "W",
+      "time_expr": "03:35-03:55",
+      "text": "Its first twenty minutes out were spent simply getting clear of the moorings."
+    },
+    {
+      "id": "s14",
+      "thread_id": "W",
+      "time_expr": "04:35-04:55",
+      "text": "The run back in took the last twenty minutes of the same trip."
+    },
+    {
+      "id": "s19",
+      "thread_id": "W",
+      "time_expr": "04:00-04:30",
+      "text": "Half an hour in the middle went on a search box off the point."
+    },
+    {
+      "id": "s24",
+      "thread_id": "W",
+      "time_expr": "03:55 (instant)",
+      "text": "At five to four a flare went up somewhere off the starboard bow."
+    },
+    {
+      "id": "s29",
+      "thread_id": "W",
+      "time_expr": "03:45-04:10",
+      "text": "A long spell on the searchlight overlapped the end of the outbound leg."
+    },
+    {
+      "id": "s34",
+      "thread_id": "W",
+      "time_expr": "04:30-04:35",
+      "text": "Abandoning the box took five minutes of hard turning before the run home."
+    },
+    {
+      "id": "s39",
+      "thread_id": "W",
+      "time_expr": "03:20-03:35",
+      "text": "Castellan had the crew aboard a quarter of an hour before they slipped."
+    },
+    {
+      "id": "s44",
+      "thread_id": "W",
+      "time_expr": "04:10-04:40",
+      "text": "Half an hour of that search was worked with no radio contact at all."
+    },
+    {
+      "id": "s5",
+      "thread_id": "I",
+      "time_expr": "03:05-04:25",
+      "text": "The walk along the flood line lasted from five past three to twenty-five past four."
+    },
+    {
+      "id": "s10",
+      "thread_id": "I",
+      "time_expr": "03:05-03:25",
+      "text": "It opened with twenty minutes spent marking the first row of gardens."
+    },
+    {
+      "id": "s15",
+      "thread_id": "I",
+      "time_expr": "04:05-04:25",
+      "text": "The final twenty minutes of the walk were done at a run."
+    },
+    {
+      "id": "s20",
+      "thread_id": "I",
+      "time_expr": "03:30-03:50",
+      "text": "Twenty minutes of the middle stretch went on a culvert that would not clear."
+    },
+    {
+      "id": "s25",
+      "thread_id": "I",
+      "time_expr": "03:50-04:15",
+      "text": "Leaving the culvert began a twenty-five minute climb up the back lane."
+    },
+    {
+      "id": "s30",
+      "thread_id": "I",
+      "time_expr": "04:25-04:50",
+      "text": "Once the line was walked, Marchetti spent twenty-five minutes on the phone to the office."
+    },
+    {
+      "id": "s35",
+      "thread_id": "I",
+      "time_expr": "03:15-03:40",
+      "text": "A quarter-hour in, she began photographing every marker she passed."
+    },
+    {
+      "id": "s40",
+      "thread_id": "I",
+      "time_expr": "03:55 (instant)",
+      "text": "At five to four the water came over the kerb in one push, all along the row."
+    },
+    {
+      "id": "s45",
+      "thread_id": "I",
+      "time_expr": "04:50-05:00",
+      "text": "The last ten minutes before five were spent waiting for someone to answer."
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s6",
+      "node_j": "s1",
+      "allen_relation": "starts",
+      "evidence_span": "03:00-03:20 vs 03:00-04:30"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "allen_relation": "finishes",
+      "evidence_span": "04:10-04:30 vs 03:00-04:30"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s1",
+      "allen_relation": "during",
+      "evidence_span": "03:25-04:05 vs 03:00-04:30"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s16",
+      "allen_relation": "during",
+      "evidence_span": "03:40-03:55 vs 03:25-04:05"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "allen_relation": "meets",
+      "evidence_span": "03:00-03:20 vs 03:20-03:45"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s21",
+      "allen_relation": "overlaps",
+      "evidence_span": "03:20-03:45 vs 03:40-03:55"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s16",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "03:55-04:20 vs 03:25-04:05"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s6",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "03:10-03:35 vs 03:00-03:20"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s41",
+      "allen_relation": "meets",
+      "evidence_span": "03:00-04:30 vs 04:30-05:00"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s26",
+      "allen_relation": "overlaps",
+      "evidence_span": "03:10-03:35 vs 03:20-03:45"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s2",
+      "allen_relation": "starts",
+      "evidence_span": "03:15-03:40 vs 03:15-04:45"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s2",
+      "allen_relation": "finishes",
+      "evidence_span": "04:25-04:45 vs 03:15-04:45"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "allen_relation": "during",
+      "evidence_span": "03:30-04:15 vs 03:15-04:45"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s17",
+      "allen_relation": "during",
+      "evidence_span": "03:55 (instant) vs 03:30-04:15"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s7",
+      "allen_relation": "met-by",
+      "evidence_span": "03:40-04:10 vs 03:15-03:40"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s2",
+      "allen_relation": "meets",
+      "evidence_span": "03:00-03:15 vs 03:15-04:45"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s17",
+      "allen_relation": "met-by",
+      "evidence_span": "04:15-04:40 vs 03:30-04:15"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s42",
+      "allen_relation": "meets",
+      "evidence_span": "03:15-04:45 vs 04:45-05:00"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s17",
+      "allen_relation": "during",
+      "evidence_span": "03:40-04:10 vs 03:30-04:15"
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s3",
+      "allen_relation": "starts",
+      "evidence_span": "03:20-03:50 vs 03:20-04:40"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s3",
+      "allen_relation": "finishes",
+      "evidence_span": "04:20-04:40 vs 03:20-04:40"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s3",
+      "allen_relation": "during",
+      "evidence_span": "03:45-04:15 vs 03:20-04:40"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s18",
+      "allen_relation": "during",
+      "evidence_span": "03:55 (instant) vs 03:45-04:15"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s8",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "03:30-04:00 vs 03:20-03:50"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s33",
+      "allen_relation": "meets",
+      "evidence_span": "03:20-04:40 vs 04:40-04:55"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s18",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "04:00-04:20 vs 03:45-04:15"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s3",
+      "allen_relation": "overlaps",
+      "evidence_span": "03:10-03:30 vs 03:20-04:40"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s38",
+      "allen_relation": "meets",
+      "evidence_span": "03:30-04:00 vs 04:00-04:20"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s4",
+      "allen_relation": "starts",
+      "evidence_span": "03:35-03:55 vs 03:35-04:55"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "allen_relation": "finishes",
+      "evidence_span": "04:35-04:55 vs 03:35-04:55"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s4",
+      "allen_relation": "during",
+      "evidence_span": "04:00-04:30 vs 03:35-04:55"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s9",
+      "allen_relation": "met-by",
+      "evidence_span": "03:55 (instant) vs 03:35-03:55"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s9",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "03:45-04:10 vs 03:35-03:55"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s14",
+      "allen_relation": "meets",
+      "evidence_span": "04:30-04:35 vs 04:35-04:55"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s4",
+      "allen_relation": "meets",
+      "evidence_span": "03:20-03:35 vs 03:35-04:55"
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s19",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "04:10-04:40 vs 04:00-04:30"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s34",
+      "allen_relation": "meets",
+      "evidence_span": "04:00-04:30 vs 04:30-04:35"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s5",
+      "allen_relation": "starts",
+      "evidence_span": "03:05-03:25 vs 03:05-04:25"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s5",
+      "allen_relation": "finishes",
+      "evidence_span": "04:05-04:25 vs 03:05-04:25"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s5",
+      "allen_relation": "during",
+      "evidence_span": "03:30-03:50 vs 03:05-04:25"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s20",
+      "allen_relation": "met-by",
+      "evidence_span": "03:50-04:15 vs 03:30-03:50"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s5",
+      "allen_relation": "met-by",
+      "evidence_span": "04:25-04:50 vs 03:05-04:25"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s10",
+      "allen_relation": "overlapped-by",
+      "evidence_span": "03:15-03:40 vs 03:05-03:25"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s25",
+      "allen_relation": "during",
+      "evidence_span": "03:55 (instant) vs 03:50-04:15"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s45",
+      "allen_relation": "before",
+      "evidence_span": "03:05-04:25 vs 04:50-05:00"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s15",
+      "allen_relation": "overlaps",
+      "evidence_span": "03:50-04:15 vs 04:05-04:25"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s6",
+      "allen_relation": "after",
+      "evidence_span": "04:30-05:00 vs 03:00-03:20"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s6",
+      "allen_relation": "started-by",
+      "evidence_span": "03:00-04:30 vs 03:00-03:20"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s21",
+      "allen_relation": "contains",
+      "evidence_span": "03:00-04:30 vs 03:40-03:55"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s11",
+      "allen_relation": "finished-by",
+      "evidence_span": "03:00-04:30 vs 04:10-04:30"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "equals",
+      "evidence_span": "03:55 (instant) vs 03:55 (instant)"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "equals",
+      "evidence_span": "03:55 (instant) vs 03:55 (instant)"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s40",
+      "allen_relation": "equals",
+      "evidence_span": "03:55 (instant) vs 03:55 (instant)"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s40",
+      "allen_relation": "equals",
+      "evidence_span": "03:55 (instant) vs 03:55 (instant)"
+    }
+  ],
+  "convergence_points": [
+    [
+      "s22",
+      "s23"
+    ],
+    [
+      "s23",
+      "s24"
+    ],
+    [
+      "s24",
+      "s40"
+    ]
+  ],
+  "convergence_pool": [
+    [
+      "s1",
+      "s19"
+    ],
+    [
+      "s1",
+      "s34"
+    ],
+    [
+      "s6",
+      "s3"
+    ],
+    [
+      "s6",
+      "s8"
+    ],
+    [
+      "s6",
+      "s39"
+    ],
+    [
+      "s11",
+      "s27"
+    ],
+    [
+      "s11",
+      "s19"
+    ],
+    [
+      "s11",
+      "s29"
+    ],
+    [
+      "s11",
+      "s34"
+    ],
+    [
+      "s11",
+      "s44"
+    ],
+    [
+      "s16",
+      "s10"
+    ],
+    [
+      "s16",
+      "s15"
+    ],
+    [
+      "s21",
+      "s7"
+    ],
+    [
+      "s21",
+      "s22"
+    ],
+    [
+      "s21",
+      "s27"
+    ],
+    [
+      "s21",
+      "s23"
+    ],
+    [
+      "s21",
+      "s9"
+    ],
+    [
+      "s21",
+      "s24"
+    ],
+    [
+      "s21",
+      "s35"
+    ],
+    [
+      "s21",
+      "s40"
+    ],
+    [
+      "s26",
+      "s3"
+    ],
+    [
+      "s26",
+      "s8"
+    ],
+    [
+      "s26",
+      "s18"
+    ],
+    [
+      "s26",
+      "s29"
+    ],
+    [
+      "s26",
+      "s39"
+    ],
+    [
+      "s31",
+      "s22"
+    ],
+    [
+      "s31",
+      "s13"
+    ],
+    [
+      "s31",
+      "s23"
+    ],
+    [
+      "s31",
+      "s38"
+    ],
+    [
+      "s31",
+      "s9"
+    ],
+    [
+      "s31",
+      "s24"
+    ],
+    [
+      "s31",
+      "s40"
+    ],
+    [
+      "s36",
+      "s43"
+    ],
+    [
+      "s36",
+      "s4"
+    ],
+    [
+      "s36",
+      "s9"
+    ],
+    [
+      "s36",
+      "s39"
+    ],
+    [
+      "s41",
+      "s19"
+    ],
+    [
+      "s41",
+      "s34"
+    ],
+    [
+      "s2",
+      "s35"
+    ],
+    [
+      "s7",
+      "s35"
+    ],
+    [
+      "s12",
+      "s5"
+    ],
+    [
+      "s12",
+      "s15"
+    ],
+    [
+      "s12",
+      "s30"
+    ],
+    [
+      "s17",
+      "s18"
+    ],
+    [
+      "s17",
+      "s28"
+    ],
+    [
+      "s17",
+      "s43"
+    ],
+    [
+      "s17",
+      "s20"
+    ],
+    [
+      "s17",
+      "s25"
+    ],
+    [
+      "s22",
+      "s23"
+    ],
+    [
+      "s22",
+      "s9"
+    ],
+    [
+      "s22",
+      "s24"
+    ],
+    [
+      "s22",
+      "s40"
+    ],
+    [
+      "s27",
+      "s29"
+    ],
+    [
+      "s27",
+      "s44"
+    ],
+    [
+      "s27",
+      "s35"
+    ],
+    [
+      "s32",
+      "s3"
+    ],
+    [
+      "s32",
+      "s13"
+    ],
+    [
+      "s32",
+      "s18"
+    ],
+    [
+      "s32",
+      "s33"
+    ],
+    [
+      "s32",
+      "s44"
+    ],
+    [
+      "s32",
+      "s25"
+    ],
+    [
+      "s37",
+      "s35"
+    ],
+    [
+      "s3",
+      "s39"
+    ],
+    [
+      "s3",
+      "s44"
+    ],
+    [
+      "s8",
+      "s39"
+    ],
+    [
+      "s8",
+      "s20"
+    ],
+    [
+      "s8",
+      "s25"
+    ],
+    [
+      "s13",
+      "s44"
+    ],
+    [
+      "s18",
+      "s29"
+    ],
+    [
+      "s18",
+      "s25"
+    ],
+    [
+      "s23",
+      "s9"
+    ],
+    [
+      "s23",
+      "s24"
+    ],
+    [
+      "s23",
+      "s40"
+    ],
+    [
+      "s28",
+      "s19"
+    ],
+    [
+      "s28",
+      "s20"
+    ],
+    [
+      "s33",
+      "s4"
+    ],
+    [
+      "s33",
+      "s14"
+    ],
+    [
+      "s33",
+      "s44"
+    ],
+    [
+      "s38",
+      "s19"
+    ],
+    [
+      "s43",
+      "s20"
+    ],
+    [
+      "s9",
+      "s40"
+    ],
+    [
+      "s24",
+      "s40"
+    ]
+  ]
+}

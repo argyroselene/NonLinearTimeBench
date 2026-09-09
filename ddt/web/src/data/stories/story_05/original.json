@@ -1,0 +1,699 @@
+{
+  "story_id": "story_05_three_shifts",
+  "title": "Three Shifts (parallel shift-change durations, expanded)",
+  "source": "Hand-authored, explicit shift durations designed to exercise starts/started-by/finishes/finished-by, expanded to 6 threads / 54 events / 7 cross-thread links",
+  "threads": [
+    {
+      "id": "E",
+      "label": "Dr. Amara, ER shift",
+      "granularity": "hours"
+    },
+    {
+      "id": "I",
+      "label": "Nurse Boone / Ito, ICU shift",
+      "granularity": "hours"
+    },
+    {
+      "id": "S",
+      "label": "Cole, security patrol",
+      "granularity": "hours"
+    },
+    {
+      "id": "X",
+      "label": "Pharmacist Reyes, overnight dispensing",
+      "granularity": "hours"
+    },
+    {
+      "id": "D",
+      "label": "Dispatcher Voss, ambulance dispatch",
+      "granularity": "hours"
+    },
+    {
+      "id": "P",
+      "label": "Clerk Odom, shift-report filing",
+      "granularity": "hours"
+    }
+  ],
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "E",
+      "time_expr": "7:00pm-7:00am",
+      "text": "Dr. Amara's ER shift begins at 7:00pm and runs until 7:00am."
+    },
+    {
+      "id": "s2",
+      "thread_id": "I",
+      "time_expr": "7:00pm-1:00am",
+      "text": "Nurse Boone's ICU shift also begins at 7:00pm, but wraps up early at 1:00am."
+    },
+    {
+      "id": "s3",
+      "thread_id": "S",
+      "time_expr": "9:00pm-7:00am",
+      "text": "Cole's patrol shift starts at 9:00pm, two hours after the others, and also ends at 7:00am."
+    },
+    {
+      "id": "s4",
+      "thread_id": "E",
+      "time_expr": "11:00pm-2:00am",
+      "text": "At 11:00pm, Amara's team handles a mass-casualty influx lasting until 2:00am."
+    },
+    {
+      "id": "s5",
+      "thread_id": "I",
+      "time_expr": "9:30pm-10:15pm",
+      "text": "Her shift includes a code blue at 9:30pm that resolves by 10:15pm."
+    },
+    {
+      "id": "s6",
+      "thread_id": "S",
+      "time_expr": "7:00pm-9:00pm",
+      "text": "He actually begins an equipment check at 7:00pm sharp, though his official patrol doesn't start until 9:00pm."
+    },
+    {
+      "id": "s7",
+      "thread_id": "E",
+      "time_expr": "7:00pm-12:00am",
+      "text": "A second ER team, led by Dr. Whit, starts its own on-call block at 7:00pm sharp too, running only until midnight."
+    },
+    {
+      "id": "s8",
+      "thread_id": "I",
+      "time_expr": "2:00am-7:00am",
+      "text": "The overnight nurse's follow-up block starts at 2:00am and, like everyone else, wraps at 7:00am."
+    },
+    {
+      "id": "s9",
+      "thread_id": "S",
+      "time_expr": "7:00am (instant)",
+      "text": "Cole radios a final all-clear at 7:00am, the exact moment three shifts end together."
+    },
+    {
+      "id": "s10",
+      "thread_id": "E",
+      "time_expr": "7:00pm-9:00pm",
+      "text": "Amara's triage sub-block runs 7:00pm-9:00pm, the first two hours of her shift."
+    },
+    {
+      "id": "s11",
+      "thread_id": "E",
+      "time_expr": "5:00am-7:00am",
+      "text": "A trauma consult occupies 5:00am-7:00am, closing out the shift alongside Amara."
+    },
+    {
+      "id": "s12",
+      "thread_id": "E",
+      "time_expr": "8:00pm-6:00am",
+      "text": "Overnight staffing review spans 8:00pm-6:00am, contained entirely within Amara's shift."
+    },
+    {
+      "id": "s13",
+      "thread_id": "E",
+      "time_expr": "7:00pm-1:00am",
+      "text": "The second ER team's extended debrief, led by Dr. Whit, stretches from 7:00pm to 1:00am, wrapping an hour after the team's on-call block ends."
+    },
+    {
+      "id": "s14",
+      "thread_id": "E",
+      "time_expr": "10:00pm-11:00pm",
+      "text": "A quiet lull in the ER, 10:00pm-11:00pm, sits right before the mass-casualty influx begins at 11:00pm."
+    },
+    {
+      "id": "s15",
+      "thread_id": "E",
+      "time_expr": "2:00am-4:00am",
+      "text": "The mass-casualty aftermath cleanup runs 2:00am-4:00am, right after the influx ends, extending Amara's team's workload."
+    },
+    {
+      "id": "s16",
+      "thread_id": "I",
+      "time_expr": "7:00pm-8:00pm",
+      "text": "Boone's medication rounds run 7:00pm-8:00pm, the opening hour of her ICU shift."
+    },
+    {
+      "id": "s17",
+      "thread_id": "I",
+      "time_expr": "12:00am-1:00am",
+      "text": "A ventilator check spans 12:00am-1:00am, the final hour before Boone's shift wraps."
+    },
+    {
+      "id": "s18",
+      "thread_id": "I",
+      "time_expr": "7:30pm-12:30am",
+      "text": "Chart audits occupy 7:30pm-12:30am, nested inside Boone's shift from start to finish."
+    },
+    {
+      "id": "s19",
+      "thread_id": "I",
+      "time_expr": "9:30pm-11:00pm",
+      "text": "The code blue response team's extended monitoring continues 9:30pm-11:00pm -- the same start as the code blue itself but lasting longer."
+    },
+    {
+      "id": "s20",
+      "thread_id": "I",
+      "time_expr": "1:00am-2:00am",
+      "text": "A lull before the follow-up block, 1:00am-2:00am, sits directly between Boone's shift ending and Ito's block beginning."
+    },
+    {
+      "id": "s21",
+      "thread_id": "I",
+      "time_expr": "2:00am-7:00am",
+      "text": "Ito's follow-up documentation, 2:00am-7:00am, exactly matches the full span of her clinical follow-up block."
+    },
+    {
+      "id": "s22",
+      "thread_id": "S",
+      "time_expr": "9:00pm-11:00pm",
+      "text": "Cole's perimeter sweep runs 9:00pm-11:00pm, the opening two hours of patrol."
+    },
+    {
+      "id": "s23",
+      "thread_id": "S",
+      "time_expr": "5:00am-7:00am",
+      "text": "A final badge-check sweep spans 5:00am-7:00am, closing out patrol alongside the all-clear."
+    },
+    {
+      "id": "s24",
+      "thread_id": "S",
+      "time_expr": "10:00pm-6:00am",
+      "text": "Radio log review is nested 10:00pm-6:00am within the patrol shift."
+    },
+    {
+      "id": "s25",
+      "thread_id": "S",
+      "time_expr": "7:00pm-10:00pm",
+      "text": "The equipment check's paperwork tail extends 7:00pm-10:00pm -- the same start as the check itself but ending later."
+    },
+    {
+      "id": "s26",
+      "thread_id": "S",
+      "time_expr": "10:00pm-10:15pm",
+      "text": "His mid-shift break, 10:00pm-10:15pm, is swallowed entirely within the perimeter sweep."
+    },
+    {
+      "id": "s27",
+      "thread_id": "S",
+      "time_expr": "6:00am-7:00am",
+      "text": "A supervisor radio check spans 6:00am-7:00am, the closing hour of the badge-check sweep."
+    },
+    {
+      "id": "s28",
+      "thread_id": "X",
+      "time_expr": "7:00pm-7:00am",
+      "text": "Pharmacist Reyes's overnight dispensing window opens at 7:00pm and runs until 7:00am, mirroring Amara's ER shift exactly."
+    },
+    {
+      "id": "s29",
+      "thread_id": "X",
+      "time_expr": "7:00pm-8:00pm",
+      "text": "A controlled-substance count runs 7:00pm-8:00pm, the opening hour of Reyes's dispensing window."
+    },
+    {
+      "id": "s30",
+      "thread_id": "X",
+      "time_expr": "6:00am-7:00am",
+      "text": "End-of-shift reconciliation spans 6:00am-7:00am, the final hour before the dispensing window closes."
+    },
+    {
+      "id": "s31",
+      "thread_id": "X",
+      "time_expr": "8:00pm-6:00am",
+      "text": "Automated restock logging is nested 8:00pm-6:00am within the full dispensing window."
+    },
+    {
+      "id": "s32",
+      "thread_id": "X",
+      "time_expr": "11:15pm-11:45pm",
+      "text": "A STAT medication request tied to the mass-casualty influx is filled 11:15pm-11:45pm, nested inside that same 11:00pm-2:00am surge."
+    },
+    {
+      "id": "s33",
+      "thread_id": "X",
+      "time_expr": "1:00am-1:30am",
+      "text": "The night pharmacist's break, 1:00am-1:30am, falls within the restock logging block."
+    },
+    {
+      "id": "s34",
+      "thread_id": "X",
+      "time_expr": "9:00pm-11:00pm",
+      "text": "A narcotics audit spans 9:00pm-11:00pm, the exact same window as Cole's opening perimeter sweep, start to end."
+    },
+    {
+      "id": "s35",
+      "thread_id": "X",
+      "time_expr": "6:30pm-7:30pm",
+      "text": "A refrigerated-medication temperature log straddles the start of the shift, running 6:30pm-7:30pm."
+    },
+    {
+      "id": "s36",
+      "thread_id": "X",
+      "time_expr": "7:00pm-7:00am",
+      "text": "The pharmacy's full-shift equipment sterilization block spans 7:00pm-7:00am as well, containing every sub-task including the 9:00pm-11:00pm narcotics audit."
+    },
+    {
+      "id": "s37",
+      "thread_id": "D",
+      "time_expr": "6:00pm-6:00am",
+      "text": "Dispatcher Voss's overnight desk coverage spans 6:00pm-6:00am."
+    },
+    {
+      "id": "s38",
+      "thread_id": "D",
+      "time_expr": "6:00pm-6:45pm",
+      "text": "Ambulance Run 12 departs at 6:00pm and returns at 6:45pm, the opening call of the shift."
+    },
+    {
+      "id": "s39",
+      "thread_id": "D",
+      "time_expr": "5:00am-6:00am",
+      "text": "Run 13 spans 5:00am-6:00am, the last call before coverage ends."
+    },
+    {
+      "id": "s40",
+      "thread_id": "D",
+      "time_expr": "7:00pm-5:00am",
+      "text": "Dispatch log review is nested 7:00pm-5:00am within the full coverage window."
+    },
+    {
+      "id": "s41",
+      "thread_id": "D",
+      "time_expr": "6:45pm-7:30pm",
+      "text": "Run 14 departs at 6:45pm, exactly as Run 12 returns, and lasts until 7:30pm."
+    },
+    {
+      "id": "s42",
+      "thread_id": "D",
+      "time_expr": "7:15pm-8:00pm",
+      "text": "Run 15 overlaps the tail of Run 14, running 7:15pm-8:00pm."
+    },
+    {
+      "id": "s43",
+      "thread_id": "D",
+      "time_expr": "8:00pm-4:00am",
+      "text": "A dispatch equipment restock block spans 8:00pm-4:00am."
+    },
+    {
+      "id": "s44",
+      "thread_id": "D",
+      "time_expr": "9:00pm-9:30pm",
+      "text": "Run 16 spans 9:00pm-9:30pm, nested inside the equipment restock block."
+    },
+    {
+      "id": "s45",
+      "thread_id": "D",
+      "time_expr": "5:00am-6:00am",
+      "text": "Run 17, the final call, spans 5:00am-6:00am, exactly matching Run 13 in start and end."
+    },
+    {
+      "id": "s46",
+      "thread_id": "P",
+      "time_expr": "7:00pm-7:00am",
+      "text": "Clerk Odom's overnight filing window spans 7:00pm-7:00am."
+    },
+    {
+      "id": "s47",
+      "thread_id": "P",
+      "time_expr": "7:00pm-9:00pm",
+      "text": "The intake-forms batch is filed 7:00pm-9:00pm, the opening two hours of the filing window."
+    },
+    {
+      "id": "s48",
+      "thread_id": "P",
+      "time_expr": "6:00am-7:00am",
+      "text": "The final compliance sign-off spans 6:00am-7:00am, the closing hour of the filing window."
+    },
+    {
+      "id": "s49",
+      "thread_id": "P",
+      "time_expr": "8:00pm-5:00am",
+      "text": "Routine chart-stamping is nested 8:00pm-5:00am within the full filing window."
+    },
+    {
+      "id": "s50",
+      "thread_id": "P",
+      "time_expr": "9:00pm-11:00pm",
+      "text": "A backlog-clearing block, 9:00pm-11:00pm, begins the moment the intake-forms batch ends."
+    },
+    {
+      "id": "s51",
+      "thread_id": "P",
+      "time_expr": "10:30pm-11:30pm",
+      "text": "Odom's shift-note review overlaps the backlog-clearing block, spanning 10:30pm-11:30pm."
+    },
+    {
+      "id": "s52",
+      "thread_id": "P",
+      "time_expr": "8:30pm-4:30am",
+      "text": "A supervisor audit block, 8:30pm-4:30am, contains the backlog-clearing block and everything logged during it."
+    },
+    {
+      "id": "s53",
+      "thread_id": "P",
+      "time_expr": "11:00pm-11:15pm",
+      "text": "A misfiled-report correction, 11:00pm-11:15pm, is swallowed entirely within the supervisor audit block."
+    },
+    {
+      "id": "s54",
+      "thread_id": "P",
+      "time_expr": "7:00am (instant)",
+      "text": "The compliance sign-off and Odom's final timestamp both land at 7:00am, the instant the filing window closes."
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s2",
+      "node_j": "s1",
+      "allen_relation": "starts",
+      "evidence_span": "Boone's shift begins 7:00pm same as Amara's, but wraps early at 1:00am vs 7:00am."
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s1",
+      "allen_relation": "starts",
+      "evidence_span": "Dr. Whit's on-call block starts 7:00pm sharp too, running only until midnight, inside Amara's 7:00pm-7:00am shift."
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "allen_relation": "started-by",
+      "evidence_span": "Boone's shift (7:00pm-1:00am) shares its 7:00pm start with the second ER team's block (7:00pm-12:00am) but ends later."
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s1",
+      "allen_relation": "finishes",
+      "evidence_span": "Cole's patrol starts later at 9:00pm but ends at 7:00am, the same moment Amara's shift ends."
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "allen_relation": "finished-by",
+      "evidence_span": "Amara's shift ends at 7:00am, the same close as Ito's 2:00am-7:00am follow-up block, which starts later."
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s3",
+      "allen_relation": "meets",
+      "evidence_span": "Cole's equipment check ends at 9:00pm exactly as his patrol shift begins."
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s9",
+      "allen_relation": "meets",
+      "evidence_span": "Cole's patrol shift ends at 7:00am, the same instant as the all-clear radio call."
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s8",
+      "allen_relation": "before",
+      "evidence_span": "Boone's shift ends at 1:00am, well before Ito's follow-up block begins at 2:00am."
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s1",
+      "allen_relation": "during",
+      "evidence_span": "The 11:00pm-2:00am mass-casualty influx is fully nested inside Amara's 7:00pm-7:00am shift."
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "allen_relation": "during",
+      "evidence_span": "The 9:30pm-10:15pm code blue is fully nested inside Boone's 7:00pm-1:00am shift."
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "allen_relation": "starts",
+      "evidence_span": "The triage sub-block (7:00pm-9:00pm) shares Amara's 7:00pm start but ends well before her 7:00am close."
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "allen_relation": "finishes",
+      "evidence_span": "The trauma consult (5:00am-7:00am) starts after the shift began but ends at the same 7:00am close."
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s1",
+      "allen_relation": "during",
+      "evidence_span": "The staffing review (8:00pm-6:00am) starts after and ends before Amara's 7:00pm-7:00am shift on both ends."
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s13",
+      "allen_relation": "starts",
+      "evidence_span": "The second ER team's on-call block (7:00pm-12:00am) shares its 7:00pm start with the extended debrief (7:00pm-1:00am) but ends an hour sooner."
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "allen_relation": "meets",
+      "evidence_span": "The quiet lull ends at 11:00pm, the exact moment the mass-casualty influx begins."
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s15",
+      "allen_relation": "meets",
+      "evidence_span": "The mass-casualty influx ends at 2:00am, the exact moment the aftermath cleanup begins."
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s2",
+      "allen_relation": "starts",
+      "evidence_span": "The medication rounds (7:00pm-8:00pm) share Boone's 7:00pm start but end well before her 1:00am close."
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "allen_relation": "finishes",
+      "evidence_span": "The ventilator check (12:00am-1:00am) starts after the shift began but ends at the same 1:00am close."
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "allen_relation": "during",
+      "evidence_span": "The chart audits (7:30pm-12:30am) start after and end before Boone's 7:00pm-1:00am shift on both ends."
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s5",
+      "allen_relation": "started-by",
+      "evidence_span": "The extended monitoring (9:30pm-11:00pm) shares the code blue's 9:30pm start but keeps going past its 10:15pm resolution."
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s20",
+      "allen_relation": "meets",
+      "evidence_span": "Boone's shift ends at 1:00am, the exact moment the pre-follow-up lull begins."
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s8",
+      "allen_relation": "meets",
+      "evidence_span": "The lull ends at 2:00am, the exact moment Ito's follow-up block begins."
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s8",
+      "allen_relation": "equals",
+      "evidence_span": "The follow-up documentation (2:00am-7:00am) matches Ito's follow-up block (2:00am-7:00am) exactly."
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "allen_relation": "starts",
+      "evidence_span": "The perimeter sweep (9:00pm-11:00pm) shares Cole's 9:00pm patrol start but ends well before his 7:00am close."
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "allen_relation": "finishes",
+      "evidence_span": "The badge-check sweep (5:00am-7:00am) starts after patrol began but ends at the same 7:00am close."
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "allen_relation": "during",
+      "evidence_span": "The radio log review (10:00pm-6:00am) starts after and ends before Cole's 9:00pm-7:00am patrol on both ends."
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s6",
+      "allen_relation": "started-by",
+      "evidence_span": "The paperwork tail (7:00pm-10:00pm) shares the equipment check's 7:00pm start but keeps going past its 9:00pm end."
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s22",
+      "allen_relation": "during",
+      "evidence_span": "The mid-shift break (10:00pm-10:15pm) falls entirely within the perimeter sweep (9:00pm-11:00pm)."
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s9",
+      "allen_relation": "meets",
+      "evidence_span": "The badge-check sweep ends at 7:00am, the exact instant of the all-clear radio call."
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s23",
+      "allen_relation": "finishes",
+      "evidence_span": "The supervisor radio check (6:00am-7:00am) starts after the badge-check sweep began but ends at the same 7:00am close."
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s1",
+      "allen_relation": "equals",
+      "evidence_span": "Reyes's dispensing window (7:00pm-7:00am) matches Amara's ER shift (7:00pm-7:00am) exactly."
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "allen_relation": "starts",
+      "evidence_span": "The controlled-substance count (7:00pm-8:00pm) shares the dispensing window's 7:00pm start but ends well before its 7:00am close."
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s28",
+      "allen_relation": "finishes",
+      "evidence_span": "The reconciliation (6:00am-7:00am) starts after the window opened but ends at the same 7:00am close."
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s28",
+      "allen_relation": "during",
+      "evidence_span": "The restock logging (8:00pm-6:00am) starts after and ends before the dispensing window (7:00pm-7:00am) on both ends."
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s4",
+      "allen_relation": "during",
+      "evidence_span": "The STAT request (11:15pm-11:45pm) falls entirely within the mass-casualty influx window (11:00pm-2:00am)."
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s31",
+      "allen_relation": "during",
+      "evidence_span": "The pharmacist's break (1:00am-1:30am) falls entirely within the restock logging block (8:00pm-6:00am)."
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s22",
+      "allen_relation": "equals",
+      "evidence_span": "The narcotics audit (9:00pm-11:00pm) matches Cole's perimeter sweep (9:00pm-11:00pm) exactly."
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s28",
+      "allen_relation": "overlaps",
+      "evidence_span": "The temperature log (6:30pm-7:30pm) starts before the dispensing window opens at 7:00pm but ends after that, before the window's 7:00am close."
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s34",
+      "allen_relation": "contains",
+      "evidence_span": "The sterilization block (7:00pm-7:00am) starts before and ends after the narcotics audit (9:00pm-11:00pm) on both ends."
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s37",
+      "allen_relation": "starts",
+      "evidence_span": "Run 12 (6:00pm-6:45pm) shares the coverage window's 6:00pm start but ends well before its 6:00am close."
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s37",
+      "allen_relation": "finishes",
+      "evidence_span": "Run 13 (5:00am-6:00am) starts after coverage began but ends at the same 6:00am close."
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s37",
+      "allen_relation": "during",
+      "evidence_span": "The dispatch log review (7:00pm-5:00am) starts after and ends before the coverage window (6:00pm-6:00am) on both ends."
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s41",
+      "allen_relation": "meets",
+      "evidence_span": "Run 12 returns at 6:45pm, the exact moment Run 14 departs."
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s42",
+      "allen_relation": "overlaps",
+      "evidence_span": "Run 14 (6:45pm-7:30pm) starts before Run 15 begins at 7:15pm but ends after that, before Run 15 ends at 8:00pm."
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s43",
+      "allen_relation": "during",
+      "evidence_span": "Run 16 (9:00pm-9:30pm) falls entirely within the equipment restock block (8:00pm-4:00am)."
+    },
+    {
+      "node_i": "s45",
+      "node_j": "s39",
+      "allen_relation": "equals",
+      "evidence_span": "Run 17 (5:00am-6:00am) matches Run 13 (5:00am-6:00am) exactly."
+    },
+    {
+      "node_i": "s47",
+      "node_j": "s46",
+      "allen_relation": "starts",
+      "evidence_span": "The intake-forms batch (7:00pm-9:00pm) shares the filing window's 7:00pm start but ends well before its 7:00am close."
+    },
+    {
+      "node_i": "s48",
+      "node_j": "s46",
+      "allen_relation": "finishes",
+      "evidence_span": "The compliance sign-off (6:00am-7:00am) starts after the window opened but ends at the same 7:00am close."
+    },
+    {
+      "node_i": "s49",
+      "node_j": "s46",
+      "allen_relation": "during",
+      "evidence_span": "Chart-stamping (8:00pm-5:00am) starts after and ends before the filing window (7:00pm-7:00am) on both ends."
+    },
+    {
+      "node_i": "s47",
+      "node_j": "s50",
+      "allen_relation": "meets",
+      "evidence_span": "The intake-forms batch ends at 9:00pm, the exact moment the backlog-clearing block begins."
+    },
+    {
+      "node_i": "s50",
+      "node_j": "s51",
+      "allen_relation": "overlaps",
+      "evidence_span": "The backlog-clearing block (9:00pm-11:00pm) starts before the shift-note review begins at 10:30pm but ends after that, before the review ends at 11:30pm."
+    },
+    {
+      "node_i": "s50",
+      "node_j": "s52",
+      "allen_relation": "during",
+      "evidence_span": "The backlog-clearing block (9:00pm-11:00pm) falls entirely within the supervisor audit block (8:30pm-4:30am)."
+    },
+    {
+      "node_i": "s53",
+      "node_j": "s52",
+      "allen_relation": "during",
+      "evidence_span": "The misfiled-report correction (11:00pm-11:15pm) falls entirely within the supervisor audit block (8:30pm-4:30am)."
+    },
+    {
+      "node_i": "s48",
+      "node_j": "s54",
+      "allen_relation": "meets",
+      "evidence_span": "The compliance sign-off ends at 7:00am, the exact instant of Odom's final timestamp."
+    }
+  ],
+  "convergence_points": [
+    [
+      "s1",
+      "s3"
+    ],
+    [
+      "s3",
+      "s9"
+    ]
+  ]
+}

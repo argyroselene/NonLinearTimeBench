@@ -1,0 +1,326 @@
+{
+  "folder": "ddt",
+  "total_loc": 27324,
+  "code_loc": 1723,
+  "file_count": 53,
+  "files": [
+    {
+      "path": "web\\src\\data\\predictions\\story_05.json",
+      "loc": 2612,
+      "total_lines": 2612,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_04_crc.json",
+      "loc": 1953,
+      "total_lines": 1953,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_04_groq_baseline.json",
+      "loc": 1645,
+      "total_lines": 1645,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_02.json",
+      "loc": 1235,
+      "total_lines": 1235,
+      "is_code": false
+    },
+    {
+      "path": "PLAN_AND_STATUS.md",
+      "loc": 1150,
+      "total_lines": 1261,
+      "is_code": false
+    },
+    {
+      "path": "data\\authoring\\story_07.json",
+      "loc": 1072,
+      "total_lines": 1072,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_07_direct.json",
+      "loc": 980,
+      "total_lines": 980,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_07\\counterfactual.json",
+      "loc": 974,
+      "total_lines": 974,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_04_direct.json",
+      "loc": 955,
+      "total_lines": 955,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_03_matched_baseline.json",
+      "loc": 925,
+      "total_lines": 925,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_02_groq_baseline.json",
+      "loc": 879,
+      "total_lines": 879,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_01_groq_baseline.json",
+      "loc": 865,
+      "total_lines": 865,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_01_direct.json",
+      "loc": 831,
+      "total_lines": 831,
+      "is_code": false
+    },
+    {
+      "path": "thesis_blueprint_v2.pdf",
+      "loc": 802,
+      "total_lines": 810,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_02_direct.json",
+      "loc": 741,
+      "total_lines": 741,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_06\\original.json",
+      "loc": 739,
+      "total_lines": 739,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\predictions\\story_03_direct.json",
+      "loc": 724,
+      "total_lines": 724,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_05\\original.json",
+      "loc": 699,
+      "total_lines": 699,
+      "is_code": false
+    },
+    {
+      "path": "kaggle_backup\\awt_f1_field_guide.html",
+      "loc": 658,
+      "total_lines": 739,
+      "is_code": false
+    },
+    {
+      "path": "thesis_plan.html",
+      "loc": 635,
+      "total_lines": 684,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\data\\stories\\story_04\\original.json",
+      "loc": 606,
+      "total_lines": 606,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_01\\linear.json",
+      "loc": 595,
+      "total_lines": 595,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_06\\linear.json",
+      "loc": 575,
+      "total_lines": 575,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_01\\counterfactual.json",
+      "loc": 553,
+      "total_lines": 553,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_02\\counterfactual.json",
+      "loc": 497,
+      "total_lines": 497,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_02\\original.json",
+      "loc": 497,
+      "total_lines": 497,
+      "is_code": false
+    },
+    {
+      "path": "data\\stories\\story_03\\original.json",
+      "loc": 491,
+      "total_lines": 491,
+      "is_code": false
+    },
+    {
+      "path": "kaggle_backup\\nonlineartime_kaggle_backup.ipynb",
+      "loc": 384,
+      "total_lines": 384,
+      "is_code": false
+    },
+    {
+      "path": "scripts\\build_story.py",
+      "loc": 241,
+      "total_lines": 286,
+      "is_code": true
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "loc": 224,
+      "total_lines": 273,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\App.jsx",
+      "loc": 203,
+      "total_lines": 213,
+      "is_code": true
+    },
+    {
+      "path": "README.md",
+      "loc": 150,
+      "total_lines": 183,
+      "is_code": false
+    },
+    {
+      "path": "scripts\\split_stories.py",
+      "loc": 141,
+      "total_lines": 164,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\generate_predictions.py",
+      "loc": 128,
+      "total_lines": 155,
+      "is_code": true
+    },
+    {
+      "path": "pipeline\\schemas.py",
+      "loc": 123,
+      "total_lines": 129,
+      "is_code": true
+    },
+    {
+      "path": "pipeline\\prompts.py",
+      "loc": 108,
+      "total_lines": 138,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\index.css",
+      "loc": 100,
+      "total_lines": 111,
+      "is_code": false
+    },
+    {
+      "path": "scripts\\rescore_predictions.py",
+      "loc": 87,
+      "total_lines": 111,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\components\\Graph3D.jsx",
+      "loc": 87,
+      "total_lines": 96,
+      "is_code": true
+    },
+    {
+      "path": "tests\\test_graph_repair.py",
+      "loc": 76,
+      "total_lines": 88,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\generate_crc_matched_predictions.py",
+      "loc": 71,
+      "total_lines": 93,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\pooled_convergence_report.py",
+      "loc": 58,
+      "total_lines": 73,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\rescore_all.py",
+      "loc": 56,
+      "total_lines": 75,
+      "is_code": true
+    },
+    {
+      "path": "data\\stories\\manifest.json",
+      "loc": 39,
+      "total_lines": 39,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\components\\GraphEdge.jsx",
+      "loc": 39,
+      "total_lines": 42,
+      "is_code": true
+    },
+    {
+      "path": "scripts\\rescore_direct_predictions.py",
+      "loc": 34,
+      "total_lines": 46,
+      "is_code": true
+    },
+    {
+      "path": "web\\src\\components\\SubscoreRow.jsx",
+      "loc": 33,
+      "total_lines": 34,
+      "is_code": true
+    },
+    {
+      "path": "web\\.gitignore",
+      "loc": 22,
+      "total_lines": 24,
+      "is_code": false
+    },
+    {
+      "path": "pipeline\\direct_baseline.py",
+      "loc": 14,
+      "total_lines": 17,
+      "is_code": true
+    },
+    {
+      "path": "web\\README.md",
+      "loc": 9,
+      "total_lines": 16,
+      "is_code": false
+    },
+    {
+      "path": "web\\.oxlintrc.json",
+      "loc": 8,
+      "total_lines": 8,
+      "is_code": false
+    },
+    {
+      "path": "web\\src\\assets\\vite.svg",
+      "loc": 1,
+      "total_lines": 1,
+      "is_code": false
+    },
+    {
+      "path": "metrics\\__init__.py",
+      "loc": 0,
+      "total_lines": 0,
+      "is_code": true
+    }
+  ]
+}

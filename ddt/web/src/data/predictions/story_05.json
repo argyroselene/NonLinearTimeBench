@@ -1,0 +1,2612 @@
+{
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s2",
+      "thread_id": "ICU"
+    },
+    {
+      "id": "s3",
+      "thread_id": "Patrol"
+    },
+    {
+      "id": "s4",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s5",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s6",
+      "thread_id": "Patrol"
+    },
+    {
+      "id": "s7",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s8",
+      "thread_id": "Ito"
+    },
+    {
+      "id": "s9",
+      "thread_id": "Patrol"
+    },
+    {
+      "id": "s10",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s11",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s12",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s13",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s14",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s15",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s16",
+      "thread_id": "ICU"
+    },
+    {
+      "id": "s17",
+      "thread_id": "ICU"
+    },
+    {
+      "id": "s18",
+      "thread_id": "ICU"
+    },
+    {
+      "id": "s19",
+      "thread_id": "ER"
+    },
+    {
+      "id": "s20",
+      "thread_id": "Ito"
+    },
+    {
+      "id": "s21",
+      "thread_id": "Ito"
+    },
+    {
+      "id": "s22",
+      "thread_id": "Patrol"
+    },
+    {
+      "id": "s23",
+      "thread_id": "Patrol"
+    },
+    {
+      "id": "s24",
+      "thread_id": "Patrol"
+    },
+    {
+      "id": "s25",
+      "thread_id": "Patrol"
+    },
+    {
+      "id": "s26",
+      "thread_id": "Patrol"
+    },
+    {
+      "id": "s27",
+      "thread_id": "Patrol"
+    },
+    {
+      "id": "s28",
+      "thread_id": "Pharmacy"
+    },
+    {
+      "id": "s29",
+      "thread_id": "Pharmacy"
+    },
+    {
+      "id": "s30",
+      "thread_id": "Pharmacy"
+    },
+    {
+      "id": "s31",
+      "thread_id": "Pharmacy"
+    },
+    {
+      "id": "s32",
+      "thread_id": "Pharmacy"
+    },
+    {
+      "id": "s33",
+      "thread_id": "Pharmacy"
+    },
+    {
+      "id": "s34",
+      "thread_id": "Pharmacy"
+    },
+    {
+      "id": "s35",
+      "thread_id": "Pharmacy"
+    },
+    {
+      "id": "s36",
+      "thread_id": "Pharmacy"
+    },
+    {
+      "id": "s37",
+      "thread_id": "Dispatch"
+    },
+    {
+      "id": "s38",
+      "thread_id": "Dispatch"
+    },
+    {
+      "id": "s39",
+      "thread_id": "Dispatch"
+    },
+    {
+      "id": "s40",
+      "thread_id": "Dispatch"
+    },
+    {
+      "id": "s41",
+      "thread_id": "Dispatch"
+    },
+    {
+      "id": "s42",
+      "thread_id": "Dispatch"
+    },
+    {
+      "id": "s43",
+      "thread_id": "Dispatch"
+    },
+    {
+      "id": "s44",
+      "thread_id": "Dispatch"
+    },
+    {
+      "id": "s45",
+      "thread_id": "Dispatch"
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s5",
+      "node_j": "s4",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s15",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s19",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s4",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s5",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s22",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s4",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s5",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s19",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s14",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s29",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s1",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s1",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s1",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s1",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s45",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s1",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s1",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    }
+  ],
+  "raw_edges": [
+    {
+      "node_i": "s5",
+      "node_j": "s4",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s15",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s19",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s4",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s5",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s22",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s4",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s5",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s19",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s14",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s29",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s1",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s1",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s1",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s1",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s45",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s1",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s1",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s1",
+      "allen_relation": "starts"
+    }
+  ],
+  "repair_log": [
+    {
+      "edge": [
+        "s5",
+        "s4"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s19",
+        "s4"
+      ],
+      "from_relation": "meets",
+      "to_relation": "overlaps",
+      "reason": "violates transitivity with 2 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s14",
+        "s5"
+      ],
+      "from_relation": "overlaps",
+      "to_relation": "contains",
+      "reason": "violates transitivity with 2 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s14",
+        "s4"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 2 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s34",
+        "s4"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 3 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s34",
+        "s5"
+      ],
+      "from_relation": "overlaps",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s34",
+        "s19"
+      ],
+      "from_relation": "overlaps",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s34",
+        "s14"
+      ],
+      "from_relation": "overlaps",
+      "to_relation": "finished-by",
+      "reason": "violates transitivity with 3 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s16",
+        "s1"
+      ],
+      "from_relation": "during",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s29",
+        "s1"
+      ],
+      "from_relation": "during",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s14",
+        "s5"
+      ],
+      "from_relation": "contains",
+      "to_relation": null,
+      "reason": "violates transitivity with 2 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s14",
+        "s4"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 2 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s34",
+        "s4"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s34",
+        "s5"
+      ],
+      "from_relation": "overlaps",
+      "to_relation": "contains",
+      "reason": "violates transitivity with 3 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s34",
+        "s14"
+      ],
+      "from_relation": "finished-by",
+      "to_relation": "overlaps",
+      "reason": "violates transitivity with 3 witness path(s) in agreement; repaired to closest consistent relation"
+    }
+  ],
+  "raw_convergence_points": [
+    {
+      "members": [
+        "s1",
+        "s2",
+        "s6",
+        "s7",
+        "s10",
+        "s13",
+        "s16",
+        "s25",
+        "s28",
+        "s29",
+        "s36",
+        "s40"
+      ],
+      "shared_detail": "starts at 7:00pm"
+    },
+    {
+      "members": [
+        "s1",
+        "s28",
+        "s36",
+        "s30",
+        "s27",
+        "s9"
+      ],
+      "shared_detail": "ends at 7:00am / final all-clear at 7:00am"
+    },
+    {
+      "members": [
+        "s22",
+        "s34"
+      ],
+      "shared_detail": "9:00pm-11:00pm interval"
+    },
+    {
+      "members": [
+        "s8",
+        "s21"
+      ],
+      "shared_detail": "2:00am-7:00am follow-up block"
+    },
+    {
+      "members": [
+        "s11",
+        "s23"
+      ],
+      "shared_detail": "5:00am-7:00am trauma consult and badge-check sweep"
+    },
+    {
+      "members": [
+        "s16",
+        "s29"
+      ],
+      "shared_detail": "7:00pm-8:00pm medication rounds and controlled-substance count"
+    }
+  ],
+  "candidate_convergence_pairs": [
+    {
+      "members": [
+        "s1",
+        "s2",
+        "s6",
+        "s7",
+        "s10",
+        "s13",
+        "s16",
+        "s25",
+        "s28",
+        "s29",
+        "s36",
+        "s40"
+      ],
+      "shared_detail": "starts at 7:00pm"
+    },
+    {
+      "members": [
+        "s1",
+        "s28",
+        "s36",
+        "s30",
+        "s27",
+        "s9"
+      ],
+      "shared_detail": "ends at 7:00am / final all-clear at 7:00am"
+    },
+    {
+      "members": [
+        "s22",
+        "s34"
+      ],
+      "shared_detail": "9:00pm-11:00pm interval"
+    },
+    {
+      "members": [
+        "s8",
+        "s21"
+      ],
+      "shared_detail": "2:00am-7:00am follow-up block"
+    },
+    {
+      "members": [
+        "s11",
+        "s23"
+      ],
+      "shared_detail": "5:00am-7:00am trauma consult and badge-check sweep"
+    },
+    {
+      "members": [
+        "s16",
+        "s29"
+      ],
+      "shared_detail": "7:00pm-8:00pm medication rounds and controlled-substance count"
+    }
+  ],
+  "convergence_verification_log": [
+    {
+      "pair": [
+        "s1",
+        "s7"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s1",
+        "s10"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s1",
+        "s13"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s2",
+        "s16"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s6",
+        "s25"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s7",
+        "s10"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s7",
+        "s13"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s10",
+        "s13"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s28",
+        "s29"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s28",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s29",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s1",
+        "s28"
+      ],
+      "kept": false,
+      "reason": "exact duplicate of another candidate"
+    },
+    {
+      "pair": [
+        "s1",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "exact duplicate of another candidate"
+    },
+    {
+      "pair": [
+        "s28",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s28",
+        "s30"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s36",
+        "s30"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s27",
+        "s9"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s8",
+        "s21"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s16",
+        "s29"
+      ],
+      "kept": false,
+      "reason": "exact duplicate of another candidate"
+    },
+    {
+      "pair": [
+        "s10",
+        "s2"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 7 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s10",
+        "s16"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 7 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s13",
+        "s2"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 7 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s13",
+        "s16"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 7 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s2"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 7 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s16"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s2"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s16"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 7 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s10",
+        "s6"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 10 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s10",
+        "s25"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 10 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s11",
+        "s23"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s13",
+        "s6"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 10 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s13",
+        "s25"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 10 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s6"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 10 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s25"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 10 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s6"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 10 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s25"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s27"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s9"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s10",
+        "s28"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s10",
+        "s29"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s10",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s13",
+        "s28"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s13",
+        "s29"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s13",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s28"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s29"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s28"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s29"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s30"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s10",
+        "s40"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 3 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s13",
+        "s40"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 3 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s40"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 3 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s40"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s16",
+        "s6"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 3 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s16",
+        "s25"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s2",
+        "s6"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s2",
+        "s25"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 3 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s16",
+        "s28"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 5 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s16",
+        "s29"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 5 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s16",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 5 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s2",
+        "s28"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s2",
+        "s29"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s2",
+        "s36"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s16",
+        "s40"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 1 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s2",
+        "s40"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s22",
+        "s34"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s25",
+        "s28"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s25",
+        "s29"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s25",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s27",
+        "s28"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s27",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s27",
+        "s30"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s6",
+        "s28"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s6",
+        "s29"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s6",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s9",
+        "s28"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s9",
+        "s36"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s9",
+        "s30"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 12 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s25",
+        "s40"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 1 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s6",
+        "s40"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s28",
+        "s40"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 2 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s29",
+        "s40"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 2 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s36",
+        "s40"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    }
+  ],
+  "thread_orders": {
+    "ER": [
+      "s10",
+      "s11",
+      "s12",
+      "s13",
+      "s14",
+      "s5",
+      "s7",
+      "s19",
+      "s1",
+      "s4",
+      "s15"
+    ],
+    "ICU": [
+      "s16",
+      "s17",
+      "s18",
+      "s2"
+    ],
+    "Patrol": [
+      "s22",
+      "s23",
+      "s24",
+      "s25",
+      "s26",
+      "s27",
+      "s3",
+      "s6",
+      "s9"
+    ],
+    "Ito": [
+      "s20",
+      "s21",
+      "s8"
+    ],
+    "Pharmacy": [
+      "s28",
+      "s29",
+      "s30",
+      "s31",
+      "s32",
+      "s33",
+      "s34",
+      "s35",
+      "s36"
+    ],
+    "Dispatch": [
+      "s37",
+      "s38",
+      "s39",
+      "s40",
+      "s41",
+      "s42",
+      "s43",
+      "s44",
+      "s45"
+    ]
+  },
+  "global_order": [
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s5",
+    "s7",
+    "s16",
+    "s19",
+    "s1",
+    "s17",
+    "s18",
+    "s2",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s3",
+    "s6",
+    "s9",
+    "s28",
+    "s29",
+    "s30",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36",
+    "s41",
+    "s42",
+    "s43",
+    "s44",
+    "s45",
+    "s4",
+    "s15",
+    "s20",
+    "s21",
+    "s8"
+  ],
+  "convergence_points": [
+    [
+      "s7",
+      "s16"
+    ],
+    [
+      "s1",
+      "s2"
+    ],
+    [
+      "s11",
+      "s23"
+    ],
+    [
+      "s1",
+      "s25"
+    ],
+    [
+      "s1",
+      "s27"
+    ],
+    [
+      "s1",
+      "s9"
+    ],
+    [
+      "s1",
+      "s28"
+    ],
+    [
+      "s1",
+      "s29"
+    ],
+    [
+      "s1",
+      "s30"
+    ],
+    [
+      "s1",
+      "s40"
+    ],
+    [
+      "s16",
+      "s25"
+    ],
+    [
+      "s2",
+      "s6"
+    ],
+    [
+      "s2",
+      "s28"
+    ],
+    [
+      "s2",
+      "s29"
+    ],
+    [
+      "s2",
+      "s36"
+    ],
+    [
+      "s2",
+      "s40"
+    ],
+    [
+      "s25",
+      "s28"
+    ],
+    [
+      "s25",
+      "s29"
+    ],
+    [
+      "s27",
+      "s30"
+    ],
+    [
+      "s9",
+      "s36"
+    ],
+    [
+      "s6",
+      "s40"
+    ],
+    [
+      "s36",
+      "s40"
+    ]
+  ],
+  "model": "openai/gpt-oss-120b",
+  "scored_edges": [
+    {
+      "node_i": "s2",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "starts",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "gold_relation": "started-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "gold_relation": "finished-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s3",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s8",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s1",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "during",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s1",
+      "gold_relation": "during",
+      "predicted_relation": "during",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s13",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s15",
+      "gold_relation": "meets",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s2",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s5",
+      "gold_relation": "started-by",
+      "predicted_relation": "overlapped-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s20",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s8",
+      "gold_relation": "equals",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s6",
+      "gold_relation": "started-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s22",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s23",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s1",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s28",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s28",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s4",
+      "gold_relation": "during",
+      "predicted_relation": "during",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s31",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s22",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s28",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s34",
+      "gold_relation": "contains",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s37",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s37",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s41",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s42",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s43",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s45",
+      "node_j": "s39",
+      "gold_relation": "equals",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s47",
+      "node_j": "s46",
+      "gold_relation": "starts",
+      "predicted_relation": null,
+      "predicted_from": "missing",
+      "score": 0.0
+    },
+    {
+      "node_i": "s48",
+      "node_j": "s46",
+      "gold_relation": "finishes",
+      "predicted_relation": null,
+      "predicted_from": "missing",
+      "score": 0.0
+    },
+    {
+      "node_i": "s49",
+      "node_j": "s46",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "predicted_from": "missing",
+      "score": 0.0
+    },
+    {
+      "node_i": "s47",
+      "node_j": "s50",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "predicted_from": "missing",
+      "score": 0.0
+    },
+    {
+      "node_i": "s50",
+      "node_j": "s51",
+      "gold_relation": "overlaps",
+      "predicted_relation": null,
+      "predicted_from": "missing",
+      "score": 0.0
+    },
+    {
+      "node_i": "s50",
+      "node_j": "s52",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "predicted_from": "missing",
+      "score": 0.0
+    },
+    {
+      "node_i": "s53",
+      "node_j": "s52",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "predicted_from": "missing",
+      "score": 0.0
+    },
+    {
+      "node_i": "s48",
+      "node_j": "s54",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "predicted_from": "missing",
+      "score": 0.0
+    }
+  ],
+  "awt_f1_scores": {
+    "relation_score": 0.5987654320987656,
+    "thread_attribution_accuracy": 0.7407407407407407,
+    "awt_core": 0.6622290493258236,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1_legacy_harmonic": 0.0,
+    "convergence_precision_vs_pool": 0.0,
+    "convergence_recall_salient": 0.0,
+    "convergence_pool_available": false,
+    "n_proposed": 22,
+    "n_salient": 2,
+    "n_pool": 0,
+    "awt_f1": 0.0
+  },
+  "scored_edges_unrepaired": [
+    {
+      "node_i": "s2",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "starts",
+      "score": 1.0
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "gold_relation": "started-by",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "gold_relation": "finished-by",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s3",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s8",
+      "gold_relation": "before",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s1",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "during",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s1",
+      "gold_relation": "during",
+      "predicted_relation": "during",
+      "score": 1.0
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s13",
+      "gold_relation": "starts",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "gold_relation": "meets",
+      "predicted_relation": "meets",
+      "score": 1.0
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s15",
+      "gold_relation": "meets",
+      "predicted_relation": "meets",
+      "score": 1.0
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s2",
+      "gold_relation": "starts",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "gold_relation": "finishes",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s5",
+      "gold_relation": "started-by",
+      "predicted_relation": "overlaps",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s20",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s8",
+      "gold_relation": "equals",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "gold_relation": "starts",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "gold_relation": "finishes",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s6",
+      "gold_relation": "started-by",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s22",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s23",
+      "gold_relation": "finishes",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s1",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "score": 1.0
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "gold_relation": "starts",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s28",
+      "gold_relation": "finishes",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s28",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s4",
+      "gold_relation": "during",
+      "predicted_relation": "during",
+      "score": 1.0
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s31",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s22",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "score": 1.0
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s28",
+      "gold_relation": "overlaps",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s34",
+      "gold_relation": "contains",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s37",
+      "gold_relation": "starts",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s37",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s41",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s42",
+      "gold_relation": "overlaps",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s43",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s45",
+      "node_j": "s39",
+      "gold_relation": "equals",
+      "predicted_relation": null,
+      "score": 0.0
+    }
+  ],
+  "awt_f1_scores_unrepaired": {
+    "relation_score": 0.18478260869565216,
+    "thread_attribution_accuracy": 0.8888888888888888,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1": 0.0
+  }
+}

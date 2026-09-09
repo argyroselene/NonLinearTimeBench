@@ -1,0 +1,1953 @@
+{
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s2",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s3",
+      "thread_id": "roof"
+    },
+    {
+      "id": "s4",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s5",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s6",
+      "thread_id": "roof"
+    },
+    {
+      "id": "s7",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s8",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s9",
+      "thread_id": "roof"
+    },
+    {
+      "id": "s10",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s11",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s12",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s13",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s14",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s15",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s16",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s17",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s18",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s19",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s20",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s21",
+      "thread_id": "robbery"
+    },
+    {
+      "id": "s22",
+      "thread_id": "roof"
+    },
+    {
+      "id": "s23",
+      "thread_id": "roof"
+    },
+    {
+      "id": "s24",
+      "thread_id": "roof"
+    },
+    {
+      "id": "s25",
+      "thread_id": "roof"
+    },
+    {
+      "id": "s26",
+      "thread_id": "roof"
+    },
+    {
+      "id": "s27",
+      "thread_id": "roof"
+    },
+    {
+      "id": "s28",
+      "thread_id": "hostage"
+    },
+    {
+      "id": "s29",
+      "thread_id": "hostage"
+    },
+    {
+      "id": "s30",
+      "thread_id": "hostage"
+    },
+    {
+      "id": "s31",
+      "thread_id": "hostage"
+    },
+    {
+      "id": "s32",
+      "thread_id": "hostage"
+    },
+    {
+      "id": "s33",
+      "thread_id": "hostage"
+    },
+    {
+      "id": "s34",
+      "thread_id": "hostage"
+    },
+    {
+      "id": "s35",
+      "thread_id": "hostage"
+    },
+    {
+      "id": "s36",
+      "thread_id": "hostage"
+    },
+    {
+      "id": "s37",
+      "thread_id": "cafe"
+    },
+    {
+      "id": "s38",
+      "thread_id": "cafe"
+    },
+    {
+      "id": "s39",
+      "thread_id": "cafe"
+    },
+    {
+      "id": "s40",
+      "thread_id": "cafe"
+    },
+    {
+      "id": "s41",
+      "thread_id": "cafe"
+    },
+    {
+      "id": "s42",
+      "thread_id": "cafe"
+    },
+    {
+      "id": "s43",
+      "thread_id": "cafe"
+    },
+    {
+      "id": "s44",
+      "thread_id": "cafe"
+    },
+    {
+      "id": "s45",
+      "thread_id": "cafe"
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s14",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s8",
+      "allen_relation": "finishes"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "allen_relation": "finishes"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s16",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s19",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s17",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s34",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s34",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s35",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s34",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s43",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s39",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s41",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s45",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s1",
+      "allen_relation": "overlapped-by"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s10",
+      "allen_relation": "overlaps"
+    }
+  ],
+  "raw_edges": [
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s14",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s8",
+      "allen_relation": "finishes"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "allen_relation": "finishes"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s16",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s19",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s17",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s34",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s34",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s35",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s34",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s43",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s39",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s41",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s45",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s1",
+      "allen_relation": "overlapped-by"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s10",
+      "allen_relation": "overlaps"
+    }
+  ],
+  "repair_log": [
+    {
+      "edge": [
+        "s10",
+        "s1"
+      ],
+      "from_relation": "during",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s22",
+        "s1"
+      ],
+      "from_relation": "overlapped-by",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s22",
+        "s10"
+      ],
+      "from_relation": "overlaps",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    }
+  ],
+  "raw_convergence_points": [
+    {
+      "members": [
+        "s1",
+        "s10",
+        "s22"
+      ],
+      "shared_detail": "at 9:58"
+    },
+    {
+      "members": [
+        "s28",
+        "s29",
+        "s22"
+      ],
+      "shared_detail": "at 9:59"
+    },
+    {
+      "members": [
+        "s3",
+        "s12",
+        "s25"
+      ],
+      "shared_detail": "at 10:10"
+    },
+    {
+      "members": [
+        "s6",
+        "s19",
+        "s17",
+        "s26"
+      ],
+      "shared_detail": "at 10:15"
+    },
+    {
+      "members": [
+        "s7",
+        "s33",
+        "s28",
+        "s30",
+        "s32"
+      ],
+      "shared_detail": "at 10:16"
+    },
+    {
+      "members": [
+        "s26",
+        "s27",
+        "s34",
+        "s40"
+      ],
+      "shared_detail": "at 10:18"
+    },
+    {
+      "members": [
+        "s1",
+        "s14",
+        "s21",
+        "s35"
+      ],
+      "shared_detail": "at 10:22"
+    },
+    {
+      "members": [
+        "s9",
+        "s20",
+        "s34",
+        "s35"
+      ],
+      "shared_detail": "at 10:20"
+    },
+    {
+      "members": [
+        "s36",
+        "s21"
+      ],
+      "shared_detail": "at 10:23"
+    },
+    {
+      "members": [
+        "s42",
+        "s39",
+        "s41",
+        "s43",
+        "s15"
+      ],
+      "shared_detail": "at 10:26"
+    },
+    {
+      "members": [
+        "s15",
+        "s43",
+        "s45"
+      ],
+      "shared_detail": "at 10:30"
+    },
+    {
+      "members": [
+        "s4",
+        "s18",
+        "s31"
+      ],
+      "shared_detail": "At 10:05 the vault door swings open as the crew stuffs the first bag and the hostage hears the door groan."
+    },
+    {
+      "members": [
+        "s5",
+        "s37",
+        "s39"
+      ],
+      "shared_detail": "From 10:12 onward the van is moving forward while Denny watches and tracks it from the cafe."
+    },
+    {
+      "members": [
+        "s10",
+        "s24",
+        "s11"
+      ],
+      "shared_detail": "Between 10:03 and 10:05 the robber checks the side mirror while the roof observer counts patrol cars and the robber keeps his foot on the clutch."
+    },
+    {
+      "members": [
+        "s16",
+        "s24"
+      ],
+      "shared_detail": "Early in the timeline (10:02\u201110:04) the crew jimmy the lock while the roof observer counts patrol cars."
+    },
+    {
+      "members": [
+        "s5",
+        "s38"
+      ],
+      "shared_detail": "During 10:08\u201110:12 the van is being driven forward while Denny notes two patrol cars idling."
+    },
+    {
+      "members": [
+        "s8",
+        "s5",
+        "s39"
+      ],
+      "shared_detail": "At 10:25 Priya pulls away as the van's forward movement ends and Denny continues tracking it."
+    },
+    {
+      "members": [
+        "s44",
+        "s15"
+      ],
+      "shared_detail": "Between 10:27\u201110:29 Denny counts pedestrians while Priya checks her phone."
+    }
+  ],
+  "candidate_convergence_pairs": [
+    {
+      "members": [
+        "s1",
+        "s10",
+        "s22"
+      ],
+      "shared_detail": "at 9:58"
+    },
+    {
+      "members": [
+        "s28",
+        "s29",
+        "s22"
+      ],
+      "shared_detail": "at 9:59"
+    },
+    {
+      "members": [
+        "s3",
+        "s12",
+        "s25"
+      ],
+      "shared_detail": "at 10:10"
+    },
+    {
+      "members": [
+        "s6",
+        "s19",
+        "s17",
+        "s26"
+      ],
+      "shared_detail": "at 10:15"
+    },
+    {
+      "members": [
+        "s7",
+        "s33",
+        "s28",
+        "s30",
+        "s32"
+      ],
+      "shared_detail": "at 10:16"
+    },
+    {
+      "members": [
+        "s26",
+        "s27",
+        "s34",
+        "s40"
+      ],
+      "shared_detail": "at 10:18"
+    },
+    {
+      "members": [
+        "s1",
+        "s14",
+        "s21",
+        "s35"
+      ],
+      "shared_detail": "at 10:22"
+    },
+    {
+      "members": [
+        "s9",
+        "s20",
+        "s34",
+        "s35"
+      ],
+      "shared_detail": "at 10:20"
+    },
+    {
+      "members": [
+        "s36",
+        "s21"
+      ],
+      "shared_detail": "at 10:23"
+    },
+    {
+      "members": [
+        "s42",
+        "s39",
+        "s41",
+        "s43",
+        "s15"
+      ],
+      "shared_detail": "at 10:26"
+    },
+    {
+      "members": [
+        "s15",
+        "s43",
+        "s45"
+      ],
+      "shared_detail": "at 10:30"
+    },
+    {
+      "members": [
+        "s4",
+        "s18",
+        "s31"
+      ],
+      "shared_detail": "At 10:05 the vault door swings open as the crew stuffs the first bag and the hostage hears the door groan."
+    },
+    {
+      "members": [
+        "s5",
+        "s37",
+        "s39"
+      ],
+      "shared_detail": "From 10:12 onward the van is moving forward while Denny watches and tracks it from the cafe."
+    },
+    {
+      "members": [
+        "s10",
+        "s24",
+        "s11"
+      ],
+      "shared_detail": "Between 10:03 and 10:05 the robber checks the side mirror while the roof observer counts patrol cars and the robber keeps his foot on the clutch."
+    },
+    {
+      "members": [
+        "s16",
+        "s24"
+      ],
+      "shared_detail": "Early in the timeline (10:02\u201110:04) the crew jimmy the lock while the roof observer counts patrol cars."
+    },
+    {
+      "members": [
+        "s5",
+        "s38"
+      ],
+      "shared_detail": "During 10:08\u201110:12 the van is being driven forward while Denny notes two patrol cars idling."
+    },
+    {
+      "members": [
+        "s8",
+        "s5",
+        "s39"
+      ],
+      "shared_detail": "At 10:25 Priya pulls away as the van's forward movement ends and Denny continues tracking it."
+    },
+    {
+      "members": [
+        "s44",
+        "s15"
+      ],
+      "shared_detail": "Between 10:27\u201110:29 Denny counts pedestrians while Priya checks her phone."
+    }
+  ],
+  "convergence_verification_log": [
+    {
+      "pair": [
+        "s1",
+        "s10"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s28",
+        "s29"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s3",
+        "s25"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s6",
+        "s26"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s19",
+        "s17"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s33",
+        "s28"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s33",
+        "s30"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s33",
+        "s32"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s28",
+        "s30"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s28",
+        "s32"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s30",
+        "s32"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s26",
+        "s27"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s1",
+        "s14"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s1",
+        "s21"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s14",
+        "s21"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s34",
+        "s35"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s42",
+        "s39"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s42",
+        "s41"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s42",
+        "s43"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s39",
+        "s41"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s39",
+        "s43"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s41",
+        "s43"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s15",
+        "s43"
+      ],
+      "kept": false,
+      "reason": "exact duplicate of another candidate"
+    },
+    {
+      "pair": [
+        "s43",
+        "s45"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s4",
+        "s18"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s37",
+        "s39"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s10",
+        "s11"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s8",
+        "s5"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s5",
+        "s39"
+      ],
+      "kept": false,
+      "reason": "exact duplicate of another candidate"
+    },
+    {
+      "pair": [
+        "s1",
+        "s22"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s10",
+        "s22"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s10",
+        "s24"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s11",
+        "s24"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s12",
+        "s3"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s12",
+        "s25"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s17",
+        "s6"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s17",
+        "s26"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s19",
+        "s6"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s19",
+        "s26"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s20",
+        "s9"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s16",
+        "s24"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s28",
+        "s22"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 5 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s29",
+        "s22"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s34",
+        "s26"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s34",
+        "s27"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 5 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s34",
+        "s9"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 5 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s35",
+        "s9"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s35"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s20",
+        "s34"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s20",
+        "s35"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s21",
+        "s35"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s21",
+        "s36"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s4",
+        "s31"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s33"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s28"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s30"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s32"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 11 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s18",
+        "s31"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s14",
+        "s35"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s26",
+        "s40"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 1 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s27",
+        "s40"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s34",
+        "s40"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s37",
+        "s5"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s38",
+        "s5"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s39",
+        "s15"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s39",
+        "s5"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s39",
+        "s8"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s41",
+        "s15"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s42",
+        "s15"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s44",
+        "s15"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s45",
+        "s15"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s43",
+        "s15"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    }
+  ],
+  "thread_orders": {
+    "robbery": [
+      "s1",
+      "s10",
+      "s11",
+      "s12",
+      "s13",
+      "s15",
+      "s17",
+      "s19",
+      "s2",
+      "s20",
+      "s21",
+      "s4",
+      "s7",
+      "s8",
+      "s16",
+      "s18",
+      "s14",
+      "s5"
+    ],
+    "roof": [
+      "s22",
+      "s23",
+      "s24",
+      "s25",
+      "s26",
+      "s3",
+      "s6",
+      "s9",
+      "s27"
+    ],
+    "hostage": [
+      "s28",
+      "s29",
+      "s30",
+      "s31",
+      "s32",
+      "s33",
+      "s34",
+      "s35",
+      "s36"
+    ],
+    "cafe": [
+      "s37",
+      "s38",
+      "s39",
+      "s40",
+      "s41",
+      "s42",
+      "s44",
+      "s45",
+      "s43"
+    ]
+  },
+  "global_order": [
+    "s1",
+    "s10",
+    "s22",
+    "s11",
+    "s23",
+    "s24",
+    "s12",
+    "s25",
+    "s13",
+    "s15",
+    "s17",
+    "s26",
+    "s19",
+    "s3",
+    "s6",
+    "s2",
+    "s20",
+    "s9",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s21",
+    "s4",
+    "s7",
+    "s8",
+    "s16",
+    "s18",
+    "s14",
+    "s27",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s41",
+    "s42",
+    "s44",
+    "s45",
+    "s43",
+    "s36",
+    "s5"
+  ],
+  "convergence_points": [
+    [
+      "s10",
+      "s22"
+    ],
+    [
+      "s11",
+      "s24"
+    ],
+    [
+      "s12",
+      "s25"
+    ],
+    [
+      "s17",
+      "s26"
+    ],
+    [
+      "s19",
+      "s6"
+    ],
+    [
+      "s20",
+      "s9"
+    ],
+    [
+      "s29",
+      "s22"
+    ],
+    [
+      "s34",
+      "s26"
+    ],
+    [
+      "s35",
+      "s9"
+    ],
+    [
+      "s7",
+      "s28"
+    ],
+    [
+      "s7",
+      "s30"
+    ],
+    [
+      "s18",
+      "s31"
+    ],
+    [
+      "s14",
+      "s35"
+    ],
+    [
+      "s27",
+      "s40"
+    ],
+    [
+      "s34",
+      "s40"
+    ],
+    [
+      "s39",
+      "s15"
+    ],
+    [
+      "s39",
+      "s8"
+    ]
+  ],
+  "recall_critique_added": [
+    {
+      "members": [
+        "s4",
+        "s18",
+        "s31"
+      ],
+      "shared_detail": "At 10:05 the vault door swings open as the crew stuffs the first bag and the hostage hears the door groan."
+    },
+    {
+      "members": [
+        "s5",
+        "s37",
+        "s39"
+      ],
+      "shared_detail": "From 10:12 onward the van is moving forward while Denny watches and tracks it from the cafe."
+    },
+    {
+      "members": [
+        "s10",
+        "s24",
+        "s11"
+      ],
+      "shared_detail": "Between 10:03 and 10:05 the robber checks the side mirror while the roof observer counts patrol cars and the robber keeps his foot on the clutch."
+    },
+    {
+      "members": [
+        "s16",
+        "s24"
+      ],
+      "shared_detail": "Early in the timeline (10:02\u201110:04) the crew jimmy the lock while the roof observer counts patrol cars."
+    },
+    {
+      "members": [
+        "s5",
+        "s38"
+      ],
+      "shared_detail": "During 10:08\u201110:12 the van is being driven forward while Denny notes two patrol cars idling."
+    },
+    {
+      "members": [
+        "s8",
+        "s5",
+        "s39"
+      ],
+      "shared_detail": "At 10:25 Priya pulls away as the van's forward movement ends and Denny continues tracking it."
+    },
+    {
+      "members": [
+        "s44",
+        "s15"
+      ],
+      "shared_detail": "Between 10:27\u201110:29 Denny counts pedestrians while Priya checks her phone."
+    }
+  ],
+  "model": "openai/gpt-oss-120b",
+  "scored_edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "gold_relation": "contains",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s1",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": "finishes",
+      "predicted_from": "explicit",
+      "score": 0.5
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s9",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "during",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s5",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s5",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": "finishes",
+      "predicted_from": "explicit",
+      "score": 0.5
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s15",
+      "gold_relation": "before",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s2",
+      "gold_relation": "starts",
+      "predicted_relation": "overlapped-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "gold_relation": "finishes",
+      "predicted_relation": "during",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "gold_relation": "starts",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s7",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s20",
+      "gold_relation": "before",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s25",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s25",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "gold_relation": "starts",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s2",
+      "gold_relation": "contains",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s28",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s28",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s30",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s33",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s34",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s36",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s5",
+      "gold_relation": "contains",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s37",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s37",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s39",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "gold_relation": "starts",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s43",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    }
+  ],
+  "awt_f1_scores": {
+    "relation_score": 0.6768707482993198,
+    "thread_attribution_accuracy": 0.8,
+    "awt_core": 0.7333026255181945,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1_legacy_harmonic": 0.0,
+    "convergence_precision_vs_pool": 0.0,
+    "convergence_recall_salient": 0.0,
+    "convergence_pool_available": false,
+    "n_proposed": 17,
+    "n_salient": 1,
+    "n_pool": 0,
+    "awt_f1": 0.0
+  }
+}
