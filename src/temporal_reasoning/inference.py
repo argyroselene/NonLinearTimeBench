@@ -173,6 +173,41 @@ class InferenceEngine:
                                 provenance=f"Timestamp bound: end {ev2.end_time} < start {ev1.start_time}",
                             )
                         )
+                # Point timestamp bounds (when only start_time is known or event is instantaneous)
+                elif ev1.start_time and ev2.start_time and not ev1.end_time and not ev2.end_time:
+                    if ev1.start_time < ev2.start_time:
+                        if TemporalRelation.BEFORE not in graph.get_relations_between(ev1.event_id, ev2.event_id):
+                            new_edges.append(
+                                graph.add_relation(
+                                    ev1.event_id,
+                                    ev2.event_id,
+                                    TemporalRelation.BEFORE,
+                                    is_inferred=True,
+                                    provenance=f"Point timestamps: {ev1.start_time} < {ev2.start_time}",
+                                )
+                            )
+                    elif ev2.start_time < ev1.start_time:
+                        if TemporalRelation.BEFORE not in graph.get_relations_between(ev2.event_id, ev1.event_id):
+                            new_edges.append(
+                                graph.add_relation(
+                                    ev2.event_id,
+                                    ev1.event_id,
+                                    TemporalRelation.BEFORE,
+                                    is_inferred=True,
+                                    provenance=f"Point timestamps: {ev2.start_time} < {ev1.start_time}",
+                                )
+                            )
+                    elif ev1.start_time == ev2.start_time:
+                        if TemporalRelation.EQUAL not in graph.get_relations_between(ev1.event_id, ev2.event_id):
+                            new_edges.append(
+                                graph.add_relation(
+                                    ev1.event_id,
+                                    ev2.event_id,
+                                    TemporalRelation.EQUAL,
+                                    is_inferred=True,
+                                    provenance=f"Point timestamps: {ev1.start_time} == {ev2.start_time}",
+                                )
+                            )
 
         return new_edges
 

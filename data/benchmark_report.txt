@@ -1,0 +1,22 @@
+==================================================
+          Temporal Reasoning Evaluation           
+==================================================
+Total Examples:          150
+Overall Accuracy:        100.0%
+Explicit Accuracy:       100.0%
+Inference Accuracy:      100.0%
+Consistency Rate:        100.0%
+Macro Precision:         1.000
+Macro Recall:            1.000
+Macro F1 Score:          1.000
+--------------------------------------------------
+Category Breakdown:
+  - contradictions            : 15/15 (100.0%)
+  - durations                 : 15/15 (100.0%)
+  - event ordering            : 25/25 (100.0%)
+  - interval relations        : 20/20 (100.0%)
+  - inverse relations         : 20/20 (100.0%)
+  - mixed temporal expressions: 15/15 (100.0%)
+  - relative dates            : 15/15 (100.0%)
+  - transitive inference      : 25/25 (100.0%)
+==================================================

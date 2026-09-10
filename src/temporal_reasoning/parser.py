@@ -131,8 +131,10 @@ class StatementParser:
 
         # 2. Check for start time:
         # e.g., "The meeting started at 10:00" or "Alice arrived at 10:00"
+        # 2. Check for start time or event occurrence:
+        # e.g., "The meeting started at 10:00", "Alice arrived at 10:00", "MeetingA happened 2 days ago"
         start_match = re.search(
-            r"^(.*?)\s+(?:started|began|commenced|arrived)\s+(?:at|on)\s+(.+)$",
+            r"^(.*?)\s+(?:started|began|commenced|arrived|happened|occurred)\s+(?:at|on|in)?\s*(.+)$",
             s,
             re.IGNORECASE,
         )
@@ -178,13 +180,6 @@ class StatementParser:
                 )
 
         # 4. Check for relational statements:
-        # Patterns like:
-        # "<A> before <B>"
-        # "<A> arrived before <B>"
-        # "<A> happened after <B>"
-        # "<A> during <B>"
-        # "<A> meets <B>"
-        # "<A> equal <B>" / "<A> at the same time as <B>"
         relation_patterns = [
             (
                 r"^(.*?)\s+(?:happened|occurred|arrived|left|took\s+place)?\s*(?:is\s+)?before\s+(.*?)$",
@@ -215,7 +210,7 @@ class StatementParser:
                 TemporalRelation.FINISHES,
             ),
             (
-                r"^(.*?)\s+(?:happened\s+at\s+the\s+same\s+time\s+as|is\s+equal\s+to|equals|at\s+the\s+same\s+time\s+as)\s+(.*?)$",
+                r"^(.*?)\s+(?:happened\s+at\s+the\s+same\s+time\s+as|is\s+equal\s+to|equals|equal|at\s+the\s+same\s+time\s+as)\s+(.*?)$",
                 TemporalRelation.EQUAL,
             ),
         ]
