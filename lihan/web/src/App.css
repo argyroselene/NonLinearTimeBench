@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #0e0f13;
+  color: #e8e8e8;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 280px 1fr 340px;
+  height: 100vh;
+}
+
+.picker {
+  padding: 1.25rem 1rem;
+  background: #16171d;
+  border-right: 1px solid #2a2b33;
+  overflow-y: auto;
+}
+
+.picker h1 {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  color: #9a9aa5;
+  margin: 0 0 1.25rem;
+}
+
+.picker-group {
+  margin-bottom: 1.5rem;
+}
+
+.dataset-stat {
+  padding: 0.75rem 0.8rem;
+  background: #182a1e;
+  border: 1px solid #2d4a37;
+  border-radius: 8px;
+}
+
+.dataset-stat h2 {
+  color: #8fd6a8;
+}
+
+.dataset-stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #7fe0a0;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.dataset-stat-note {
+  font-size: 0.72rem;
+  color: #9a9aa5;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.picker-group h2 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #7c7c88;
+  margin: 0 0 0.5rem;
+}
+
+.story-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.story-list button {
+  width: 100%;
+  text-align: left;
+}
+
+.picker button, .toggle-row button {
+  background: #23242d;
+  color: #d8d8e0;
+  border: 1px solid #33343f;
+  border-radius: 6px;
+  padding: 0.45rem 0.6rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.picker button:hover, .toggle-row button:hover {
+  background: #2c2d38;
+}
+
+.picker button.active, .toggle-row button.active {
+  background: #3a5bd9;
+  border-color: #4c6bef;
+  color: #fff;
+}
+
+.toggle-row {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.toggle-row button {
+  flex: 1;
+}
+
+.viewer {
+  position: relative;
+  min-width: 0;
+}
+
+.score-hud {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(20, 21, 27, 0.85);
+  border: 1px solid #33343f;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.score-hud.muted {
+  color: #9a9aa5;
+  max-width: 260px;
+}
+
+.score-hud hr {
+  border: none;
+  border-top: 1px solid #33343f;
+  margin: 0.5rem 0;
+}
+
+.score-hud .muted {
+  color: #9a9aa5;
+  font-size: 0.75rem;
+}
+
+.hud-subscores {
+  display: flex;
+  gap: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.hud-subscore {
+  text-align: center;
+}
+
+.hud-subscore .hud-subscore-value {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.hud-subscore .hud-subscore-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #9a9aa5;
+  margin-top: 0.15rem;
+}
+
+.hud-headline {
+  font-size: 0.75rem;
+  color: #9a9aa5;
+}
+
+.hud-headline strong {
+  color: #c9cad4;
+  font-weight: 600;
+}
+
+.passage-panel {
+  padding: 1.25rem 1rem;
+  background: #16171d;
+  border-left: 1px solid #2a2b33;
+  overflow-y: auto;
+}
+
+.passage-panel h2 {
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+  color: #d8d8e0;
+}
+
+.passage-panel ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.passage-panel li {
+  font-size: 0.82rem;
+  line-height: 1.4;
+  padding: 0.5rem 0.6rem;
+  border-radius: 6px;
+  background: #1c1d25;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.passage-panel li:hover {
+  border-color: #33343f;
+}
+
+.passage-panel li.selected {
+  border-color: #4c6bef;
+  background: #202542;
+}
+
+.sentence-id {
+  font-weight: 600;
+  color: #7c9aff;
+  margin-right: 0.4rem;
+}
+
+.sentence-thread {
+  color: #7c7c88;
+  margin-right: 0.4rem;
+}
+
+.score-badge {
+  float: right;
+  font-weight: 600;
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+}
+
+.score-badge.high {
+  background: #1f4d2e;
+  color: #7fe0a0;
+}
+
+.score-badge.mid {
+  background: #4d3f1f;
+  color: #e0c37f;
+}
+
+.score-badge.low {
+  background: #4d1f1f;
+  color: #e07f7f;
+}
