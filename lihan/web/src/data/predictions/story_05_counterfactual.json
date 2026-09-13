@@ -1,0 +1,2641 @@
+{
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "ER_Ferreira"
+    },
+    {
+      "id": "s2",
+      "thread_id": "ICU_Solis"
+    },
+    {
+      "id": "s3",
+      "thread_id": "Patrol_Danh"
+    },
+    {
+      "id": "s4",
+      "thread_id": "ER_Ferreira"
+    },
+    {
+      "id": "s5",
+      "thread_id": "ICU_Solis"
+    },
+    {
+      "id": "s6",
+      "thread_id": "Patrol_Danh"
+    },
+    {
+      "id": "s7",
+      "thread_id": "ER_Ochoa"
+    },
+    {
+      "id": "s8",
+      "thread_id": "ICU_Wren"
+    },
+    {
+      "id": "s9",
+      "thread_id": "Patrol_Danh"
+    },
+    {
+      "id": "s10",
+      "thread_id": "ER_Ferreira"
+    },
+    {
+      "id": "s11",
+      "thread_id": "ER_Ferreira"
+    },
+    {
+      "id": "s12",
+      "thread_id": "ER_Ferreira"
+    },
+    {
+      "id": "s13",
+      "thread_id": "ER_Ochoa"
+    },
+    {
+      "id": "s14",
+      "thread_id": "ER_Ferreira"
+    },
+    {
+      "id": "s15",
+      "thread_id": "ER_Ferreira"
+    },
+    {
+      "id": "s16",
+      "thread_id": "ICU_Solis"
+    },
+    {
+      "id": "s17",
+      "thread_id": "ICU_Solis"
+    },
+    {
+      "id": "s18",
+      "thread_id": "ICU_Solis"
+    },
+    {
+      "id": "s19",
+      "thread_id": "ICU_Solis"
+    },
+    {
+      "id": "s20",
+      "thread_id": "ICU_Wren"
+    },
+    {
+      "id": "s21",
+      "thread_id": "ICU_Wren"
+    },
+    {
+      "id": "s22",
+      "thread_id": "Patrol_Danh"
+    },
+    {
+      "id": "s23",
+      "thread_id": "Patrol_Danh"
+    },
+    {
+      "id": "s24",
+      "thread_id": "Patrol_Danh"
+    },
+    {
+      "id": "s25",
+      "thread_id": "Patrol_Danh"
+    },
+    {
+      "id": "s26",
+      "thread_id": "Patrol_Danh"
+    },
+    {
+      "id": "s27",
+      "thread_id": "Patrol_Danh"
+    },
+    {
+      "id": "s28",
+      "thread_id": "Pharmacy_Nakata"
+    },
+    {
+      "id": "s29",
+      "thread_id": "Pharmacy_Nakata"
+    },
+    {
+      "id": "s30",
+      "thread_id": "Pharmacy_Nakata"
+    },
+    {
+      "id": "s31",
+      "thread_id": "Pharmacy_Nakata"
+    },
+    {
+      "id": "s32",
+      "thread_id": "Pharmacy_Nakata"
+    },
+    {
+      "id": "s33",
+      "thread_id": "Pharmacy_Nakata"
+    },
+    {
+      "id": "s34",
+      "thread_id": "Pharmacy_Nakata"
+    },
+    {
+      "id": "s35",
+      "thread_id": "Pharmacy_Nakata"
+    },
+    {
+      "id": "s36",
+      "thread_id": "Pharmacy_Nakata"
+    },
+    {
+      "id": "s37",
+      "thread_id": "Dispatch_Kade"
+    },
+    {
+      "id": "s38",
+      "thread_id": "Dispatch_Kade"
+    },
+    {
+      "id": "s39",
+      "thread_id": "Dispatch_Kade"
+    },
+    {
+      "id": "s40",
+      "thread_id": "Dispatch_Kade"
+    },
+    {
+      "id": "s41",
+      "thread_id": "Dispatch_Kade"
+    },
+    {
+      "id": "s42",
+      "thread_id": "Dispatch_Kade"
+    },
+    {
+      "id": "s43",
+      "thread_id": "Dispatch_Kade"
+    },
+    {
+      "id": "s44",
+      "thread_id": "Dispatch_Kade"
+    },
+    {
+      "id": "s45",
+      "thread_id": "Dispatch_Kade"
+    },
+    {
+      "id": "s46",
+      "thread_id": "Filing_Reyna"
+    },
+    {
+      "id": "s47",
+      "thread_id": "Filing_Reyna"
+    },
+    {
+      "id": "s48",
+      "thread_id": "Filing_Reyna"
+    },
+    {
+      "id": "s49",
+      "thread_id": "Filing_Reyna"
+    },
+    {
+      "id": "s50",
+      "thread_id": "Filing_Reyna"
+    },
+    {
+      "id": "s51",
+      "thread_id": "Filing_Reyna"
+    },
+    {
+      "id": "s52",
+      "thread_id": "Filing_Reyna"
+    },
+    {
+      "id": "s53",
+      "thread_id": "Filing_Reyna"
+    },
+    {
+      "id": "s54",
+      "thread_id": "Filing_Reyna"
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "allen_relation": "finished-by"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s6",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s7",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s46",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s37",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s6",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s28",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s46",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s37",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s7",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s28",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s46",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s37",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s32",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s19",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s7",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s28",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s46",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s37",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s28",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s46",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s37",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s11",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s30",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s48",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s44",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s12",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s14",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s18",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s20",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s19",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s20",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s34",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s22",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s23",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s36",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s39",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s41",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s43",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s45",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s41",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s42",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s44",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s46",
+      "node_j": "s47",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s46",
+      "node_j": "s49",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s46",
+      "node_j": "s52",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s47",
+      "node_j": "s50",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s49",
+      "node_j": "s51",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s49",
+      "node_j": "s52",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s50",
+      "node_j": "s51",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s52",
+      "node_j": "s53",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s52",
+      "node_j": "s54",
+      "allen_relation": "meets"
+    }
+  ],
+  "raw_edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s6",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s7",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s28",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s46",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s37",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s6",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s28",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s46",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s37",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s7",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s28",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s46",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s37",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s32",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s19",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s7",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s28",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s46",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s37",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s28",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s46",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s37",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s11",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s30",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s48",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s44",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s12",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s14",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s18",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s20",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s19",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s20",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s34",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s22",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s23",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s36",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s39",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s41",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s43",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s45",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s41",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s42",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s44",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s46",
+      "node_j": "s47",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s46",
+      "node_j": "s49",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s46",
+      "node_j": "s52",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s47",
+      "node_j": "s50",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s49",
+      "node_j": "s51",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s49",
+      "node_j": "s52",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s50",
+      "node_j": "s51",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s52",
+      "node_j": "s53",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s52",
+      "node_j": "s54",
+      "allen_relation": "meets"
+    }
+  ],
+  "repair_log": [
+    {
+      "edge": [
+        "s1",
+        "s2"
+      ],
+      "from_relation": "meets",
+      "to_relation": "finished-by",
+      "reason": "violates transitivity with 5 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s1",
+        "s6"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s1",
+        "s7"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s1",
+        "s28"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 3 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s1",
+        "s46"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 3 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s1",
+        "s37"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 3 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s2",
+        "s6"
+      ],
+      "from_relation": "meets",
+      "to_relation": "equals",
+      "reason": "violates transitivity with 5 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s2",
+        "s7"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s2",
+        "s28"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s2",
+        "s46"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s2",
+        "s37"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s3",
+        "s6"
+      ],
+      "from_relation": "meets",
+      "to_relation": "finished-by",
+      "reason": "violates transitivity with 4 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s3",
+        "s7"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 4 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s3",
+        "s28"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 2 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s3",
+        "s46"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 2 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s3",
+        "s37"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 2 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s6",
+        "s7"
+      ],
+      "from_relation": "meets",
+      "to_relation": "equals",
+      "reason": "violates transitivity with 6 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s6",
+        "s28"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 4 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s6",
+        "s46"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 4 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s6",
+        "s37"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 4 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s28"
+      ],
+      "from_relation": "meets",
+      "to_relation": "starts",
+      "reason": "violates transitivity with 4 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s7",
+        "s46"
+      ],
+      "from_relation": "meets",
+      "to_relation": "starts",
+      "reason": "violates transitivity with 4 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s7",
+        "s37"
+      ],
+      "from_relation": "meets",
+      "to_relation": "starts",
+      "reason": "violates transitivity with 4 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s37",
+        "s43"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s37",
+        "s45"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s43",
+        "s45"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s46",
+        "s49"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s46",
+        "s52"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s49",
+        "s52"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s1",
+        "s2"
+      ],
+      "from_relation": "finished-by",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s1",
+        "s28"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s1",
+        "s46"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s1",
+        "s37"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 3 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s2",
+        "s6"
+      ],
+      "from_relation": "equals",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s3",
+        "s6"
+      ],
+      "from_relation": "finished-by",
+      "to_relation": "meets",
+      "reason": "violates transitivity with 4 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s3",
+        "s28"
+      ],
+      "from_relation": "before",
+      "to_relation": "meets",
+      "reason": "violates transitivity with 2 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s3",
+        "s46"
+      ],
+      "from_relation": "before",
+      "to_relation": "meets",
+      "reason": "violates transitivity with 2 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s3",
+        "s37"
+      ],
+      "from_relation": "before",
+      "to_relation": "meets",
+      "reason": "violates transitivity with 2 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s6",
+        "s7"
+      ],
+      "from_relation": "equals",
+      "to_relation": null,
+      "reason": "violates transitivity with 6 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s28"
+      ],
+      "from_relation": "starts",
+      "to_relation": null,
+      "reason": "violates transitivity with 4 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s46"
+      ],
+      "from_relation": "starts",
+      "to_relation": null,
+      "reason": "violates transitivity with 4 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s37"
+      ],
+      "from_relation": "starts",
+      "to_relation": null,
+      "reason": "violates transitivity with 4 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s3",
+        "s6"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 4 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s3",
+        "s28"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 2 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s3",
+        "s46"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 2 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s3",
+        "s37"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 2 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    }
+  ],
+  "raw_convergence_points": [
+    {
+      "members": [
+        "s1",
+        "s2",
+        "s6",
+        "s7",
+        "s28",
+        "s46",
+        "s37"
+      ],
+      "shared_detail": "all shifts begin at 9:00pm"
+    },
+    {
+      "members": [
+        "s3",
+        "s22",
+        "s34"
+      ],
+      "shared_detail": "Danh's patrol, the second ER team's debrief, and the narcotics audit all start at 11:00pm"
+    },
+    {
+      "members": [
+        "s4",
+        "s32"
+      ],
+      "shared_detail": "the mass-casualty influx and the STAT medication request both occur from 1:00am to 4:00am"
+    },
+    {
+      "members": [
+        "s5",
+        "s19"
+      ],
+      "shared_detail": "Solis's code blue and the extended monitoring both start at 11:30pm and overlap until 1:00am"
+    },
+    {
+      "members": [
+        "s8",
+        "s21"
+      ],
+      "shared_detail": "Wren's follow-up block and Solis's shift both end at 9:00am"
+    },
+    {
+      "members": [
+        "s9",
+        "s11",
+        "s30",
+        "s48",
+        "s44"
+      ],
+      "shared_detail": "Ferreira's trauma consult, Danh's final badge-check sweep, Nakata's end-of-shift reconciliation, Reyna's final compliance sign-off, and the dispatch equipment restock all end at 9:00am"
+    },
+    {
+      "members": [
+        "s14",
+        "s26"
+      ],
+      "shared_detail": "the quiet lull in the ER and Danh's mid-shift break both occur from 12:00am to 1:00am"
+    },
+    {
+      "members": [
+        "s15",
+        "s21"
+      ],
+      "shared_detail": "the mass-casualty aftermath cleanup and Wren's follow-up documentation both run from 4:00am to 6:00am"
+    },
+    {
+      "members": [
+        "s16",
+        "s18",
+        "s29"
+      ],
+      "shared_detail": "Solis's medication rounds, chart audits, and Nakata's controlled-substance count all occur from 9:00pm to 10:00pm"
+    },
+    {
+      "members": [
+        "s17",
+        "s20"
+      ],
+      "shared_detail": "Solis's ventilator check and the lull before Wren's follow-up block both occur from 2:00am to 3:00am"
+    },
+    {
+      "members": [
+        "s25",
+        "s41"
+      ],
+      "shared_detail": "Danh's equipment check paperwork and Kade's Run 14 both end at 12:00am"
+    },
+    {
+      "members": [
+        "s37",
+        "s39",
+        "s45"
+      ],
+      "shared_detail": "Kade's overnight desk coverage, Run 17, and Run 13 all end at 8:00am"
+    },
+    {
+      "members": [
+        "s46",
+        "s47",
+        "s49",
+        "s52"
+      ],
+      "shared_detail": "Reyna's filing window, intake-forms batch, routine chart-stamping, and supervisor audit block all start at 9:00pm"
+    },
+    {
+      "members": [
+        "s48",
+        "s54"
+      ],
+      "shared_detail": "Reyna's final compliance sign-off and the filing window both end at 9:00am"
+    }
+  ],
+  "candidate_convergence_pairs": [
+    {
+      "members": [
+        "s1",
+        "s2",
+        "s6",
+        "s7",
+        "s28",
+        "s46",
+        "s37"
+      ],
+      "shared_detail": "all shifts begin at 9:00pm"
+    },
+    {
+      "members": [
+        "s3",
+        "s22",
+        "s34"
+      ],
+      "shared_detail": "Danh's patrol, the second ER team's debrief, and the narcotics audit all start at 11:00pm"
+    },
+    {
+      "members": [
+        "s4",
+        "s32"
+      ],
+      "shared_detail": "the mass-casualty influx and the STAT medication request both occur from 1:00am to 4:00am"
+    },
+    {
+      "members": [
+        "s5",
+        "s19"
+      ],
+      "shared_detail": "Solis's code blue and the extended monitoring both start at 11:30pm and overlap until 1:00am"
+    },
+    {
+      "members": [
+        "s8",
+        "s21"
+      ],
+      "shared_detail": "Wren's follow-up block and Solis's shift both end at 9:00am"
+    },
+    {
+      "members": [
+        "s9",
+        "s11",
+        "s30",
+        "s48",
+        "s44"
+      ],
+      "shared_detail": "Ferreira's trauma consult, Danh's final badge-check sweep, Nakata's end-of-shift reconciliation, Reyna's final compliance sign-off, and the dispatch equipment restock all end at 9:00am"
+    },
+    {
+      "members": [
+        "s14",
+        "s26"
+      ],
+      "shared_detail": "the quiet lull in the ER and Danh's mid-shift break both occur from 12:00am to 1:00am"
+    },
+    {
+      "members": [
+        "s15",
+        "s21"
+      ],
+      "shared_detail": "the mass-casualty aftermath cleanup and Wren's follow-up documentation both run from 4:00am to 6:00am"
+    },
+    {
+      "members": [
+        "s16",
+        "s18",
+        "s29"
+      ],
+      "shared_detail": "Solis's medication rounds, chart audits, and Nakata's controlled-substance count all occur from 9:00pm to 10:00pm"
+    },
+    {
+      "members": [
+        "s17",
+        "s20"
+      ],
+      "shared_detail": "Solis's ventilator check and the lull before Wren's follow-up block both occur from 2:00am to 3:00am"
+    },
+    {
+      "members": [
+        "s25",
+        "s41"
+      ],
+      "shared_detail": "Danh's equipment check paperwork and Kade's Run 14 both end at 12:00am"
+    },
+    {
+      "members": [
+        "s37",
+        "s39",
+        "s45"
+      ],
+      "shared_detail": "Kade's overnight desk coverage, Run 17, and Run 13 all end at 8:00am"
+    },
+    {
+      "members": [
+        "s46",
+        "s47",
+        "s49",
+        "s52"
+      ],
+      "shared_detail": "Reyna's filing window, intake-forms batch, routine chart-stamping, and supervisor audit block all start at 9:00pm"
+    },
+    {
+      "members": [
+        "s48",
+        "s54"
+      ],
+      "shared_detail": "Reyna's final compliance sign-off and the filing window both end at 9:00am"
+    }
+  ],
+  "convergence_verification_log": [
+    {
+      "pair": [
+        "s3",
+        "s22"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s5",
+        "s19"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s8",
+        "s21"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s16",
+        "s18"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s37",
+        "s39"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s37",
+        "s45"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s39",
+        "s45"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s46",
+        "s47"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s46",
+        "s49"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s46",
+        "s52"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s47",
+        "s49"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s47",
+        "s52"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s49",
+        "s52"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s48",
+        "s54"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s1",
+        "s2"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s1",
+        "s6"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 2 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s11",
+        "s9"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s14",
+        "s26"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s7"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s1",
+        "s28"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s11",
+        "s30"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s4",
+        "s32"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 2 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s46"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s11",
+        "s48"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s1",
+        "s37"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s11",
+        "s44"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s2",
+        "s6"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s2",
+        "s7"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s2",
+        "s28"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s16",
+        "s29"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 2 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s18",
+        "s29"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s2",
+        "s46"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s2",
+        "s37"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s6",
+        "s7"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s3",
+        "s34"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s9",
+        "s30"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 3 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s6",
+        "s28"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s22",
+        "s34"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 3 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s9",
+        "s48"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 1 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s6",
+        "s46"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s25",
+        "s41"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s9",
+        "s44"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s6",
+        "s37"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 2 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s28"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s7",
+        "s46"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s7",
+        "s37"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s28",
+        "s46"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s30",
+        "s48"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s28",
+        "s37"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s30",
+        "s44"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s46",
+        "s37"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s48",
+        "s44"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s15",
+        "s21"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s17",
+        "s20"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    }
+  ],
+  "thread_orders": {
+    "ER_Ferreira": [
+      "s1",
+      "s15",
+      "s10",
+      "s11",
+      "s12",
+      "s14",
+      "s4"
+    ],
+    "ICU_Solis": [
+      "s5",
+      "s2",
+      "s16",
+      "s17",
+      "s18",
+      "s19"
+    ],
+    "Patrol_Danh": [
+      "s3",
+      "s27",
+      "s24",
+      "s25",
+      "s9",
+      "s6",
+      "s23",
+      "s26",
+      "s22"
+    ],
+    "ER_Ochoa": [
+      "s13",
+      "s7"
+    ],
+    "ICU_Wren": [
+      "s8",
+      "s20",
+      "s21"
+    ],
+    "Pharmacy_Nakata": [
+      "s35",
+      "s33",
+      "s34",
+      "s31",
+      "s32",
+      "s28",
+      "s30",
+      "s29",
+      "s36"
+    ],
+    "Dispatch_Kade": [
+      "s38",
+      "s37",
+      "s40",
+      "s39",
+      "s41",
+      "s42",
+      "s43",
+      "s44",
+      "s45"
+    ],
+    "Filing_Reyna": [
+      "s46",
+      "s48",
+      "s47",
+      "s49",
+      "s50",
+      "s52",
+      "s51",
+      "s53",
+      "s54"
+    ]
+  },
+  "global_order": [
+    "s1",
+    "s5",
+    "s2",
+    "s15",
+    "s10",
+    "s11",
+    "s3",
+    "s27",
+    "s24",
+    "s25",
+    "s9",
+    "s12",
+    "s14",
+    "s6",
+    "s23",
+    "s26",
+    "s13",
+    "s7",
+    "s35",
+    "s33",
+    "s34",
+    "s31",
+    "s32",
+    "s28",
+    "s30",
+    "s46",
+    "s48",
+    "s38",
+    "s37",
+    "s40",
+    "s39",
+    "s41",
+    "s42",
+    "s43",
+    "s44",
+    "s16",
+    "s17",
+    "s18",
+    "s29",
+    "s8",
+    "s20",
+    "s21",
+    "s45",
+    "s4",
+    "s47",
+    "s49",
+    "s50",
+    "s52",
+    "s51",
+    "s53",
+    "s54",
+    "s19",
+    "s22",
+    "s36"
+  ],
+  "convergence_points": [
+    [
+      "s1",
+      "s2"
+    ],
+    [
+      "s11",
+      "s9"
+    ],
+    [
+      "s14",
+      "s26"
+    ],
+    [
+      "s1",
+      "s7"
+    ],
+    [
+      "s1",
+      "s28"
+    ],
+    [
+      "s11",
+      "s30"
+    ],
+    [
+      "s1",
+      "s46"
+    ],
+    [
+      "s11",
+      "s48"
+    ],
+    [
+      "s1",
+      "s37"
+    ],
+    [
+      "s11",
+      "s44"
+    ],
+    [
+      "s2",
+      "s6"
+    ],
+    [
+      "s2",
+      "s7"
+    ],
+    [
+      "s2",
+      "s28"
+    ],
+    [
+      "s18",
+      "s29"
+    ],
+    [
+      "s2",
+      "s46"
+    ],
+    [
+      "s2",
+      "s37"
+    ],
+    [
+      "s6",
+      "s7"
+    ],
+    [
+      "s3",
+      "s34"
+    ],
+    [
+      "s6",
+      "s28"
+    ],
+    [
+      "s6",
+      "s46"
+    ],
+    [
+      "s25",
+      "s41"
+    ],
+    [
+      "s9",
+      "s44"
+    ],
+    [
+      "s7",
+      "s28"
+    ],
+    [
+      "s7",
+      "s46"
+    ],
+    [
+      "s7",
+      "s37"
+    ],
+    [
+      "s28",
+      "s46"
+    ],
+    [
+      "s30",
+      "s48"
+    ],
+    [
+      "s28",
+      "s37"
+    ],
+    [
+      "s30",
+      "s44"
+    ],
+    [
+      "s46",
+      "s37"
+    ],
+    [
+      "s48",
+      "s44"
+    ],
+    [
+      "s15",
+      "s21"
+    ],
+    [
+      "s17",
+      "s20"
+    ]
+  ],
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "scored_edges": [
+    {
+      "node_i": "s2",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "finishes",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.5
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "gold_relation": "started-by",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.5
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "gold_relation": "finished-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s3",
+      "gold_relation": "meets",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s8",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s1",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s1",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s13",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "gold_relation": "meets",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s15",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s2",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s5",
+      "gold_relation": "started-by",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s20",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s8",
+      "gold_relation": "equals",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.5
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s6",
+      "gold_relation": "started-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s22",
+      "gold_relation": "during",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s23",
+      "gold_relation": "finishes",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.5
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s1",
+      "gold_relation": "equals",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.5
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s28",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s28",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s4",
+      "gold_relation": "during",
+      "predicted_relation": "overlapped-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s31",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s22",
+      "gold_relation": "equals",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.5
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s28",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s34",
+      "gold_relation": "contains",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s37",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s37",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s41",
+      "gold_relation": "meets",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s42",
+      "gold_relation": "overlaps",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s43",
+      "gold_relation": "during",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s45",
+      "node_j": "s39",
+      "gold_relation": "equals",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s47",
+      "node_j": "s46",
+      "gold_relation": "starts",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.5
+    },
+    {
+      "node_i": "s48",
+      "node_j": "s46",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s49",
+      "node_j": "s46",
+      "gold_relation": "during",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s47",
+      "node_j": "s50",
+      "gold_relation": "meets",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s50",
+      "node_j": "s51",
+      "gold_relation": "overlaps",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s50",
+      "node_j": "s52",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s53",
+      "node_j": "s52",
+      "gold_relation": "during",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s48",
+      "node_j": "s54",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    }
+  ],
+  "awt_f1_scores": {
+    "relation_score": 0.6450617283950619,
+    "thread_attribution_accuracy": 0.9074074074074074,
+    "awt_core": 0.7540681834916428,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1_legacy_harmonic": 0.0,
+    "convergence_precision_vs_pool": 0.0,
+    "convergence_recall_salient": 0.0,
+    "convergence_pool_available": false,
+    "n_proposed": 33,
+    "n_salient": 2,
+    "n_pool": 0,
+    "awt_f1": 0.0
+  },
+  "memorization_gap": {
+    "relation_score": 0.3055555555555556,
+    "thread_attribution_accuracy": 0.09259259259259256,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1": 0.0
+  }
+}

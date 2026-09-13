@@ -1,0 +1,900 @@
+{
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s2",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s3",
+      "thread_id": "amara"
+    },
+    {
+      "id": "s4",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s5",
+      "thread_id": "woman"
+    },
+    {
+      "id": "s6",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s7",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s8",
+      "thread_id": "woman"
+    },
+    {
+      "id": "s9",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s10",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s11",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s12",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s13",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s14",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s15",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s16",
+      "thread_id": "amara"
+    },
+    {
+      "id": "s17",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s18",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s19",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s20",
+      "thread_id": "dietz"
+    },
+    {
+      "id": "s21",
+      "thread_id": "amara"
+    },
+    {
+      "id": "s22",
+      "thread_id": "lab"
+    },
+    {
+      "id": "s23",
+      "thread_id": "lab"
+    },
+    {
+      "id": "s24",
+      "thread_id": "lab"
+    },
+    {
+      "id": "s25",
+      "thread_id": "lab"
+    },
+    {
+      "id": "s26",
+      "thread_id": "lab"
+    },
+    {
+      "id": "s27",
+      "thread_id": "lab"
+    },
+    {
+      "id": "s28",
+      "thread_id": "lab"
+    },
+    {
+      "id": "s29",
+      "thread_id": "lab"
+    },
+    {
+      "id": "s30",
+      "thread_id": "lab"
+    },
+    {
+      "id": "s31",
+      "thread_id": "woman"
+    },
+    {
+      "id": "s32",
+      "thread_id": "woman"
+    },
+    {
+      "id": "s33",
+      "thread_id": "woman"
+    },
+    {
+      "id": "s34",
+      "thread_id": "woman"
+    },
+    {
+      "id": "s35",
+      "thread_id": "woman"
+    },
+    {
+      "id": "s36",
+      "thread_id": "woman"
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s8",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s15",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s9",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s10",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s11",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s12",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s13",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s16",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s18",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "allen_relation": "before"
+    }
+  ],
+  "raw_edges": [
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s8",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s15",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s9",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s10",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s11",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s12",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s13",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s16",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s18",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "allen_relation": "before"
+    }
+  ],
+  "repair_log": [],
+  "raw_convergence_points": [
+    {
+      "members": [
+        "s20",
+        "s29"
+      ],
+      "shared_detail": "lab's preliminary report confirming the match (s29) is the same confirmation Dietz receives (s20)"
+    }
+  ],
+  "candidate_convergence_pairs": [
+    {
+      "members": [
+        "s20",
+        "s29"
+      ],
+      "shared_detail": "lab's preliminary report confirming the match (s29) is the same confirmation Dietz receives (s20)"
+    }
+  ],
+  "convergence_verification_log": [
+    {
+      "pair": [
+        "s20",
+        "s29"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    }
+  ],
+  "thread_orders": {
+    "dietz": [
+      "s1",
+      "s17",
+      "s2",
+      "s4",
+      "s6",
+      "s7",
+      "s9",
+      "s10",
+      "s11",
+      "s12",
+      "s18",
+      "s13",
+      "s19",
+      "s14",
+      "s20",
+      "s15"
+    ],
+    "amara": [
+      "s16",
+      "s21",
+      "s3"
+    ],
+    "woman": [
+      "s36",
+      "s5",
+      "s35",
+      "s34",
+      "s33",
+      "s32",
+      "s31",
+      "s8"
+    ],
+    "lab": [
+      "s22",
+      "s23",
+      "s24",
+      "s25",
+      "s26",
+      "s27",
+      "s28",
+      "s29",
+      "s30"
+    ]
+  },
+  "global_order": [
+    "s1",
+    "s17",
+    "s2",
+    "s4",
+    "s6",
+    "s7",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s18",
+    "s13",
+    "s19",
+    "s14",
+    "s20",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s16",
+    "s21",
+    "s3",
+    "s15",
+    "s30",
+    "s36",
+    "s5",
+    "s35",
+    "s34",
+    "s33",
+    "s32",
+    "s31",
+    "s8"
+  ],
+  "convergence_points": [
+    [
+      "s20",
+      "s29"
+    ]
+  ],
+  "model": "openai/gpt-oss-120b",
+  "scored_edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s4",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s7",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s10",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s9",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s5",
+      "gold_relation": "after",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "gold_relation": "after",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s2",
+      "gold_relation": "met-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s11",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s12",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s13",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s14",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s15",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s16",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s17",
+      "gold_relation": "before",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s18",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s19",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s20",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s25",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s28",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s29",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s30",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s31",
+      "gold_relation": "after",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s32",
+      "gold_relation": "after",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 1.0
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s5",
+      "gold_relation": "after",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s33",
+      "gold_relation": "after",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "gold_relation": "after",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 1.0
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s8",
+      "gold_relation": "after",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s35",
+      "gold_relation": "after",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s36",
+      "gold_relation": "after",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 1.0
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s23",
+      "gold_relation": "equals",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s24",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s26",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s28",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    }
+  ],
+  "awt_f1_scores": {
+    "relation_score": 0.8418803418803418,
+    "thread_attribution_accuracy": 0.8055555555555556,
+    "awt_core": 0.8233174809050295,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1_legacy_harmonic": 0.0,
+    "convergence_precision_vs_pool": 0.0,
+    "convergence_recall_salient": 0.0,
+    "convergence_pool_available": false,
+    "n_proposed": 1,
+    "n_salient": 2,
+    "n_pool": 0,
+    "awt_f1": 0.0
+  },
+  "memorization_gap": {
+    "relation_score": 0.16239316239316226,
+    "thread_attribution_accuracy": 0.19444444444444442,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1": 0.0
+  }
+}
