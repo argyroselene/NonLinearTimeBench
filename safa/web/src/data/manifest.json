@@ -1,0 +1,24 @@
+{
+  "stories": [
+    {
+      "id": "story_01",
+      "dir": "story_01",
+      "title": "Beachhead (before/after-dominated, 85%)"
+    },
+    {
+      "id": "story_03",
+      "dir": "story_03",
+      "title": "Reverse Wing (before/after-dominated, 77%)"
+    },
+    {
+      "id": "story_06",
+      "dir": "story_06",
+      "title": "Signal Loss (interval-rich, 4%)"
+    },
+    {
+      "id": "story_07",
+      "dir": "story_07",
+      "title": "Tide Watch (interval-rich, 4%)"
+    }
+  ]
+}

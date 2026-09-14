@@ -1,0 +1,3800 @@
+{
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "priya-van"
+    },
+    {
+      "id": "s2",
+      "thread_id": "crew-bank"
+    },
+    {
+      "id": "s3",
+      "thread_id": "sana-roof"
+    },
+    {
+      "id": "s4",
+      "thread_id": "crew-bank"
+    },
+    {
+      "id": "s5",
+      "thread_id": "priya-van"
+    },
+    {
+      "id": "s6",
+      "thread_id": "sana-roof"
+    },
+    {
+      "id": "s7",
+      "thread_id": "crew-bank"
+    },
+    {
+      "id": "s8",
+      "thread_id": "priya-van"
+    },
+    {
+      "id": "s9",
+      "thread_id": "sana-roof"
+    },
+    {
+      "id": "s10",
+      "thread_id": "priya-van"
+    },
+    {
+      "id": "s11",
+      "thread_id": "priya-van"
+    },
+    {
+      "id": "s12",
+      "thread_id": "priya-van"
+    },
+    {
+      "id": "s13",
+      "thread_id": "priya-van"
+    },
+    {
+      "id": "s14",
+      "thread_id": "priya-van"
+    },
+    {
+      "id": "s15",
+      "thread_id": "priya-van"
+    },
+    {
+      "id": "s16",
+      "thread_id": "crew-bank"
+    },
+    {
+      "id": "s17",
+      "thread_id": "crew-bank"
+    },
+    {
+      "id": "s18",
+      "thread_id": "crew-bank"
+    },
+    {
+      "id": "s19",
+      "thread_id": "crew-bank"
+    },
+    {
+      "id": "s20",
+      "thread_id": "crew-bank"
+    },
+    {
+      "id": "s21",
+      "thread_id": "crew-bank"
+    },
+    {
+      "id": "s22",
+      "thread_id": "sana-roof"
+    },
+    {
+      "id": "s23",
+      "thread_id": "sana-roof"
+    },
+    {
+      "id": "s24",
+      "thread_id": "sana-roof"
+    },
+    {
+      "id": "s25",
+      "thread_id": "sana-roof"
+    },
+    {
+      "id": "s26",
+      "thread_id": "sana-roof"
+    },
+    {
+      "id": "s27",
+      "thread_id": "sana-roof"
+    },
+    {
+      "id": "s28",
+      "thread_id": "farah-bank"
+    },
+    {
+      "id": "s29",
+      "thread_id": "farah-bank"
+    },
+    {
+      "id": "s30",
+      "thread_id": "farah-bank"
+    },
+    {
+      "id": "s31",
+      "thread_id": "farah-bank"
+    },
+    {
+      "id": "s32",
+      "thread_id": "farah-bank"
+    },
+    {
+      "id": "s33",
+      "thread_id": "farah-bank"
+    },
+    {
+      "id": "s34",
+      "thread_id": "farah-bank"
+    },
+    {
+      "id": "s35",
+      "thread_id": "farah-bank"
+    },
+    {
+      "id": "s36",
+      "thread_id": "farah-bank"
+    },
+    {
+      "id": "s37",
+      "thread_id": "denny-cafe"
+    },
+    {
+      "id": "s38",
+      "thread_id": "denny-cafe"
+    },
+    {
+      "id": "s39",
+      "thread_id": "denny-cafe"
+    },
+    {
+      "id": "s40",
+      "thread_id": "denny-cafe"
+    },
+    {
+      "id": "s41",
+      "thread_id": "denny-cafe"
+    },
+    {
+      "id": "s42",
+      "thread_id": "denny-cafe"
+    },
+    {
+      "id": "s43",
+      "thread_id": "denny-cafe"
+    },
+    {
+      "id": "s44",
+      "thread_id": "denny-cafe"
+    },
+    {
+      "id": "s45",
+      "thread_id": "denny-cafe"
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s10",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s11",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s12",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s13",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s14",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s16",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s17",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s18",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s22",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s23",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s24",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s31",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s19",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s20",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s33",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s34",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s19",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s20",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s33",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s34",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s15",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s11",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s12",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s13",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s12",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s13",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s13",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s17",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s18",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s18",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s24",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s35",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s38",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s39",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s40",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s41",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s39",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s40",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s41",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s40",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s41",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s41",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s45",
+      "allen_relation": "before"
+    }
+  ],
+  "raw_edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s10",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s11",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s12",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s13",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s14",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s16",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s17",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s18",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s22",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s23",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s24",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s31",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s19",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s20",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s33",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s34",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s35",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s19",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s20",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s33",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s34",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s35",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s15",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s11",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s12",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s13",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s12",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s13",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s13",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s14",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s17",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s18",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s18",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s19",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s20",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s28",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s24",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s25",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s29",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s30",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s31",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s32",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s33",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s35",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s36",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s38",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s39",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s40",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s41",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s39",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s40",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s41",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s40",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s41",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s41",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s42",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s44",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s45",
+      "allen_relation": "before"
+    }
+  ],
+  "repair_log": [
+    {
+      "edge": [
+        "s4",
+        "s18"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s4",
+        "s31"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s6",
+        "s19"
+      ],
+      "from_relation": "meets",
+      "to_relation": "contains",
+      "reason": "violates transitivity with 5 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s6",
+        "s20"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s6",
+        "s21"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s6",
+        "s33"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s6",
+        "s34"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s6",
+        "s35"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 5 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s7",
+        "s19"
+      ],
+      "from_relation": "meets",
+      "to_relation": "contains",
+      "reason": "violates transitivity with 5 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s7",
+        "s20"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s21"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s33"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s34"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s35"
+      ],
+      "from_relation": "meets",
+      "to_relation": "before",
+      "reason": "violates transitivity with 5 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s18",
+        "s31"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 15 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s19",
+        "s20"
+      ],
+      "from_relation": "before",
+      "to_relation": "starts",
+      "reason": "violates transitivity with 16 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s19",
+        "s21"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s19",
+        "s33"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s19",
+        "s34"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s19",
+        "s35"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s20",
+        "s21"
+      ],
+      "from_relation": "before",
+      "to_relation": "starts",
+      "reason": "violates transitivity with 16 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s20",
+        "s33"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s20",
+        "s34"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s20",
+        "s35"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s21",
+        "s33"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s21",
+        "s34"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s21",
+        "s35"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s33",
+        "s34"
+      ],
+      "from_relation": "before",
+      "to_relation": "starts",
+      "reason": "violates transitivity with 16 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s33",
+        "s35"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s34",
+        "s35"
+      ],
+      "from_relation": "before",
+      "to_relation": "starts",
+      "reason": "violates transitivity with 16 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s6",
+        "s19"
+      ],
+      "from_relation": "contains",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s6",
+        "s35"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s19"
+      ],
+      "from_relation": "contains",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s7",
+        "s35"
+      ],
+      "from_relation": "before",
+      "to_relation": null,
+      "reason": "violates transitivity with 5 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s19",
+        "s20"
+      ],
+      "from_relation": "starts",
+      "to_relation": "before",
+      "reason": "violates transitivity with 16 witness path(s) in agreement; repaired to closest consistent relation"
+    },
+    {
+      "edge": [
+        "s20",
+        "s21"
+      ],
+      "from_relation": "starts",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s33",
+        "s34"
+      ],
+      "from_relation": "starts",
+      "to_relation": null,
+      "reason": "violates transitivity with 16 witness path(s) but they disagree (empty vote intersection); left unchanged"
+    },
+    {
+      "edge": [
+        "s34",
+        "s35"
+      ],
+      "from_relation": "starts",
+      "to_relation": "overlaps",
+      "reason": "violates transitivity with 16 witness path(s) in agreement; repaired to closest consistent relation"
+    }
+  ],
+  "raw_convergence_points": [
+    {
+      "members": [
+        "s2",
+        "s28"
+      ],
+      "shared_detail": "both threads mention the exact time '9:59' and '10:00'"
+    },
+    {
+      "members": [
+        "s4",
+        "s18",
+        "s31"
+      ],
+      "shared_detail": "all threads mention the exact time '10:05' and the event of the vault door opening"
+    },
+    {
+      "members": [
+        "s6",
+        "s19",
+        "s26",
+        "s33"
+      ],
+      "shared_detail": "all threads mention the exact time '10:15' and the event of the crew re-emerging"
+    },
+    {
+      "members": [
+        "s7",
+        "s20",
+        "s21",
+        "s34",
+        "s35"
+      ],
+      "shared_detail": "all threads mention the exact time '10:16' and the events following the crew's exit"
+    },
+    {
+      "members": [
+        "s8",
+        "s42"
+      ],
+      "shared_detail": "both threads mention the exact time '10:25' and the event of the van pulling away"
+    }
+  ],
+  "candidate_convergence_pairs": [
+    {
+      "members": [
+        "s2",
+        "s28"
+      ],
+      "shared_detail": "both threads mention the exact time '9:59' and '10:00'"
+    },
+    {
+      "members": [
+        "s4",
+        "s18",
+        "s31"
+      ],
+      "shared_detail": "all threads mention the exact time '10:05' and the event of the vault door opening"
+    },
+    {
+      "members": [
+        "s6",
+        "s19",
+        "s26",
+        "s33"
+      ],
+      "shared_detail": "all threads mention the exact time '10:15' and the event of the crew re-emerging"
+    },
+    {
+      "members": [
+        "s7",
+        "s20",
+        "s21",
+        "s34",
+        "s35"
+      ],
+      "shared_detail": "all threads mention the exact time '10:16' and the events following the crew's exit"
+    },
+    {
+      "members": [
+        "s8",
+        "s42"
+      ],
+      "shared_detail": "both threads mention the exact time '10:25' and the event of the van pulling away"
+    }
+  ],
+  "convergence_verification_log": [
+    {
+      "pair": [
+        "s4",
+        "s18"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s6",
+        "s26"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s7",
+        "s20"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s7",
+        "s21"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s20",
+        "s21"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s34",
+        "s35"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s2",
+        "s28"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s4",
+        "s31"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s34"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s35"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s18",
+        "s31"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s19",
+        "s33"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s20",
+        "s34"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s20",
+        "s35"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 9 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s21",
+        "s34"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s21",
+        "s35"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s6",
+        "s19"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 1 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s26",
+        "s19"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s6",
+        "s33"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 1 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s26",
+        "s33"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s8",
+        "s42"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    }
+  ],
+  "thread_orders": {
+    "priya-van": [
+      "s1",
+      "s10",
+      "s5",
+      "s11",
+      "s8",
+      "s12",
+      "s15",
+      "s13",
+      "s14"
+    ],
+    "crew-bank": [
+      "s2",
+      "s4",
+      "s7",
+      "s16",
+      "s17",
+      "s18",
+      "s19",
+      "s20",
+      "s21"
+    ],
+    "sana-roof": [
+      "s3",
+      "s6",
+      "s9",
+      "s22",
+      "s23",
+      "s24",
+      "s25",
+      "s26",
+      "s27"
+    ],
+    "farah-bank": [
+      "s28",
+      "s29",
+      "s30",
+      "s31",
+      "s32",
+      "s33",
+      "s34",
+      "s35",
+      "s36"
+    ],
+    "denny-cafe": [
+      "s37",
+      "s38",
+      "s39",
+      "s40",
+      "s41",
+      "s42",
+      "s43",
+      "s44",
+      "s45"
+    ]
+  },
+  "global_order": [
+    "s2",
+    "s28",
+    "s4",
+    "s7",
+    "s16",
+    "s17",
+    "s18",
+    "s29",
+    "s30",
+    "s31",
+    "s19",
+    "s32",
+    "s33",
+    "s20",
+    "s21",
+    "s34",
+    "s35",
+    "s3",
+    "s6",
+    "s9",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s1",
+    "s10",
+    "s5",
+    "s11",
+    "s8",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s41",
+    "s42",
+    "s43",
+    "s44",
+    "s45",
+    "s36",
+    "s12",
+    "s15",
+    "s13",
+    "s14",
+    "s27"
+  ],
+  "convergence_points": [
+    [
+      "s2",
+      "s28"
+    ],
+    [
+      "s18",
+      "s31"
+    ],
+    [
+      "s19",
+      "s33"
+    ],
+    [
+      "s21",
+      "s34"
+    ],
+    [
+      "s21",
+      "s35"
+    ],
+    [
+      "s26",
+      "s19"
+    ],
+    [
+      "s26",
+      "s33"
+    ],
+    [
+      "s8",
+      "s42"
+    ]
+  ],
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "scored_edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "gold_relation": "contains",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s1",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s9",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "during",
+      "predicted_from": "explicit-reversed",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "during",
+      "predicted_from": "explicit-reversed",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s5",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s5",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s15",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s2",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.5
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "gold_relation": "starts",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s7",
+      "gold_relation": "meets",
+      "predicted_relation": "during",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s20",
+      "gold_relation": "before",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "gold_relation": "overlaps",
+      "predicted_relation": "starts",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.5
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s25",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s25",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "gold_relation": "starts",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s2",
+      "gold_relation": "contains",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.5
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s28",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s28",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s30",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s33",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "gold_relation": "overlaps",
+      "predicted_relation": "starts",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s34",
+      "gold_relation": "during",
+      "predicted_relation": "overlapped-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s36",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s5",
+      "gold_relation": "contains",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s37",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.5
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s37",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s39",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s43",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    }
+  ],
+  "awt_f1_scores": {
+    "relation_score": 0.7142857142857143,
+    "thread_attribution_accuracy": 1.0,
+    "awt_core": 0.8333333333333334,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1_legacy_harmonic": 0.0,
+    "convergence_precision_vs_pool": 0.0,
+    "convergence_recall_salient": 0.0,
+    "convergence_pool_available": false,
+    "n_proposed": 8,
+    "n_salient": 1,
+    "n_pool": 0,
+    "awt_f1": 0.0
+  },
+  "scored_edges_unrepaired": [
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "gold_relation": "contains",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s1",
+      "gold_relation": "overlaps",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "gold_relation": "before",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "score": 1.0
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "gold_relation": "before",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s9",
+      "gold_relation": "before",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "contains",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "contains",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s5",
+      "gold_relation": "overlaps",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s5",
+      "gold_relation": "during",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s15",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "score": 1.0
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s2",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "score": 0.5
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "gold_relation": "starts",
+      "predicted_relation": "meets",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s7",
+      "gold_relation": "meets",
+      "predicted_relation": "meets",
+      "score": 1.0
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s20",
+      "gold_relation": "before",
+      "predicted_relation": "meets",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "score": 0.5
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s25",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s25",
+      "gold_relation": "finishes",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "gold_relation": "starts",
+      "predicted_relation": "meets",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s2",
+      "gold_relation": "contains",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s28",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "score": 0.5
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s28",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s30",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "score": 0.5
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s33",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s34",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s36",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s5",
+      "gold_relation": "contains",
+      "predicted_relation": null,
+      "score": 0.0
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s37",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "score": 0.5
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s37",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s39",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "score": 0.5
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "score": 0.5
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s43",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "score": 0.8333333333333334
+    }
+  ],
+  "awt_f1_scores_unrepaired": {
+    "relation_score": 0.5034013605442177,
+    "thread_attribution_accuracy": 1.0,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1": 0.0
+  }
+}

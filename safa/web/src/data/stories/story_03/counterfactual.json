@@ -1,0 +1,491 @@
+{
+  "story_id": "story_03_reverse_wing_cf",
+  "title": "Reverse Wing (counterfactual: renamed entities, shifted hour anchors)",
+  "source": "Perturbed twin of story_03_reverse_wing -- same gold graph, renamed characters, hour offset +6",
+  "threads": [
+    {
+      "id": "N",
+      "label": "Dietz, present-tense forward search",
+      "granularity": "hours"
+    },
+    {
+      "id": "R",
+      "label": "The sister's last minutes, told backward",
+      "granularity": "relative"
+    },
+    {
+      "id": "M",
+      "label": "Amara (partner), parallel forward investigation",
+      "granularity": "hours"
+    },
+    {
+      "id": "X",
+      "label": "The forensic lab, processing physical evidence",
+      "granularity": "hours"
+    }
+  ],
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "N",
+      "time_expr": "hour 6",
+      "text": "Dietz starts canvassing the docks with only a photo and a name."
+    },
+    {
+      "id": "s2",
+      "thread_id": "R",
+      "time_expr": "the last minute (told first)",
+      "text": "Dietz's sister looks up one last time, already knowing the man in the doorway."
+    },
+    {
+      "id": "s3",
+      "thread_id": "M",
+      "time_expr": "hour 6",
+      "text": "Amara pulls the dock's registry logs from the night in question."
+    },
+    {
+      "id": "s4",
+      "thread_id": "N",
+      "time_expr": "hour 7",
+      "text": "He finds a witness who remembers the doorway."
+    },
+    {
+      "id": "s5",
+      "thread_id": "R",
+      "time_expr": "a few minutes earlier still",
+      "text": "A few minutes earlier, she had bolted the door, certain she'd locked him out for good."
+    },
+    {
+      "id": "s6",
+      "thread_id": "M",
+      "time_expr": "hour 7",
+      "text": "He cross-references the registry against a name Corvin radioed in."
+    },
+    {
+      "id": "s7",
+      "thread_id": "N",
+      "time_expr": "hour 8",
+      "text": "He corners the witness for a straight answer about the doorway."
+    },
+    {
+      "id": "s8",
+      "thread_id": "R",
+      "time_expr": "the earliest moment (previously)",
+      "text": "It began the moment the man first knocked, the door still unbolted behind her."
+    },
+    {
+      "id": "s9",
+      "thread_id": "M",
+      "time_expr": "hour 8",
+      "text": "He matches the name to an arrest record and radios Corvin the address."
+    },
+    {
+      "id": "s10",
+      "thread_id": "N",
+      "time_expr": "hour 9",
+      "text": "Dietz reaches the address and finally learns what happened in that doorway."
+    },
+    {
+      "id": "s11",
+      "thread_id": "N",
+      "time_expr": "hour 10",
+      "text": "He finds a bloodstained cloth tucked behind a piling near the address."
+    },
+    {
+      "id": "s12",
+      "thread_id": "N",
+      "time_expr": "hour 11",
+      "text": "He bags the cloth himself and drives it to the forensic lab."
+    },
+    {
+      "id": "s13",
+      "thread_id": "N",
+      "time_expr": "hour 12 to hour 13",
+      "text": "He waits at the lab through the following hour for preliminary results."
+    },
+    {
+      "id": "s14",
+      "thread_id": "N",
+      "time_expr": "hour 13",
+      "text": "He gets confirmation from the lab and matches it to the arrest record Voss found."
+    },
+    {
+      "id": "s15",
+      "thread_id": "N",
+      "time_expr": "hour 14",
+      "text": "Dietz closes the case file, walking back past the docks where it started."
+    },
+    {
+      "id": "s16",
+      "thread_id": "M",
+      "time_expr": "hour 9",
+      "text": "Amara visits the address after radioing Dietz, beginning an independent canvass of the neighbors."
+    },
+    {
+      "id": "s17",
+      "thread_id": "M",
+      "time_expr": "hour 10",
+      "text": "He finds a neighbor who saw someone dispose of a bloodstained cloth near the scene."
+    },
+    {
+      "id": "s18",
+      "thread_id": "M",
+      "time_expr": "hour 11",
+      "text": "He sends word to the forensic lab to prioritize the cloth evidence."
+    },
+    {
+      "id": "s19",
+      "thread_id": "M",
+      "time_expr": "hour 12",
+      "text": "He reviews the lab's chain-of-custody paperwork while waiting on results."
+    },
+    {
+      "id": "s20",
+      "thread_id": "M",
+      "time_expr": "hour 13",
+      "text": "He receives the lab's confirmation and cross-checks it against the arrest record."
+    },
+    {
+      "id": "s21",
+      "thread_id": "M",
+      "time_expr": "hour 14",
+      "text": "Amara closes the loop with Dietz, confirming the match."
+    },
+    {
+      "id": "s22",
+      "thread_id": "X",
+      "time_expr": "hour 6",
+      "text": "Forensic techs are dispatched to the docks to begin processing the scene."
+    },
+    {
+      "id": "s23",
+      "thread_id": "X",
+      "time_expr": "hour 7",
+      "text": "Techs lift a partial fingerprint from the doorway railing."
+    },
+    {
+      "id": "s24",
+      "thread_id": "X",
+      "time_expr": "hour 8 to hour 10",
+      "text": "Techs bag trace fibers snagged on the doorframe, cataloguing them over the next two hours."
+    },
+    {
+      "id": "s25",
+      "thread_id": "X",
+      "time_expr": "hour 10",
+      "text": "The lab finishes cataloguing the fiber evidence and preps the intake bay for what's still coming in from the scene."
+    },
+    {
+      "id": "s26",
+      "thread_id": "X",
+      "time_expr": "hour 11 to hour 12",
+      "text": "The lab receives Amara's rush request just as Dietz's cloth arrives, and begins prioritized processing that runs through the following hour."
+    },
+    {
+      "id": "s27",
+      "thread_id": "X",
+      "time_expr": "hour 12",
+      "text": "The lab logs the cloth into evidence and cross-references the partial print against the arrest record."
+    },
+    {
+      "id": "s28",
+      "thread_id": "X",
+      "time_expr": "hour 12.5 to hour 14",
+      "text": "The lab runs comparative fiber and bloodstain analysis on the cloth, a process spanning the next hour and a half."
+    },
+    {
+      "id": "s29",
+      "thread_id": "X",
+      "time_expr": "hour 14",
+      "text": "The lab issues a preliminary report confirming the print, fibers, and cloth all trace to the same address."
+    },
+    {
+      "id": "s30",
+      "thread_id": "X",
+      "time_expr": "hour 15",
+      "text": "The lab archives the physical evidence as the case closes."
+    },
+    {
+      "id": "s31",
+      "thread_id": "R",
+      "time_expr": "moments before that",
+      "text": "Moments before that, she hears a second knock, softer than the first."
+    },
+    {
+      "id": "s32",
+      "thread_id": "R",
+      "time_expr": "just before, in the same held breath",
+      "text": "Just before, she presses her palm flat against the door, listening."
+    },
+    {
+      "id": "s33",
+      "thread_id": "R",
+      "time_expr": "earlier than that",
+      "text": "Earlier than that, she'd argued with him through the door, telling him to leave."
+    },
+    {
+      "id": "s34",
+      "thread_id": "R",
+      "time_expr": "earlier still",
+      "text": "Earlier still, she'd watched him approach from the window, recognizing his coat."
+    },
+    {
+      "id": "s35",
+      "thread_id": "R",
+      "time_expr": "earlier that evening",
+      "text": "Earlier that evening, she'd unlocked the door for the first time in weeks, half-hoping he'd come."
+    },
+    {
+      "id": "s36",
+      "thread_id": "R",
+      "time_expr": "earlier still, before any of it",
+      "text": "Earlier still, before any of it, she'd read his old letter and decided to wait by the door."
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s4",
+      "allen_relation": "before",
+      "evidence_span": "Dietz starts canvassing ... Dietz finds a witness"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s7",
+      "allen_relation": "before",
+      "evidence_span": "Dietz finds a witness ... Dietz corners the witness"
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s10",
+      "allen_relation": "before",
+      "evidence_span": "Dietz corners the witness ... Dietz reaches the address"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "allen_relation": "before",
+      "evidence_span": "Amara pulls the registry logs ... cross-references against a name Dietz radioed in"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s9",
+      "allen_relation": "before",
+      "evidence_span": "Amara cross-references ... radios Dietz the address"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s5",
+      "allen_relation": "after",
+      "evidence_span": "looks up one last time, already knowing the man in the doorway (narrated first) ... A few minutes earlier, she had bolted the door (chronologically prior)"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "allen_relation": "after",
+      "evidence_span": "had bolted the door, certain she'd locked him out for good (narrated second) ... It began the moment the man first knocked (chronologically earliest, narrated last)"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s2",
+      "allen_relation": "met-by",
+      "evidence_span": "Amara pulls the dock's registry logs"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s11",
+      "allen_relation": "before",
+      "evidence_span": "Dietz reaches the address ... Dietz finds a bloodstained cloth"
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s12",
+      "allen_relation": "before",
+      "evidence_span": "Dietz finds a bloodstained cloth ... Dietz bags the cloth"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s13",
+      "allen_relation": "before",
+      "evidence_span": "Dietz drives it to the lab ... Dietz waits at the lab"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s14",
+      "allen_relation": "meets",
+      "evidence_span": "Dietz waits at the lab ... Dietz gets confirmation"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s15",
+      "allen_relation": "before",
+      "evidence_span": "Dietz gets confirmation ... Dietz closes the case file"
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s16",
+      "allen_relation": "before",
+      "evidence_span": "radios Dietz the address ... visits the address after radioing Dietz"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s17",
+      "allen_relation": "before",
+      "evidence_span": "beginning an independent canvass of the neighbors ... finds a neighbor who saw someone dispose of a bloodstained cloth"
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s18",
+      "allen_relation": "before",
+      "evidence_span": "Amara sends word to the forensic lab"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s19",
+      "allen_relation": "before",
+      "evidence_span": "Amara sends word ... Amara reviews the lab's paperwork"
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s20",
+      "allen_relation": "before",
+      "evidence_span": "Amara reviews ... Amara receives the lab's confirmation"
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "allen_relation": "before",
+      "evidence_span": "Amara receives the lab's confirmation ... Amara closes the loop with Dietz"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "before",
+      "evidence_span": "dispatched to the docks to begin processing the scene ... lift a partial fingerprint from the doorway railing"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "before",
+      "evidence_span": "lift a partial fingerprint from the doorway railing ... bag trace fibers snagged on the doorframe, cataloguing them over the next two hours"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s25",
+      "allen_relation": "meets",
+      "evidence_span": "cataloguing them over the next two hours, ending as ... the lab finishes cataloguing the fiber evidence and preps the intake bay"
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s26",
+      "allen_relation": "before",
+      "evidence_span": "the lab receives Amara's rush request just as Dietz's cloth arrives"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "meets",
+      "evidence_span": "begins prioritized processing that runs through the following hour, ending as ... the lab logs the cloth into evidence and cross-references the partial print"
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s28",
+      "allen_relation": "before",
+      "evidence_span": "cross-references the partial print against the arrest record ... runs comparative fiber and bloodstain analysis on the cloth, a process spanning the next hour and a half"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s29",
+      "allen_relation": "meets",
+      "evidence_span": "a process spanning the next hour and a half, ending exactly as ... the lab issues a preliminary report"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s30",
+      "allen_relation": "before",
+      "evidence_span": "issues a preliminary report confirming the print, fibers, and cloth all trace to the same address ... archives the physical evidence as the case closes"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s31",
+      "allen_relation": "after",
+      "evidence_span": "looks up one last time, already knowing the man in the doorway (narrated first) ... Moments before that, she hears a second knock (chronologically just prior)"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s32",
+      "allen_relation": "after",
+      "evidence_span": "hears a second knock, softer than the first (narrated second) ... Just before, she presses her palm flat against the door, listening (chronologically just prior)"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s5",
+      "allen_relation": "after",
+      "evidence_span": "presses her palm flat against the door, listening (narrated third) ... A few minutes earlier, she had bolted the door (chronologically prior)"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s33",
+      "allen_relation": "after",
+      "evidence_span": "had bolted the door, certain she'd locked him out for good (narrated) ... Earlier than that, she'd argued with him through the door, telling him to leave (chronologically prior)"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "allen_relation": "after",
+      "evidence_span": "argued with him through the door, telling him to leave (narrated) ... Earlier still, she'd watched him approach from the window (chronologically prior)"
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s8",
+      "allen_relation": "after",
+      "evidence_span": "watched him approach from the window, recognizing his coat (narrated) ... It began the moment the man first knocked (chronologically prior to that)"
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s35",
+      "allen_relation": "after",
+      "evidence_span": "It began the moment the man first knocked, the door still unbolted behind her (narrated) ... Earlier that evening, she'd unlocked the door for the first time in weeks (chronologically prior)"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s36",
+      "allen_relation": "after",
+      "evidence_span": "unlocked the door for the first time in weeks, half-hoping he'd come (narrated) ... Earlier still, before any of it, she'd read his old letter and decided to wait by the door (chronologically earliest)"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s23",
+      "allen_relation": "equals",
+      "evidence_span": "hour 7: Dietz finds a witness ... techs lift a partial fingerprint"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s24",
+      "allen_relation": "during",
+      "evidence_span": "Amara visits the address (hour 9) within the techs' cataloguing window (hour 8 to hour 10)"
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s26",
+      "allen_relation": "starts",
+      "evidence_span": "Amara sends word to the forensic lab (hour 11) at the exact hour the lab's processing window (hour 11 to hour 12) begins"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s28",
+      "allen_relation": "overlaps",
+      "evidence_span": "Dietz waits at the lab (hour 12 to hour 13) overlapping the lab's analysis window (hour 12.5 to hour 14)"
+    }
+  ],
+  "convergence_points": [
+    [
+      "s9",
+      "s10"
+    ],
+    [
+      "s4",
+      "s23"
+    ]
+  ]
+}

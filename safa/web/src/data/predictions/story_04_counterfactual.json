@@ -1,0 +1,1372 @@
+{
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "nadira"
+    },
+    {
+      "id": "s2",
+      "thread_id": "crew"
+    },
+    {
+      "id": "s3",
+      "thread_id": "bex"
+    },
+    {
+      "id": "s4",
+      "thread_id": "crew"
+    },
+    {
+      "id": "s5",
+      "thread_id": "nadira"
+    },
+    {
+      "id": "s6",
+      "thread_id": "bex"
+    },
+    {
+      "id": "s7",
+      "thread_id": "crew"
+    },
+    {
+      "id": "s8",
+      "thread_id": "nadira"
+    },
+    {
+      "id": "s9",
+      "thread_id": "bex"
+    },
+    {
+      "id": "s10",
+      "thread_id": "nadira"
+    },
+    {
+      "id": "s11",
+      "thread_id": "nadira"
+    },
+    {
+      "id": "s12",
+      "thread_id": "nadira"
+    },
+    {
+      "id": "s13",
+      "thread_id": "nadira"
+    },
+    {
+      "id": "s14",
+      "thread_id": "nadira"
+    },
+    {
+      "id": "s15",
+      "thread_id": "nadira"
+    },
+    {
+      "id": "s16",
+      "thread_id": "crew"
+    },
+    {
+      "id": "s17",
+      "thread_id": "crew"
+    },
+    {
+      "id": "s18",
+      "thread_id": "crew"
+    },
+    {
+      "id": "s19",
+      "thread_id": "crew"
+    },
+    {
+      "id": "s20",
+      "thread_id": "crew"
+    },
+    {
+      "id": "s21",
+      "thread_id": "crew"
+    },
+    {
+      "id": "s22",
+      "thread_id": "bex"
+    },
+    {
+      "id": "s23",
+      "thread_id": "bex"
+    },
+    {
+      "id": "s24",
+      "thread_id": "bex"
+    },
+    {
+      "id": "s25",
+      "thread_id": "bex"
+    },
+    {
+      "id": "s26",
+      "thread_id": "bex"
+    },
+    {
+      "id": "s27",
+      "thread_id": "bex"
+    },
+    {
+      "id": "s28",
+      "thread_id": "lior"
+    },
+    {
+      "id": "s29",
+      "thread_id": "lior"
+    },
+    {
+      "id": "s30",
+      "thread_id": "lior"
+    },
+    {
+      "id": "s31",
+      "thread_id": "lior"
+    },
+    {
+      "id": "s32",
+      "thread_id": "lior"
+    },
+    {
+      "id": "s33",
+      "thread_id": "lior"
+    },
+    {
+      "id": "s34",
+      "thread_id": "lior"
+    },
+    {
+      "id": "s35",
+      "thread_id": "lior"
+    },
+    {
+      "id": "s36",
+      "thread_id": "lior"
+    },
+    {
+      "id": "s37",
+      "thread_id": "costa"
+    },
+    {
+      "id": "s38",
+      "thread_id": "costa"
+    },
+    {
+      "id": "s39",
+      "thread_id": "costa"
+    },
+    {
+      "id": "s40",
+      "thread_id": "costa"
+    },
+    {
+      "id": "s41",
+      "thread_id": "costa"
+    },
+    {
+      "id": "s42",
+      "thread_id": "costa"
+    },
+    {
+      "id": "s43",
+      "thread_id": "costa"
+    },
+    {
+      "id": "s44",
+      "thread_id": "costa"
+    },
+    {
+      "id": "s45",
+      "thread_id": "costa"
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s14",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s8",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s6",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s19",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s19",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s31",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s17",
+      "allen_relation": "overlapped-by"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s17",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s39",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s22",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s10",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s11",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s27",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s24",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s18",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s18",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s37",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s42",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s43",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s44",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s41",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s34",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s21",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s36",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s11",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s30",
+      "allen_relation": "overlapped-by"
+    }
+  ],
+  "raw_edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s14",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s8",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s6",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s19",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s19",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s31",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s17",
+      "allen_relation": "overlapped-by"
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s17",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s39",
+      "allen_relation": "starts"
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s22",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s10",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s27",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s11",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s27",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s24",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s18",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s18",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s37",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s42",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s43",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s44",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s41",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s34",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s21",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s36",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s21",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s1",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s11",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s30",
+      "allen_relation": "overlapped-by"
+    }
+  ],
+  "repair_log": [
+    {
+      "edge": [
+        "s10",
+        "s22"
+      ],
+      "from_relation": "overlaps",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s22",
+        "s23"
+      ],
+      "from_relation": "meets",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    },
+    {
+      "edge": [
+        "s23",
+        "s10"
+      ],
+      "from_relation": "overlaps",
+      "to_relation": null,
+      "reason": "violates transitivity with only 1 witness path(s) (< 2 needed for a confident fix); left unchanged"
+    }
+  ],
+  "raw_convergence_points": [
+    {
+      "members": [
+        "s4",
+        "s18",
+        "s31"
+      ],
+      "shared_detail": "vault door swings open at 12:05 (s4) coincides with start of crew stuffing first bag (s18) and Lior hearing the door (s31)"
+    },
+    {
+      "members": [
+        "s2",
+        "s6",
+        "s19"
+      ],
+      "shared_detail": "exact second the crew re-emerges at 12:15 (s2) and Bex radios the all\u2011clear (s6) and crew shoulders the bags (s19)"
+    },
+    {
+      "members": [
+        "s8",
+        "s14"
+      ],
+      "shared_detail": "instant Nadira pulls away at 12:25 (s8) which is when the headlights turn off (end of s14)"
+    },
+    {
+      "members": [
+        "s42",
+        "s43",
+        "s15",
+        "s37",
+        "s41"
+      ],
+      "shared_detail": "exact second the van pulls away at 12:26 (s42) observed by Costa exhaling (s42), Costa\u2019s lingering start (s43), Nadira checking phone start (s15), Costa watching van end (s37), and Costa keeping eye on side door end (s41)"
+    },
+    {
+      "members": [
+        "s33",
+        "s7"
+      ],
+      "shared_detail": "12:16 moment when Lior is helped to a chair (s33) and crew splits the cash (s7)"
+    },
+    {
+      "members": [
+        "s33",
+        "s21"
+      ],
+      "shared_detail": "12:19 when Lior sits down (s33 ends) and crew begins wiping counters (s21 starts)"
+    },
+    {
+      "members": [
+        "s45",
+        "s15"
+      ],
+      "shared_detail": "12:30 when Costa gets up (s45) and Nadira finishes checking phone (s15 ends)"
+    }
+  ],
+  "candidate_convergence_pairs": [
+    {
+      "members": [
+        "s4",
+        "s18",
+        "s31"
+      ],
+      "shared_detail": "vault door swings open at 12:05 (s4) coincides with start of crew stuffing first bag (s18) and Lior hearing the door (s31)"
+    },
+    {
+      "members": [
+        "s2",
+        "s6",
+        "s19"
+      ],
+      "shared_detail": "exact second the crew re-emerges at 12:15 (s2) and Bex radios the all\u2011clear (s6) and crew shoulders the bags (s19)"
+    },
+    {
+      "members": [
+        "s8",
+        "s14"
+      ],
+      "shared_detail": "instant Nadira pulls away at 12:25 (s8) which is when the headlights turn off (end of s14)"
+    },
+    {
+      "members": [
+        "s42",
+        "s43",
+        "s15",
+        "s37",
+        "s41"
+      ],
+      "shared_detail": "exact second the van pulls away at 12:26 (s42) observed by Costa exhaling (s42), Costa\u2019s lingering start (s43), Nadira checking phone start (s15), Costa watching van end (s37), and Costa keeping eye on side door end (s41)"
+    },
+    {
+      "members": [
+        "s33",
+        "s7"
+      ],
+      "shared_detail": "12:16 moment when Lior is helped to a chair (s33) and crew splits the cash (s7)"
+    },
+    {
+      "members": [
+        "s33",
+        "s21"
+      ],
+      "shared_detail": "12:19 when Lior sits down (s33 ends) and crew begins wiping counters (s21 starts)"
+    },
+    {
+      "members": [
+        "s45",
+        "s15"
+      ],
+      "shared_detail": "12:30 when Costa gets up (s45) and Nadira finishes checking phone (s15 ends)"
+    }
+  ],
+  "convergence_verification_log": [
+    {
+      "pair": [
+        "s4",
+        "s18"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s2",
+        "s19"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s8",
+        "s14"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s42",
+        "s43"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s42",
+        "s37"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s42",
+        "s41"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s43",
+        "s37"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s43",
+        "s41"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s37",
+        "s41"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s21",
+        "s33"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 3 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s4",
+        "s31"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s7",
+        "s33"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s18",
+        "s31"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 3 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s2",
+        "s6"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 1 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s19",
+        "s6"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s37",
+        "s15"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 4 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s42",
+        "s15"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 4 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s41",
+        "s15"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 4 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s43",
+        "s15"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 4 other convergence anchor(s) between the same threads"
+    },
+    {
+      "pair": [
+        "s45",
+        "s15"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    }
+  ],
+  "thread_orders": {
+    "nadira": [
+      "s1",
+      "s10",
+      "s11",
+      "s12",
+      "s13",
+      "s15",
+      "s5",
+      "s14",
+      "s8"
+    ],
+    "crew": [
+      "s16",
+      "s20",
+      "s21",
+      "s4",
+      "s7",
+      "s17",
+      "s18",
+      "s2",
+      "s19"
+    ],
+    "bex": [
+      "s22",
+      "s24",
+      "s25",
+      "s26",
+      "s3",
+      "s6",
+      "s9",
+      "s23",
+      "s27"
+    ],
+    "lior": [
+      "s28",
+      "s29",
+      "s30",
+      "s31",
+      "s33",
+      "s34",
+      "s35",
+      "s36",
+      "s32"
+    ],
+    "costa": [
+      "s37",
+      "s38",
+      "s39",
+      "s40",
+      "s44",
+      "s42",
+      "s41",
+      "s43",
+      "s45"
+    ]
+  },
+  "global_order": [
+    "s16",
+    "s20",
+    "s21",
+    "s4",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s7",
+    "s33",
+    "s17",
+    "s18",
+    "s2",
+    "s19",
+    "s22",
+    "s24",
+    "s25",
+    "s26",
+    "s3",
+    "s6",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s44",
+    "s42",
+    "s41",
+    "s43",
+    "s45",
+    "s1",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s15",
+    "s9",
+    "s23",
+    "s27",
+    "s34",
+    "s35",
+    "s36",
+    "s32",
+    "s5",
+    "s14",
+    "s8"
+  ],
+  "convergence_points": [
+    [
+      "s4",
+      "s31"
+    ],
+    [
+      "s7",
+      "s33"
+    ],
+    [
+      "s19",
+      "s6"
+    ],
+    [
+      "s45",
+      "s15"
+    ]
+  ],
+  "model": "openai/gpt-oss-120b",
+  "scored_edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "gold_relation": "contains",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s1",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s7",
+      "gold_relation": "before",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s8",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s6",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s9",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 1.0
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s5",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s5",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s8",
+      "gold_relation": "meets",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s15",
+      "gold_relation": "before",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s2",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "gold_relation": "finishes",
+      "predicted_relation": "overlaps",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s18",
+      "gold_relation": "starts",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s7",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s20",
+      "gold_relation": "before",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s21",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "gold_relation": "starts",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s25",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s25",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s9",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s2",
+      "gold_relation": "contains",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s28",
+      "gold_relation": "starts",
+      "predicted_relation": "during",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s28",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s28",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s30",
+      "gold_relation": "finishes",
+      "predicted_relation": "overlapped-by",
+      "predicted_from": "explicit",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s33",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s33",
+      "node_j": "s34",
+      "gold_relation": "overlaps",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s34",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s36",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s5",
+      "gold_relation": "contains",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s37",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s37",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s39",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s37",
+      "gold_relation": "finishes",
+      "predicted_relation": "met-by",
+      "predicted_from": "explicit-reversed",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s42",
+      "node_j": "s43",
+      "gold_relation": "starts",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s43",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s45",
+      "gold_relation": "meets",
+      "predicted_relation": "meets",
+      "predicted_from": "explicit",
+      "score": 1.0
+    }
+  ],
+  "awt_f1_scores": {
+    "relation_score": 0.6870748299319729,
+    "thread_attribution_accuracy": 1.0,
+    "awt_core": 0.8145161290322582,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1_legacy_harmonic": 0.0,
+    "convergence_precision_vs_pool": 0.0,
+    "convergence_recall_salient": 0.0,
+    "convergence_pool_available": false,
+    "n_proposed": 4,
+    "n_salient": 1,
+    "n_pool": 0,
+    "awt_f1": 0.0
+  },
+  "memorization_gap": {
+    "relation_score": 0.37074829931972786,
+    "thread_attribution_accuracy": 0.0,
+    "convergence_precision": 0.0,
+    "convergence_recall": 0.0,
+    "convergence_f1": 0.0,
+    "awt_f1": 0.0
+  }
+}

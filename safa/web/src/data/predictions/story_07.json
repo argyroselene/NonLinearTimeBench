@@ -1,0 +1,1791 @@
+{
+  "events": [
+    {
+      "id": "s1",
+      "thread_id": "pump"
+    },
+    {
+      "id": "s2",
+      "thread_id": "radio"
+    },
+    {
+      "id": "s3",
+      "thread_id": "fill"
+    },
+    {
+      "id": "s4",
+      "thread_id": "boat"
+    },
+    {
+      "id": "s5",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s6",
+      "thread_id": "pump"
+    },
+    {
+      "id": "s7",
+      "thread_id": "phone"
+    },
+    {
+      "id": "s8",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s9",
+      "thread_id": "boat"
+    },
+    {
+      "id": "s10",
+      "thread_id": "garden"
+    },
+    {
+      "id": "s11",
+      "thread_id": "pump"
+    },
+    {
+      "id": "s12",
+      "thread_id": "radio"
+    },
+    {
+      "id": "s13",
+      "thread_id": "garden"
+    },
+    {
+      "id": "s14",
+      "thread_id": "boat"
+    },
+    {
+      "id": "s15",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s16",
+      "thread_id": "pump"
+    },
+    {
+      "id": "s17",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s18",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s19",
+      "thread_id": "search"
+    },
+    {
+      "id": "s20",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s21",
+      "thread_id": "radio"
+    },
+    {
+      "id": "s22",
+      "thread_id": "radio"
+    },
+    {
+      "id": "s23",
+      "thread_id": "boat"
+    },
+    {
+      "id": "s24",
+      "thread_id": "boat"
+    },
+    {
+      "id": "s25",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s26",
+      "thread_id": "pump"
+    },
+    {
+      "id": "s27",
+      "thread_id": "boat"
+    },
+    {
+      "id": "s28",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s29",
+      "thread_id": "boat"
+    },
+    {
+      "id": "s30",
+      "thread_id": "phone"
+    },
+    {
+      "id": "s31",
+      "thread_id": "phone"
+    },
+    {
+      "id": "s32",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s33",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s34",
+      "thread_id": "search"
+    },
+    {
+      "id": "s35",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s36",
+      "thread_id": "pump"
+    },
+    {
+      "id": "s37",
+      "thread_id": "phone"
+    },
+    {
+      "id": "s38",
+      "thread_id": "garden"
+    },
+    {
+      "id": "s39",
+      "thread_id": "boat"
+    },
+    {
+      "id": "s40",
+      "thread_id": "flood"
+    },
+    {
+      "id": "s41",
+      "thread_id": "pump"
+    },
+    {
+      "id": "s42",
+      "thread_id": "radio"
+    },
+    {
+      "id": "s43",
+      "thread_id": "fill"
+    },
+    {
+      "id": "s44",
+      "thread_id": "search"
+    },
+    {
+      "id": "s45",
+      "thread_id": "phone"
+    }
+  ],
+  "edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s3",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s4",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s36",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s38",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s3",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s4",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s2",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s38",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s4",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s3",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s3",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s38",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s3",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s4",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s4",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s38",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s45",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s36",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s38",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s5",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s5",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s5",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s5",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s38",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s45",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s24",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s40",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s40",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s40",
+      "allen_relation": "equals"
+    }
+  ],
+  "raw_edges": [
+    {
+      "node_i": "s1",
+      "node_j": "s2",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s3",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s4",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s5",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s36",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s38",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s3",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s4",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s2",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s2",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s38",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s2",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s4",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s3",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s3",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s38",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s3",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s3",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s3",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s3",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s4",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s4",
+      "allen_relation": "meets"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s38",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s4",
+      "node_j": "s45",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s4",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s36",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s38",
+      "allen_relation": "overlaps"
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s5",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s5",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s5",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s5",
+      "allen_relation": "during"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s38",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s45",
+      "allen_relation": "before"
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s45",
+      "allen_relation": "contains"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s24",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s40",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s40",
+      "allen_relation": "equals"
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s40",
+      "allen_relation": "equals"
+    }
+  ],
+  "repair_log": [],
+  "raw_convergence_points": [
+    {
+      "members": [
+        "s22",
+        "s23",
+        "s24",
+        "s40"
+      ],
+      "shared_detail": "At five to four (3:55) the board lit up red, the crew stopped, a flare went up, and water came over the kerb"
+    }
+  ],
+  "candidate_convergence_pairs": [
+    {
+      "members": [
+        "s22",
+        "s23",
+        "s24",
+        "s40"
+      ],
+      "shared_detail": "At five to four (3:55) the board lit up red, the crew stopped, a flare went up, and water came over the kerb"
+    }
+  ],
+  "convergence_verification_log": [
+    {
+      "pair": [
+        "s23",
+        "s24"
+      ],
+      "kept": false,
+      "reason": "both nodes are in the same thread -- a node cannot converge with its own thread"
+    },
+    {
+      "pair": [
+        "s22",
+        "s23"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s22",
+        "s24"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s22",
+        "s40"
+      ],
+      "kept": true,
+      "reason": "sole candidate between this thread pair"
+    },
+    {
+      "pair": [
+        "s23",
+        "s40"
+      ],
+      "kept": true,
+      "reason": "order-consistent with the other convergence anchor(s) between these threads"
+    },
+    {
+      "pair": [
+        "s24",
+        "s40"
+      ],
+      "kept": false,
+      "reason": "breaks monotonic ordering with 1 other convergence anchor(s) between the same threads"
+    }
+  ],
+  "thread_orders": {
+    "pump": [
+      "s1",
+      "s11",
+      "s16",
+      "s26",
+      "s36",
+      "s41",
+      "s6"
+    ],
+    "radio": [
+      "s12",
+      "s2",
+      "s21",
+      "s22",
+      "s42"
+    ],
+    "fill": [
+      "s3",
+      "s43"
+    ],
+    "boat": [
+      "s14",
+      "s23",
+      "s24",
+      "s27",
+      "s29",
+      "s39",
+      "s4",
+      "s9"
+    ],
+    "flood": [
+      "s15",
+      "s17",
+      "s18",
+      "s20",
+      "s25",
+      "s28",
+      "s32",
+      "s33",
+      "s35",
+      "s40",
+      "s5",
+      "s8"
+    ],
+    "phone": [
+      "s30",
+      "s31",
+      "s37",
+      "s45",
+      "s7"
+    ],
+    "garden": [
+      "s10",
+      "s13",
+      "s38"
+    ],
+    "search": [
+      "s19",
+      "s34",
+      "s44"
+    ]
+  },
+  "global_order": [
+    "s12",
+    "s2",
+    "s21",
+    "s22",
+    "s14",
+    "s23",
+    "s24",
+    "s15",
+    "s17",
+    "s18",
+    "s20",
+    "s25",
+    "s28",
+    "s32",
+    "s33",
+    "s35",
+    "s40",
+    "s27",
+    "s29",
+    "s39",
+    "s4",
+    "s9",
+    "s3",
+    "s43",
+    "s5",
+    "s8",
+    "s10",
+    "s13",
+    "s38",
+    "s30",
+    "s31",
+    "s37",
+    "s45",
+    "s7",
+    "s1",
+    "s11",
+    "s16",
+    "s26",
+    "s36",
+    "s41",
+    "s6",
+    "s42",
+    "s19",
+    "s34",
+    "s44"
+  ],
+  "convergence_points": [
+    [
+      "s22",
+      "s23"
+    ],
+    [
+      "s22",
+      "s24"
+    ],
+    [
+      "s22",
+      "s40"
+    ],
+    [
+      "s23",
+      "s40"
+    ]
+  ],
+  "recall_critique_added": [],
+  "model": "openai/gpt-oss-120b",
+  "scored_edges": [
+    {
+      "node_i": "s6",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s1",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s16",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s21",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s16",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s6",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s41",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s26",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s2",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s2",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s17",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s7",
+      "gold_relation": "met-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s2",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s17",
+      "gold_relation": "met-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s42",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s17",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s3",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s3",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s18",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s8",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s33",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s18",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s3",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s38",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s4",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s4",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s9",
+      "gold_relation": "met-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s9",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s14",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s4",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s19",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s34",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s5",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s5",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s5",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s20",
+      "gold_relation": "met-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s5",
+      "gold_relation": "met-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s10",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s25",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s45",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s15",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s6",
+      "gold_relation": "after",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s6",
+      "gold_relation": "started-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s21",
+      "gold_relation": "contains",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s11",
+      "gold_relation": "finished-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s40",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s40",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    }
+  ],
+  "awt_f1_scores": {
+    "relation_score": 0.6296296296296297,
+    "thread_attribution_accuracy": 0.5555555555555556,
+    "awt_core": 0.5902777777777779,
+    "convergence_precision": 0.25,
+    "convergence_recall": 0.3333333333333333,
+    "convergence_f1": 0.28571428571428575,
+    "awt_f1_legacy_harmonic": 0.43552519214346713,
+    "convergence_precision_vs_pool": 1.0,
+    "convergence_recall_salient": 0.3333333333333333,
+    "convergence_pool_available": true,
+    "n_proposed": 4,
+    "n_salient": 3,
+    "n_pool": 82,
+    "awt_f1": 0.43552519214346713
+  },
+  "scored_edges_unrepaired": [
+    {
+      "node_i": "s6",
+      "node_j": "s1",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s11",
+      "node_j": "s1",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s16",
+      "node_j": "s1",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s21",
+      "node_j": "s16",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s6",
+      "node_j": "s26",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s26",
+      "node_j": "s21",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s31",
+      "node_j": "s16",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s6",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s41",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s36",
+      "node_j": "s26",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s7",
+      "node_j": "s2",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s12",
+      "node_j": "s2",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s17",
+      "node_j": "s2",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s17",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s7",
+      "gold_relation": "met-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s37",
+      "node_j": "s2",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s32",
+      "node_j": "s17",
+      "gold_relation": "met-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s2",
+      "node_j": "s42",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s27",
+      "node_j": "s17",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s8",
+      "node_j": "s3",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s13",
+      "node_j": "s3",
+      "gold_relation": "finishes",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s18",
+      "node_j": "s3",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s18",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s8",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s3",
+      "node_j": "s33",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s38",
+      "node_j": "s18",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s43",
+      "node_j": "s3",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s28",
+      "node_j": "s38",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s9",
+      "node_j": "s4",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s14",
+      "node_j": "s4",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s4",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s9",
+      "gold_relation": "met-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s29",
+      "node_j": "s9",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s34",
+      "node_j": "s14",
+      "gold_relation": "meets",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s39",
+      "node_j": "s4",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s44",
+      "node_j": "s19",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s19",
+      "node_j": "s34",
+      "gold_relation": "meets",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s10",
+      "node_j": "s5",
+      "gold_relation": "starts",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s15",
+      "node_j": "s5",
+      "gold_relation": "finishes",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s20",
+      "node_j": "s5",
+      "gold_relation": "during",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s20",
+      "gold_relation": "met-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s30",
+      "node_j": "s5",
+      "gold_relation": "met-by",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.8333333333333334
+    },
+    {
+      "node_i": "s35",
+      "node_j": "s10",
+      "gold_relation": "overlapped-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s40",
+      "node_j": "s25",
+      "gold_relation": "during",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s5",
+      "node_j": "s45",
+      "gold_relation": "before",
+      "predicted_relation": "before",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s25",
+      "node_j": "s15",
+      "gold_relation": "overlaps",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s41",
+      "node_j": "s6",
+      "gold_relation": "after",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.33333333333333337
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s6",
+      "gold_relation": "started-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.5
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s21",
+      "gold_relation": "contains",
+      "predicted_relation": "after",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s1",
+      "node_j": "s11",
+      "gold_relation": "finished-by",
+      "predicted_relation": "before",
+      "predicted_from": "derived-from-order",
+      "score": 0.6666666666666667
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s23",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s23",
+      "node_j": "s24",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s24",
+      "node_j": "s40",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    },
+    {
+      "node_i": "s22",
+      "node_j": "s40",
+      "gold_relation": "equals",
+      "predicted_relation": "equals",
+      "predicted_from": "explicit",
+      "score": 1.0
+    }
+  ],
+  "awt_f1_scores_unrepaired": {
+    "relation_score": 0.6296296296296297,
+    "thread_attribution_accuracy": 0.5555555555555556,
+    "awt_core": 0.5902777777777779,
+    "convergence_precision": 0.5,
+    "convergence_recall": 1.0,
+    "convergence_f1": 0.6666666666666666,
+    "awt_f1_legacy_harmonic": 0.6137184115523466,
+    "convergence_precision_vs_pool": 1.0,
+    "convergence_recall_salient": 1.0,
+    "convergence_pool_available": true,
+    "n_proposed": 6,
+    "n_salient": 3,
+    "n_pool": 82,
+    "awt_f1": 0.6137184115523466
+  }
+}
